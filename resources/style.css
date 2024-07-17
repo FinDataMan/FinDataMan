@@ -1,0 +1,12 @@
+/* Universal Styles */
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
