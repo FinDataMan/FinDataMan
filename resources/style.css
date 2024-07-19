@@ -18,6 +18,10 @@ body, html{
     text-align: center;
 }
 
+.justify{
+    text-align: justify;
+}
+
 a{
     text-decoration: none;
 }
@@ -137,7 +141,7 @@ nav a{
     min-height: 57rem;
     max-width: 70rem;
     margin: 0 auto;
-    padding: 7.5rem 1.25rem 0 1.25rem;
+    padding: 7.5rem 1.25rem 7.5rem 1.25rem; /* bottom 0rem */
     line-height: 1rem;
 }
 
@@ -147,7 +151,7 @@ nav a{
 }
 
 #profile{
-    margin-right: 1rem;
+    margin-right: 2.5rem;
 }
 
 #profile h1,
@@ -186,4 +190,35 @@ nav a{
     min-width: 100%;
     height: fit-content;
     border-radius: 100px;
+}
+
+#highlights{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#highlights h2,
+#highlights p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+#highlights h2,
+#highlights p{
+    line-height: normal;
+}
+
+#highlights h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #002366;
+}
+
+.column{
+    flex: 1 1 33%;
+    padding: 1rem;
 }
