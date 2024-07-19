@@ -30,6 +30,10 @@ a{
     display: flex;
 }
 
+strong{
+    font-weight: bold;
+}
+
 /* Header */
 header{
     position: fixed;
@@ -65,6 +69,11 @@ nav a{
     font-size: 1.5rem;
     font-weight: bold;
     color: #d3d3d3;
+}
+
+.scrolled{
+    background-color: white;
+    transition: color 0.5s ease-in-out;
 }
 
 .scrolled a{
@@ -150,6 +159,10 @@ nav a{
     align-items: center;
 }
 
+#resume{
+    padding-bottom: 2rem;
+}
+
 #profile{
     margin-right: 2.5rem;
 }
@@ -173,13 +186,11 @@ nav a{
 #profile h1{
     font-size: 2rem;
     font-weight: bold;
-    color: #DAA520;
 }
 
 #profile h2{
     font-size: 1.5rem;
     font-weight: bold;
-    color: #DAA520;
 }
 
 #profile p{
@@ -195,6 +206,15 @@ nav a{
 #highlights{
     display: flex;
     flex-wrap: wrap;
+    margin: 0.625rem;
+}
+
+#highlights:first-child{
+    padding-left: 0;
+}
+
+#highlights:last-child{
+    padding-right: 0;
 }
 
 #highlights h2,
@@ -215,10 +235,13 @@ nav a{
 #highlights h2{
     font-size: 1.5rem;
     font-weight: bold;
-    color: #002366;
 }
 
 .column{
-    flex: 1 1 33%;
-    padding: 1rem;
+    flex: 0 0 calc(33.33% - 1.25rem); /* 1 1 33% for other devices */
+    padding: 0.625rem;
+    background-color: #D3D3D3;
+    color: #002366;
+    border-radius: 10px;
+    margin: 0.3125rem;
 }
