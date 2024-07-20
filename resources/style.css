@@ -289,14 +289,9 @@ nav a{
 #experience .text-container{
     display: none;
     align-items: center;
-}
-
-#ButterBuck .text-container,
-#GBM .text-container,
-#AMEZ-CFO .text-container{
     flex: 1;
+    height: fit-content;
     margin-left: 2.5rem;
-    padding-bottom: 1.25rem;
 }
 
 #experience .logo{
@@ -316,4 +311,5 @@ nav a{
 #experience h2{
     font-size: 1.5rem;
     font-weight: bold;
+    margin-top: 0;
 }
