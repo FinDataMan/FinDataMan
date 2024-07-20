@@ -150,7 +150,7 @@ nav a{
     min-height: 57rem;
     max-width: 70rem;
     margin: 0 auto;
-    padding: 7.5rem 1.25rem 7.5rem 1.25rem; /* bottom 0rem */
+    padding: 7.5rem 1.25rem 0rem 1.25rem; /* bottom 0rem */
     line-height: 1rem;
 }
 
@@ -186,11 +186,13 @@ nav a{
 #profile h1{
     font-size: 2rem;
     font-weight: bold;
+    color: #DAA520
 }
 
 #profile h2{
     font-size: 1.5rem;
     font-weight: bold;
+    color: #DAA520;
 }
 
 #profile p{
@@ -254,4 +256,64 @@ nav a{
 .title,
 .text{
     padding: 0.3125rem;
+}
+
+/* Experience */
+#experience{
+    min-height: 57rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 7.5rem 1.25rem 7.5rem 1.25rem; /* bottom 0rem */
+    line-height: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;  /* Fills the entire available width */
+    justify-content: space-around;
+}
+
+.experience-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background-color: #002466e0;
+    color: #D3D3D3;
+    border-radius: 10px;
+    margin: 0.3125rem;
+}
+
+.logo-container{
+    flex: 0 0 6.25rem; /*width 20% */
+}
+
+#experience .text-container{
+    display: none;
+    align-items: center;
+}
+
+#ButterBuck .text-container,
+#GBM .text-container,
+#AMEZ-CFO .text-container{
+    flex: 1;
+    margin-left: 2.5rem;
+    padding-bottom: 1.25rem;
+}
+
+#experience .logo{
+    height: 7rem;    
+}
+
+#experience h2,
+#experience p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+#experience h2{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
