@@ -1,6 +1,6 @@
 function responsiveNavColor(scrollPosition) {
     const nav = document.querySelector('nav'); // Select the navigation element
-    const logo = document.getElementById('logo'); // Select the img in first div
+    const logo = document.getElementById('nav-logo'); // Select the img in first div
 
     window.addEventListener('scroll', () => {
       const scrolled = window.scrollY; // Get the current scroll position

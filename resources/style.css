@@ -51,7 +51,7 @@ nav .content{
     align-items: center;
 }
 
-#logo{
+#nav-logo{
    height: 7rem;
    margin-left: 5%; 
 }
@@ -406,3 +406,59 @@ nav a{
     text-align: center;  /* Center text within the item */
 }
 
+
+/* Footer */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #002466e0;
+    color: #d3d3d3;
+}
+
+.footer-flex {
+    min-height: 7rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 0rem 1.25rem 0rem 1.25rem; /* bottom 0rem */
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-flex > div {  /* Target all child elements of .footer-flex */
+    flex: 1;  /* Make each child element take up equal space */
+}
+
+footer p{
+    font-weight: bold;
+}
+
+#footer-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer-logo img{
+    height: auto;
+    max-width: 4rem;
+}
+
+#footer-socials{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer-socials a{
+    margin-left: 1rem;
+    border: solid .2rem #D3D3D3;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-socials img{
+    height: 1.5rem;
+    width: auto;
+}
