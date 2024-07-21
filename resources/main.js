@@ -41,3 +41,48 @@ experienceRows.forEach(row => {
     row.classList.toggle('centered');
   });
 });
+
+function handleCarousel(){
+
+    const softwareList = document.getElementById('software').querySelector('ul');
+    const carouselItems = softwareList.querySelectorAll('li');
+    const prevButton = document.querySelector('.carousel-arrow.prev');
+    const nextButton = document.querySelector('.carousel-arrow.next');
+    const itemsLenght = carouselItems.length;
+    const itemsDisplayed = 6;
+    let currentPage = 0;
+
+    function updateClasses() {
+
+        const firstIndex = currentPage * itemsDisplayed;
+        const lastIndex = Math.min(firstIndex + itemsDisplayed, itemsLenght); // Ensure lastIndex doesn't exceed items
+        carouselItems.forEach(item => {item.classList.add('inactive')});
+
+        for (let i = firstIndex; i < lastIndex; i++) {
+            if (i >= firstIndex && i <= lastIndex) {
+                carouselItems[i].classList.remove('inactive');
+                carouselItems[i].classList.add('active');
+            }
+        }
+    }
+
+    // Update classes initially
+    updateClasses();
+
+    prevButton.addEventListener('click', () => {
+        const totalPages = Math.ceil(itemsLenght / itemsDisplayed);
+        currentPage = (currentPage - 1 + totalPages) % totalPages; // Handle both negative and exceeding total pages
+        // Update classes using the adjusted currentPage
+        carouselItems.forEach(item => item.classList.remove('active', 'inactive'));
+        updateClasses();
+    });
+      
+    nextButton.addEventListener('click', () => {
+        const totalPages = Math.ceil(itemsLenght / itemsDisplayed);
+        currentPage = Math.min(currentPage + 1, totalPages) % totalPages; // Handle both negative and exceeding total pages
+        carouselItems.forEach(item => item.classList.remove('active','inactive'));
+        updateClasses();
+    });
+}
+
+handleCarousel();
