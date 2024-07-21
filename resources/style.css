@@ -34,6 +34,10 @@ strong{
     font-weight: bold;
 }
 
+em{
+    font-style: italic;
+}
+
 /* Header */
 header{
     position: fixed;
@@ -240,12 +244,13 @@ nav a{
 }
 
 .column{
-    flex: 0 0 calc(33.33% - 1.25rem); /* 1 1 33% for other devices */
+    flex: 0 0 calc(33.33% - 2rem); /* 1 1 33% for other devices */
     padding: 0.625rem;
     background-color: #D3D3D3;
     color: #002366;
+    box-shadow: 0 0 10px 2px rgba(50, 50, 50, 0.25);
     border-radius: 10px;
-    margin: 0.3125rem;
+    margin: 0 1rem;
 }
 
 .content-container{
@@ -260,10 +265,10 @@ nav a{
 
 /* Experience */
 #experience{
-    min-height: 57rem;
+    min-height: 55rem;
     max-width: 70rem;
     margin: 0 auto;
-    padding: 7.5rem 1.25rem 0 1.25rem; /* bottom 0rem */
+    padding: 6rem 1.25rem 0 1.25rem; /* bottom 0rem */
     line-height: 1rem;
     display: flex;
     flex-direction: column;
@@ -277,6 +282,7 @@ nav a{
     justify-content: center;
     padding: 1rem 2rem;
     background-color: #002466e0;
+    box-shadow: 0 0 10px 2px rgba(50, 50, 50, 0.25);
     color: #D3D3D3;
     border-radius: 10px;
     margin: 0.3125rem;
@@ -323,7 +329,7 @@ nav a{
     min-height: 57rem;
     max-width: 70rem;
     margin: 0 auto;
-    padding: 7.5rem 1.25rem 7.5rem 1.25rem; /* bottom 0rem */
+    padding: 6rem 1.25rem 0rem 1.25rem; /* bottom 0rem */
     line-height: 1rem;
     display: flex;
     flex-direction: column;
@@ -348,6 +354,7 @@ nav a{
     background-color: transparent;
     border: none;
     background-color: #002466e0;
+    box-shadow: 0 0 10px 2px rgba(50, 50, 50, 0.25);
     color: #D3D3D3;
     border-radius: 10px;
     cursor: pointer;
@@ -406,6 +413,116 @@ nav a{
     text-align: center;  /* Center text within the item */
 }
 
+/* Education */
+#education{
+    min-height: 20rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 7.25rem 1.25rem 7.25rem 1.25rem; /* bottom 0rem */
+    line-height: 1rem;
+    display: flex;
+    width: 100%;  /* Fills the entire available width */
+    align-items: center;
+    justify-content: center;
+}
+
+#education img{
+    width: 10rem;
+    height: auto;
+}
+
+#ITESM,
+#UTSA{
+    perspective: 62.5rem;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 1rem;
+}
+
+#ITESM{
+    color: #002366;
+}
+
+#UTSA{
+    color: #FC7F03;
+}
+
+.card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.5s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.card-container > .card:hover{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.front,
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px rgba(50, 50, 50, 0.25);
+    backface-visibility: hidden;  
+}
+
+#ITESM .front,
+#ITESM .back{
+    background: linear-gradient(to bottom right, #D3D3D3, #002466e0);
+}
+
+#UTSA .front,
+#UTSA .back{
+    background: linear-gradient(to bottom right, #D3D3D3, #fc7f03a4);
+}
+
+.front{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back{
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+}
+
+#profile h2,
+#profile p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+#education h2,
+#education p{
+    line-height: 2rem;
+}
+
+#education h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#education .date{
+    font-size: 1rem;
+
+}
+
+#education .grade{
+    font-size: 1.2rem;
+}
 
 /* Footer */
 footer{
