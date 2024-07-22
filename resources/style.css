@@ -326,7 +326,7 @@ nav a{
 
 /* Skills*/
 #skills{
-    min-height: 57rem;
+    min-height: 70rem;
     max-width: 70rem;
     margin: 0 auto;
     padding: 6rem 1.25rem 0rem 1.25rem; /* bottom 0rem */
@@ -334,7 +334,114 @@ nav a{
     display: flex;
     flex-direction: column;
     width: 100%;  /* Fills the entire available width */
-    justify-content: space-around;
+    justify-content: space-between;
+}
+/* Skills: hard */
+
+.tabs{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-nav{
+    display: flex;
+    cursor: pointer;
+    height: 10rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: solid .15rem #D3D3D3;
+}
+
+.tab-item{
+    flex: 0 0 calc(100%/3);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-item.active{
+    border-bottom: solid .5rem #002366;
+}
+
+.tab-item.active p{
+    color: #002366;
+}
+
+.tab-item p{
+    color: #d3d3d3;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.tab-item img{
+    height: 1.5rem;
+    margin: 0 0.5rem;
+    width: auto;
+}
+
+.tab-item.active img{
+    display: block;
+}
+
+.tab-item img{
+    display: none;
+}
+
+.tab-content{
+    flex: 1;
+}
+
+.tab-item-content{
+    display: none;
+    padding: 20
+}
+
+.tab-item-content.active{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+#hard .image-container{
+    height: 100%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#hard .text-container{
+    justify-content: center;
+    align-content: center;
+}
+
+#hard .image-container img{
+    border-radius: 20px;
+    width: auto;
+    height: 18rem;
+    box-shadow: 0 0 10px 2px rgba(50, 50, 50, 0.25);
+}
+
+.hard-skill-item{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.hard-skill-item img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.5rem;
+    width: auto;
+}
+
+.hard-skill-item p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #002366;
 }
 
 /* Skills: software */
@@ -455,7 +562,12 @@ nav a{
     transform-style: preserve-3d;
 }
 
-.card-container > .card:hover{
+#ITESM > .card:hover{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+#UTSA > .card:hover{
     cursor: pointer;
     transform: rotateY(180deg);
 }
