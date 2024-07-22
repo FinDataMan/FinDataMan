@@ -418,6 +418,10 @@ nav a{
     align-content: center;
 }
 
+#tab-2 .text-container{
+    padding-right: 2.5rem;
+}
+
 #hard .image-container img{
     border-radius: 20px;
     width: auto;

@@ -86,3 +86,21 @@ function handleCarousel(){
 }
 
 handleCarousel();
+
+const tabOptions = document.querySelectorAll('.tab-item');
+const tabContent = document.querySelectorAll('.tab-item-content');
+
+tabOptions.forEach(option => {
+  option.addEventListener('click', () => {
+    const tabId = option.dataset.tab;
+    const content = document.getElementById(tabId);
+
+    // Remove active classes from all buttons and content sections
+    tabOptions.forEach(option => option.classList.remove('active'));
+    tabContent.forEach(content => content.classList.remove('active'));
+
+    // Add active classes to the clicked button and its content
+    option.classList.add('active');
+    content.classList.add('active');
+  });
+});
