@@ -126,6 +126,7 @@ nav a:hover{
 .scrolled{
     background-color: white;
     transition: color 0.5s ease-in-out;
+    border-bottom: 1px solid #002366;
 }
 
 .scrolled a{
@@ -145,7 +146,6 @@ nav a:hover{
     justify-content: center;
 }
 
-
 #feel{
     margin-bottom: 3rem;
     width: 40rem;
@@ -157,6 +157,19 @@ nav a:hover{
     font-size: 2.5rem;
     font-weight: bold;
     padding-bottom: 4rem;
+}
+
+.shadowed{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.animated {
+    animation: entrance 2s ease-in-out forwards;
+}
+  
+@keyframes entrance {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 #feel .container{
@@ -185,19 +198,8 @@ nav a:hover{
     justify-content: center;
 }
 
-#feel .more:after{
-    background-image: url("./images/arrow.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    bottom: 4em;
-    content: '';
-    display: block;
-    height: 1.5em;
-    left: 50%;
-    margin: 0 0 0 -0.75em;
-    position: absolute;
-    width: 1.5em;
+#know-how img{
+    margin-top: 0.5rem;
 }
 
 /* Why-me */
@@ -499,6 +501,7 @@ nav a:hover{
     font-size: 1.2rem;
     color: #002366;
 }
+
 /* Skills: soft-skills */
 #soft{
     display: flex;
@@ -531,6 +534,10 @@ nav a:hover{
     color: #DAA520;
 }
 
+#soft li:hover{
+    color: #D3D3D3;
+}
+
 /* Skills: software */
 #software{
     display: flex;
@@ -542,6 +549,10 @@ nav a:hover{
 #software h3{
     font-size: 1.25rem;
     font-weight: bold;
+}
+
+#software li:hover{
+    color: #DAA520;
 }
 
 .carousel-arrow{
@@ -704,6 +715,10 @@ nav a:hover{
     unicode-bidi: isolate;
 }
 
+#profile strong:hover{
+    color: #DAA520;
+}
+
 #education h2,
 #education p{
     line-height: 2rem;
@@ -759,6 +774,10 @@ footer p{
     max-width: 4rem;
 }
 
+#copyright:hover{
+    color: #DAA520;
+}
+
 #footer-socials{
     display: flex;
     justify-content: flex-end;
@@ -772,6 +791,12 @@ footer p{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#footer-socials a:hover{
+    background-color: #DAA520;
+    border: none;
+    border-radius: 5px;
 }
 
 #footer-socials img{

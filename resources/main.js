@@ -15,7 +15,6 @@ function responsiveNavColor(scrollPosition) {
     });
 }
 
-//Change image and nav a color when scrolled 100 pixels down
 responsiveNavColor(850);
 
 const experienceRows = document.querySelectorAll('.experience-row');
@@ -119,4 +118,77 @@ links.forEach(link => {
       duration: 1000
     });
   });
+});
+
+const imageElements = document.querySelectorAll('[data-color]');
+
+imageElements.forEach(image => {
+  const originalSrc = image.src; // Store original source
+
+  image.addEventListener('mouseover', () => {
+    const colorSrc = image.dataset.color;
+    if (colorSrc) {
+      image.src = colorSrc;
+    }
+  });
+
+  image.addEventListener('mouseout', () => {
+    image.src = originalSrc; // Revert to original source on mouseout
+  });
+});
+
+const hardSkillItems = document.querySelectorAll('.hard-skill-item');
+
+hardSkillItems.forEach(item => {
+  const image = item.querySelector('img');
+  const originalSrc = image.src;
+  const paragraph = item.querySelector('p');
+
+  item.addEventListener('mouseover', () => {
+    const colorSrc = image.dataset.color;
+    if (colorSrc) {
+      image.src = colorSrc;
+    }
+    paragraph.style.color = '#DAA520'; // Change paragraph color on hover
+  });
+
+  item.addEventListener('mouseout', () => {
+    image.src = originalSrc;
+    paragraph.style.color = '#002366'; // Revert paragraph color on mouseout
+  });
+});
+
+const softSkillItems = document.querySelectorAll('#soft .items li');
+
+softSkillItems.forEach(item => {
+    const image = item.querySelector('img');
+    const originalSrc = image.src;
+    const paragraph = item.querySelector('span + p'); // Get paragraph after span
+
+    item.addEventListener('mouseover', () => {
+      const colorSrc = image.dataset.color;
+      if (colorSrc) {
+        image.src = colorSrc;
+      }
+      paragraph.style.color = '#D3D3D3'; // Change paragraph color on hover
+    });
+
+    item.addEventListener('mouseout', () => {
+      image.src = originalSrc;
+      paragraph.style.color = '#DAA520'; // Reset paragraph color (inherits default)
+    });
+});
+
+const knowHowElement = document.getElementById('know-how');
+const knowHowText = knowHowElement.querySelector('p');
+const knowHowImage = knowHowElement.querySelector('img');
+
+knowHowElement.addEventListener('mouseover', () => {
+  knowHowText.style.color = '#DAA520'; // Change text color on hover
+  knowHowImage.src = knowHowImage.dataset.color; // Use data-color for image swap
+});
+
+knowHowElement.addEventListener('mouseout', () => {
+  knowHowText.style.color = '#D3D3D3'; // Reset text color on mouseout
+  knowHowImage.src = knowHowImage.src.replace(/\/arrow-gold\.png$/, '/arrow.png'); // Reset image source
 });
