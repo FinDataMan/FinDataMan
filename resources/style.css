@@ -71,9 +71,11 @@ nav .logo-container{
 }
 
 #main-menu div{
-    width: 7.6rem;
+    width: auto;
+    margin: 0 1rem;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav a{
