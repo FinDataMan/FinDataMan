@@ -104,3 +104,19 @@ tabOptions.forEach(option => {
     content.classList.add('active');
   });
 });
+
+const links = document.querySelectorAll('a'); // Select all anchor tags
+
+links.forEach(link => {
+  link.addEventListener('click', function(event) {
+    if (!this.hash) return; // Exit if the link doesn't have a hash
+
+    event.preventDefault(); // Prevent default anchor tag behavior
+    const targetSection = document.getElementById(this.hash.substring(1));
+    targetSection.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start', // Scroll to the top of the section
+      duration: 1000
+    });
+  });
+});
