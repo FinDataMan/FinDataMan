@@ -82,6 +82,10 @@ nav a{
     color: #d3d3d3;
 }
 
+nav a:hover{
+    color: #DAA520;
+}
+
 #li-contact img{
     height: 1.5rem;
     width: auto;
@@ -105,8 +109,14 @@ nav a{
 
 .contact-dropdown li{
     display: flex;
-    margin: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
     justify-content: center;
+    border-radius: 20px;
+}
+
+.contact-dropdown li:hover{
+    background-color: #daa520bb;
 }
 
 .contact-dropdown a{
@@ -157,6 +167,10 @@ nav a{
     font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 10rem;
+}
+
+#feel h2:hover{
+    color: #DAA520;
 }
 
 #feel a{
