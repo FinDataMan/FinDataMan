@@ -380,6 +380,31 @@ nav a:hover{
     #highlights {
       flex-direction: column; /* Stack columns on mobile */
     }
+
+    #resume{
+        flex-direction: column-reverse;
+    }
+
+    #profile{
+        margin-right: 0;
+    }
+
+    #why-me .image{
+        justify-content: center;
+    }
+
+    #profile-picture{
+        min-width: 50%;
+        height: auto;
+    }
+
+    #profile h1{
+        text-align: center;
+    }
+
+    #profile h2{
+        text-align: center;
+    }
   
     .column {
       flex: 1 0 100%; /* 100% width for single column on mobile */
