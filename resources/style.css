@@ -981,13 +981,19 @@ nav a:hover{
 
 @media screen and (max-width: 768px) {
     #education {
+      padding: 4rem 1.25rem 1rem 1.25rem;
       flex-direction: column; /* Stack columns on mobile */
-      padding-bottom: 5rem;
     }
   
     #education .card-container {
-        margin: 1rem 0; /* Adjust margin for mobile layout */
+        margin: 3rem 0; /* Adjust margin for mobile layout */
     }
+
+    #ITESM, #UTSA{
+        height: 23.125rem;
+        width: 23.125rem;
+    }
+
 }
 
 /* Footer */
