@@ -233,6 +233,34 @@ nav a:hover{
     margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 768px) {
+    #banner{
+        width: 100%;
+        height: 100%;
+        background-position: 70% 50%;
+    }
+
+    #feel {
+      width: 100%; /* Set width to 100% for mobile */
+      font-size: 1.2rem; /* Adjust font size for better readability */
+    }
+
+    #feel .container{
+        flex-wrap: wrap;
+    }
+
+    #feel h1{
+        font-size: 1.8rem; /* Adjust h1 size for mobile */
+        padding-bottom: 2rem; /* Adjust padding for smaller screens */
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+    }
+
+    #feel h2{
+        font-size: 1.2rem; /* Adjust h2 size for mobile */
+        padding-bottom: 5rem; /* Adjust padding for mobile */
+    }
+}
+
 /* Why-me */
 
 #why-me{
