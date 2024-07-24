@@ -405,10 +405,18 @@ nav a:hover{
     #profile h2{
         text-align: center;
     }
+
+    .title .text{
+        padding: 0;
+    }
   
     .column {
       flex: 1 0 100%; /* 100% width for single column on mobile */
       margin: 1rem 0; /* Adjust margin for mobile layout */
+    }
+
+    .content-container{
+        padding: 1.5rem;
     }
 }
 
@@ -477,29 +485,47 @@ nav a:hover{
     #experience {
       flex-direction: column; /* Stack experience rows on mobile */
       justify-content: center;
+      padding: 6rem 1.875rem 0 1.875rem
     }
   
     .experience-row {
       flex-direction: column; /* Stack logo and text on mobile */
       align-items: center; /* Align content to the left */
-      padding: 1.5rem; /* Adjust padding for better spacing */
+      padding: 2.125rem; /* Adjust padding for better spacing */
+      margin: 1rem 0;
     }
   
     .logo-container {
       flex: 0 0 100%; /* 100% width for logo on mobile */
-      margin-bottom: 0.5rem; /* Add some space between logo and text */
+      margin: 1.5rem; /* Add some space between logo and text */
+    }
+
+    #GBM .logo-container{
+        margin-bottom: 0;
     }
   
     #experience .text-container {
       display: block; /* Show text container on mobile */
       margin-left: 0;
-      text-align: center;
       line-height: 1.5;
+      text-align: center;
     }
 
-    #GBM .text-container h2{
-        display: none;
+    #experience .position {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
     }
+
+    #ButterBuck .position{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    } 
+
+    #GBM .position{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
 }
 
 /* Skills*/
