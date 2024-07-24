@@ -65,6 +65,11 @@ nav .logo-container{
    height: 7rem;
 }
 
+#nav-menu{
+    height: 5rem;
+    display: none;
+}
+
 #main-menu{
     margin-right: 5%;
     display: flex;
@@ -150,7 +155,17 @@ nav a:hover{
     }
 }
 
-/* Header */
+@media screen and (max-width: 990px){
+    #nav-menu{
+        display: block;
+    }
+
+    #main-menu .desktop{
+        display: none;
+    }
+}
+
+/* Banner */
 #banner{
     min-height: 57rem;
     background-image: url("./images/banner.png");
