@@ -383,7 +383,7 @@ nav a:hover{
   
     .column {
       flex: 1 0 100%; /* 100% width for single column on mobile */
-      margin: 0.5rem 0; /* Adjust margin for mobile layout */
+      margin: 1rem 0; /* Adjust margin for mobile layout */
     }
 }
 
