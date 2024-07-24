@@ -1,4 +1,8 @@
-/* Universal Styles */
+/* Universal Styles 18px to 20px for smaller devices
+45 to 85 characters per line
+min-width: 45ch
+max-width: 85 ch
+abbr element*/
 
 *, :after, :before{
     box-sizing: border-box;
@@ -625,7 +629,7 @@ nav a:hover{
     min-height: 20rem;
     max-width: 70rem;
     margin: 0 auto;
-    padding: 7.25rem 1.25rem 7.25rem 1.25rem; /* bottom 0rem */
+    padding: 8rem 1.25rem 12rem 1.25rem; /* bottom 0rem */
     line-height: 1rem;
     display: flex;
     width: 100%;  /* Fills the entire available width */
