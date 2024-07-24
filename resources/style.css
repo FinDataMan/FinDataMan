@@ -140,6 +140,16 @@ nav a:hover{
     transition: color 0.5s ease-in-out;
 }
 
+@media screen and (max-width: 1050px){
+    nav .logo-container{
+        margin-left: 2%;
+    }
+
+    #main-menu{
+        margin-right: 2%;
+    }
+}
+
 /* Header */
 #banner{
     min-height: 57rem;
@@ -585,6 +595,7 @@ nav a:hover{
 .carousel-container{
     width: 100%;
     display: flex;
+    justify-content: center;
     scroll-snap-type: x mandatory;
 }
 
