@@ -236,7 +236,7 @@ nav a:hover{
 @media screen and (max-width: 768px) {
     #banner{
         width: 100%;
-        min-height: 38rem;
+        min-height: 45rem;
         background-position: 70% 50%;
     }
 
