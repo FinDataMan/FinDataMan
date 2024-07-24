@@ -376,6 +376,17 @@ nav a:hover{
     padding: 0.3125rem;
 }
 
+@media screen and (max-width: 768px) {
+    #highlights {
+      flex-direction: column; /* Stack columns on mobile */
+    }
+  
+    .column {
+      flex: 1 0 100%; /* 100% width for single column on mobile */
+      margin: 0.5rem 0; /* Adjust margin for mobile layout */
+    }
+}
+
 /* Experience */
 #experience{
     min-height: 55rem;
