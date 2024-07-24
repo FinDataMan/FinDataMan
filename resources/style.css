@@ -473,6 +473,35 @@ nav a:hover{
     font-size: 1.25rem;
 }
 
+@media screen and (max-width: 768px) {
+    #experience {
+      flex-direction: column; /* Stack experience rows on mobile */
+      justify-content: center;
+    }
+  
+    .experience-row {
+      flex-direction: column; /* Stack logo and text on mobile */
+      align-items: center; /* Align content to the left */
+      padding: 1.5rem; /* Adjust padding for better spacing */
+    }
+  
+    .logo-container {
+      flex: 0 0 100%; /* 100% width for logo on mobile */
+      margin-bottom: 0.5rem; /* Add some space between logo and text */
+    }
+  
+    #experience .text-container {
+      display: block; /* Show text container on mobile */
+      margin-left: 0;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    #GBM .text-container h2{
+        display: none;
+    }
+}
+
 /* Skills*/
 #skills{
     min-height: 80rem;
