@@ -688,6 +688,24 @@ nav a:hover{
     color: #D3D3D3;
 }
 
+@media screen and (max-width: 768px) {
+
+    #soft{
+        padding: 1.5rem 0;
+        margin: 0 .625rem;
+    }
+
+    #soft .items{
+        justify-content: flex-start;
+    }
+
+    #soft li {
+      justify-content: flex-start; /* Center the content of each li */
+      text-align: left;      /* Center the text within each li */
+      margin: 0 5.5rem;
+    }
+  }
+
 /* Skills: software */
 #software{
     display: flex;
