@@ -4,7 +4,7 @@ This file provides information about the FinDataMan website's codebase.
 ## Project Description
 FinDataMan is a personal portfolio website for Arturo Villagomez, a high-performance professional offering practical solutions to the business sector to improve their companies' performance.
 
-## Technologies Used:
+## Technologies Used
 
 - HTML5
 - CSS3
