@@ -1,0 +1,24 @@
+schema_version: "0.1"
+project_id: ARTURO-PERSONAL-001
+observations:
+  - id: ARTURO-SITE-O-001
+    observed_at: "2026-07-19"
+    type: content-drift
+    statement: The current website positions Arturo primarily through financial analysis and does not represent the approved finance, operations and applied AI positioning.
+    evidence: README.md and index.html audit
+    affects: [ARTURO.POSITIONING.PROFESSIONAL, ARTURO.VALUE_PROPOSITION]
+    candidate_action: supersede public copy
+  - id: ARTURO-SITE-O-002
+    observed_at: "2026-07-19"
+    type: claim-risk
+    statement: Existing company counts, sector counts, titles, dates and product claims require evidence review before republication.
+    evidence: index.html audit
+    affects: [ARTURO.CLAIMS.PUBLIC, ARTURO.EXPERIENCE.PUBLIC]
+    candidate_action: validate or soften
+  - id: ARTURO-SITE-O-003
+    observed_at: "2026-07-19"
+    type: synchronization-gap
+    statement: LinkedIn and the website currently do not consume a shared governed source.
+    evidence: repository content compared with approved LinkedIn work
+    affects: [website, linkedin, github]
+    candidate_action: synchronize through canonical nodes
