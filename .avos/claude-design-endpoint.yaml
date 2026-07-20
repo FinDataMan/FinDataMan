@@ -1,0 +1,31 @@
+schema_version: "0.1"
+endpoint_id: CLAUDE-DESIGN-ARTURO-SITE-001
+project_id: ARTURO-PERSONAL-001
+system: Claude Design
+project_url: https://claude.ai/design/p/dc8e95cd-6d5c-486d-b083-917d7ed6d2b5
+status: registered_not_verified
+sync_mode: manual_governed_handoff
+canonical_source: FinDataMan/FinDataMan/.avos
+avos_authority: FinDataMan/AVOS
+expected_inputs:
+  - context-package.yaml
+  - canonical-nodes.yaml
+  - decisions.yaml
+  - publication-constraints.yaml
+expected_outputs:
+  - artifact-index.yaml
+  - observations.yaml
+  - candidate-changes.yaml
+  - sync-state.yaml
+verification:
+  project_contents_inspected: false
+  handoff_loaded_in_claude_design: false
+  return_package_received: false
+  last_verified_at: null
+security:
+  default_disclosure: minimum_sufficient_context
+  third_party_content: restricted_unless_approved
+  private_nodes: excluded_by_default
+notes:
+  - Registration of the URL does not create automatic synchronization.
+  - Synchronization becomes active only when the AVOS handoff is loaded into Claude Design and the return package is committed back to this repository.
