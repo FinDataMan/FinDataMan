@@ -1,0 +1,23 @@
+schema_version: "0.1"
+project_id: ARTURO-PERSONAL-001
+bridge: AVOS-BRIDGE-001
+interface_contract: Claude Design AVOS Interface Contract v0.1
+state: context_received
+last_sync_at: "2026-07-19"
+last_context_package: AVOS-CTX-ARTURO-SITE-001
+canonical_nodes_loaded: 6
+open_conflicts: 0
+pending_governance:
+  - final public project list
+  - verified public claims
+  - current experience dates and titles
+next_actions:
+  - build keep-update-remove-validate matrix
+  - map approved LinkedIn experience nodes
+  - draft website information architecture and copy v1
+  - create artifact index for implementation
+  - return outbound evidence package
+sync_policy:
+  execution_may_continue_while_pending: true
+  publication_requires_arturo_approval: true
+  silent_canonical_mutation: false

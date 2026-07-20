@@ -1,0 +1,38 @@
+schema_version: "0.1"
+project_id: ARTURO-PERSONAL-001
+name: Arturo Villagomez Personal Site
+project_type: personal-public-identity
+role: AVOS Case Zero
+owner: Arturo Villagomez
+repository: FinDataMan/FinDataMan
+status: active
+integration_level: graph-connected
+bridge_status: initialized
+execution_mode: parallel
+public_objective: publish and maintain Arturo's governed personal website
+confidentiality: public-with-governed-private-sources
+canonical_authority:
+  identity: AVOS Personal Knowledge Graph
+  public_profile: approved public identity nodes
+  visual_system: approved Arturo personal brand assets
+  publication: Arturo Villagomez
+connected_system: FinDataMan/AVOS
+current_priorities:
+  - synchronize public identity with LinkedIn and GitHub
+  - replace outdated positioning and claims
+  - publish a credible website v1
+  - activate observation and evidence capture
+constraints:
+  - Arturo advances multiple projects simultaneously
+  - public claims require evidence and approval
+  - private enterprise knowledge must not be published by default
+  - project references require a publication decision
+  - old website copy is evidence, not canonical truth
+source_status:
+  website_code: confirmed
+  current_public_copy: outdated
+  linkedin_nodes: available_for_sync
+  personal_identity_source: partial
+  evidence_registry: initializing
+  channel_inventory: initializing
+last_updated: "2026-07-19"
