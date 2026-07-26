@@ -1,31 +1,50 @@
-﻿# FinDataMan
-This file provides information about the FinDataMan website's codebase.
+# FinDataMan
+
+> **Repository authority:** this repository is the public Landing release target for Arturo Villagomez. The private Development Source is `FinDataMan/arturo-personal-runtime`, governed by `FinDataMan/AVOS#33`. See [`RELEASE-GOVERNANCE.md`](RELEASE-GOVERNANCE.md).
+
+This file provides information about the current FinDataMan website's legacy codebase. The current implementation remains active until a separate governed Landing release replaces it.
 
 ## Project Description
-FinDataMan is a personal portfolio website for Arturo Villagomez, a high-performance professional offering practical solutions to the business sector to improve their companies' performance.
+
+FinDataMan is the existing personal portfolio website for Arturo Villagomez. Its public copy and visual implementation are historical inputs, not canonical truth for future releases.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- Fonts (from Google Fonts)
+- Fonts from Google Fonts
 
 The website uses a basic one-page layout with sections identified by IDs. Navigation is achieved through a menu with anchor links.
 
 ## Key Features
 
-- Hero Section: Introduces FinDataMan and highlights the benefits he provides to clients (empowered, confident, prepared, in control).
-- About Me Section: Provide a detailed description of Arturo's experience, profile, and the value he offers businesses.
-- Highlights Section: Showcases three key aspects of FinDataMan's services with titles and descriptions.
-- Experience Section: Displays previous work experiences with company logos, positions, and links to company websites (if available).
-- Skills Section: Uses tabs to showcase different skill sets (financial modeling, corporate finance, product management) with details on each. Potentially uses icons for each skill.
-- Contact Section: Provides contact information through social media links (LinkedIn, email, WhatsApp).
+- Hero section
+- About section
+- Highlights
+- Experience
+- Skills
+- Education
+- Contact links
 
 ## Dependencies
-- The website likely relies on external resources like images, icons, and fonts. These should be stored in a dedicated folder (resources in this example).
+
+The current site relies on local resources under `resources/` and external Google Fonts.
 
 ## Getting Started
-1. Clone the repository containing the website's code.
-2. Install any necessary dependencies.
-3. Open the index.html file in a web browser to view the website.
+
+1. Clone the repository.
+2. Open `index.html` in a browser.
+
+## Governance
+
+- Public releases require a Deployment Release Packet, dedicated branch and pull request.
+- Raw Private Evidence, Career state and Resume Studio return packages are prohibited here.
+- No automatic bidirectional synchronization is allowed.
+- Historical `.avos` records are non-authoritative unless explicitly marked as current release governance.
+
+See:
+
+- [`RELEASE-GOVERNANCE.md`](RELEASE-GOVERNANCE.md)
+- [`.avos/README.md`](.avos/README.md)
+- [`docs/migration/ARTURO-PERSONAL-OS-SPRINT-0.md`](docs/migration/ARTURO-PERSONAL-OS-SPRINT-0.md)
