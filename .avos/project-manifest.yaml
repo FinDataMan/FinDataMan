@@ -1,38 +1,51 @@
-schema_version: "0.1"
-project_id: ARTURO-PERSONAL-001
-name: Arturo Villagomez Personal Site
-project_type: personal-public-identity
-role: AVOS Case Zero
+schema_version: "0.2"
+project_id: ARTURO-PERSONAL-LANDING-001
+name: Arturo Villagomez Public Landing
+project_type: public-release-target
+role: Landing release authority
 owner: Arturo Villagomez
 repository: FinDataMan/FinDataMan
-status: active
-integration_level: graph-connected
-bridge_status: initialized
-execution_mode: parallel
-public_objective: publish and maintain Arturo's governed personal website
-confidentiality: public-with-governed-private-sources
-canonical_authority:
-  identity: AVOS Personal Knowledge Graph
-  public_profile: approved public identity nodes
-  visual_system: approved Arturo personal brand assets
-  publication: Arturo Villagomez
-connected_system: FinDataMan/AVOS
-current_priorities:
-  - synchronize public identity with LinkedIn and GitHub
-  - replace outdated positioning and claims
-  - publish a credible website v1
-  - activate observation and evidence capture
-constraints:
-  - Arturo advances multiple projects simultaneously
-  - public claims require evidence and approval
-  - private enterprise knowledge must not be published by default
-  - project references require a publication decision
-  - old website copy is evidence, not canonical truth
-source_status:
-  website_code: confirmed
-  current_public_copy: outdated
-  linkedin_nodes: available_for_sync
-  personal_identity_source: partial
-  evidence_registry: initializing
-  channel_inventory: initializing
-last_updated: "2026-07-19"
+status: active_release_target
+confidentiality: public_release_only
+
+authority:
+  avos_governance: FinDataMan/AVOS
+  governing_issue: FinDataMan/AVOS#33
+  development_source: FinDataMan/arturo-personal-runtime
+  publication_approval: Arturo Villagomez
+  career_portal: separate_private_repository_not_created
+
+release_policy:
+  source_mode: explicit_deployment_release_packet
+  automatic_sync: prohibited
+  bidirectional_sync: prohibited
+  full_folder_overwrite: prohibited
+  direct_push_to_main: prohibited
+  private_evidence: prohibited
+  public_claims_require_evidence_or_softening: true
+  named_projects_require_permission_review: true
+
+legacy_records:
+  directory: .avos
+  status: historical_non_authoritative
+  history_rewrite: prohibited
+  interpretation: migration_and_synchronization_evidence_only
+
+current_public_implementation:
+  status: legacy_site_active_until_separate_release
+  source_of_truth: false
+  deployment_change_in_this_task: false
+
+next_release:
+  source_repository: FinDataMan/arturo-personal-runtime
+  target_repository: FinDataMan/FinDataMan
+  requires:
+    - approved_public_allowlist
+    - claim_to_evidence_matrix
+    - contact_and_permission_gates
+    - source_and_target_commit_pins
+    - validation_evidence
+    - rollback_instructions
+    - dedicated_branch_and_pull_request
+
+last_updated: "2026-07-26"
