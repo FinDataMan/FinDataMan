@@ -1,0 +1,54 @@
+{
+  "release": "arturo-seo-geo-social-v1",
+  "date": "2026-07-27",
+  "issue": "FinDataMan/FinDataMan#10",
+  "branch": "release/arturo-seo-geo-social-v1",
+  "source_cv": "Arturo_Villagomez_Gomez_AV_Editorial_Extended_Parity_v2.pdf",
+  "public_cv_approved": true,
+  "social_cards": {
+    "homepage": {
+      "url": "https://arturovillagomez.com/",
+      "asset": "assets/arturo-villagomez-social-card-v1.jpg",
+      "creative_route": "Ruta 4 — Monograma expandido + fotografía"
+    },
+    "cv": {
+      "url": "https://arturovillagomez.com/cv/",
+      "asset": "assets/arturo-villagomez-cv-social-card-v1.jpg",
+      "creative_route": "Ruta 1b — Identidad + fotografía"
+    }
+  },
+  "files": {
+    "SEO-GEO-BASELINE.md": {
+      "sha256": "461d5fd3aea08cca926be797bb6afaf32faf24895a1ef123fb47ffee09252f86",
+      "bytes": 804
+    },
+    "SOCIAL-CARDS-HANDOFF.md": {
+      "sha256": "80661c06f10a833d17c6ca0e6fdae28f1cb99eabf4a3a62b12904e7449194a58",
+      "bytes": 2621
+    },
+    "assets/arturo-villagomez-social-card-v1.jpg": {
+      "sha256": "9336fb9832fb7cd1de4b9c8106c06ac86574942ce49daec587905d10dc31724c",
+      "bytes": 87119
+    },
+    "assets/arturo-villagomez-cv-social-card-v1.jpg": {
+      "sha256": "21bd72b6ef3aa82498f66b33f671cb1fdcf10977b8c22dc1dfd1b1782f51f4f2",
+      "bytes": 102340
+    },
+    "cv/Arturo_Villagomez_Gomez_CV.pdf": {
+      "sha256": "4aa4213a24cf4113b8502fe57e26c03f704575f34dc49853d04a9bcaeff9886f",
+      "bytes": 95293
+    },
+    "cv/index.html": {
+      "sha256": "effdd59489ee566d6f6af1bec579ed1da50c82f34fed93c2f922974dc7219b54",
+      "bytes": 7995
+    },
+    "index.html": {
+      "sha256": "349da7119aec82c30811edec20838a07de7e686c730a496b5f4563ab9c0656f6",
+      "bytes": 55166
+    },
+    "sitemap.xml": {
+      "sha256": "b6990993c95fbf1a3a9e21897acd5aab01bd9d41a01026fccac691d7f723c34b",
+      "bytes": 391
+    }
+  }
+}

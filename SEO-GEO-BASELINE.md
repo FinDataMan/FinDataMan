@@ -1,24 +1,20 @@
-# SEO and GEO baseline
+# SEO / GEO Baseline — Arturo Villagomez
 
-This release establishes a measurable baseline for Arturo Villagomez's public site.
+Release: `arturo-seo-geo-social-v1`
 
-## Search foundations
+## Canonical public surfaces
 
-- Canonical homepage and CV URLs.
-- Crawlable HTTPS raster social images.
-- Descriptive titles and meta descriptions.
-- Sitemap entries for all public canonical routes.
-- Structured data that matches visible content.
-- Public contact and profile links remain consistent.
+- Home: `https://arturovillagomez.com/`
+- Public CV: `https://arturovillagomez.com/cv/`
+- PDF: `https://arturovillagomez.com/cv/Arturo_Villagomez_Gomez_CV.pdf`
 
-## Measurement setup
+## Measurement baseline
 
-1. Verify `arturovillagomez.com` in Google Search Console using the existing DNS ownership record or a dedicated record.
-2. Submit `https://arturovillagomez.com/sitemap.xml`.
-3. Add the domain to Bing Webmaster Tools and submit the same sitemap.
-4. Record monthly: indexed pages, branded queries, non-branded queries, impressions, clicks and referring domains.
-5. When available, record AI citations or referenced URLs reported by supported webmaster platforms.
+- Google Search Console: ownership, sitemap submission, indexed pages, branded and thematic queries.
+- Bing Webmaster Tools: sitemap, indexed pages, search clicks, AI citation visibility when available.
+- Social previews: LinkedIn, WhatsApp, X and Facebook using 1200x630 JPEG assets.
+- Entity consistency: canonical name, professional email, LinkedIn and GitHub.
 
-## GEO interpretation
+## Governance
 
-No unsupported AI-specific markup is used. GEO improvement is pursued through indexable first-hand content, explicit entities, evidence-backed claims, clear authorship, canonical URLs, semantic internal links and freshness.
+No unsupported AI-specific schema, artificial mentions or private evidence. Structured data must match visible public content.
