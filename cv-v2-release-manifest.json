@@ -12,7 +12,7 @@
   "pdf": {
     "canonical_path": "cv/arturo-villagomez-cv.pdf",
     "compatibility_alias": "cv/Arturo_Villagomez_Gomez_CV.pdf",
-    "sha256": "1962aeb265f5b834fd29d6fcc8d7a021fe34520322c84529b87a64ce3d467a0e",
+    "sha256": "1ab37e81c3dc17666bcf153bdd9fd82d1252348a948763356738028e01f54cbd",
     "pages": 2,
     "page_size_pt": [
       612,
@@ -41,13 +41,13 @@
     },
     {
       "path": "cv/arturo-villagomez-cv.pdf",
-      "bytes": 580156,
-      "sha256": "1962aeb265f5b834fd29d6fcc8d7a021fe34520322c84529b87a64ce3d467a0e"
+      "bytes": 421190,
+      "sha256": "1ab37e81c3dc17666bcf153bdd9fd82d1252348a948763356738028e01f54cbd"
     },
     {
       "path": "cv/Arturo_Villagomez_Gomez_CV.pdf",
-      "bytes": 580156,
-      "sha256": "1962aeb265f5b834fd29d6fcc8d7a021fe34520322c84529b87a64ce3d467a0e"
+      "bytes": 421190,
+      "sha256": "1ab37e81c3dc17666bcf153bdd9fd82d1252348a948763356738028e01f54cbd"
     },
     {
       "path": "cv/assets/cv-page-1-thumbnail.png",
