@@ -1,491 +1,594 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinDataMan</title>
-    <link rel="stylesheet" href="./resources/reset.css">
-    <link rel="stylesheet" href="./resources/style.css">
-    <link rel="icon" type="image/x-icon" href="./resources/images/blue-fdm-icon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&
-            family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Arturo Villagomez — Finanzas, Operaciones e IA aplicada</title>
+<meta name="description" content="Arturo Villagomez convierte la complejidad de un negocio en decisiones y en los sistemas que las ejecutan: criterio financiero, disciplina operativa e IA aplicada.">
+<meta name="author" content="Arturo Villagomez">
+<link rel="canonical" href="https://arturovillagomez.com/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Arturo Villagomez">
+<meta property="og:title" content="Arturo Villagomez — Finanzas, Operaciones e IA aplicada">
+<meta property="og:description" content="Convierto la complejidad de un negocio en decisiones y en los sistemas que las ejecutan.">
+<meta property="og:url" content="https://arturovillagomez.com/">
+<meta property="og:image" content="https://arturovillagomez.com/assets/landing-hero.svg">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Arturo Villagomez — Finanzas, Operaciones e IA aplicada">
+<meta name="twitter:description" content="Convierto la complejidad de un negocio en decisiones y en los sistemas que las ejecutan.">
+<meta name="twitter:image" content="https://arturovillagomez.com/assets/landing-hero.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Arturo Villagomez","url":"https://arturovillagomez.com/","description":"Finanzas, Operaciones e IA aplicada. Sistemas que escalan.","email":"hola@arturovillagomez.com","sameAs":["https://www.linkedin.com/in/arturo-villagomez-gomez","https://github.com/FinDataMan"]}</script>
+<script src="./support.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo-container">
-                <a href="#banner"><img id="nav-logo" src="./resources/images/gray logo.png" data-color="./resources/images/gold logo.png" alt="FinDataMan logo"></a>
-            </div>
-            <div id="main-menu" class="items-container">
-                <div class="desktop" id="li-why-me">
-                    <a href="#why-me">Why me</a>
-                </div>
-                <div class="desktop" id="li-experience">
-                    <a href="#experience">Experience</a>
-                </div>
-                <div class="desktop" id="li-skills">
-                    <a href="#skills">Skills</a>
-                </div>
-                <div class="desktop" id="li-education">
-                    <a href="#education">Education</a>
-                </div>
-                <div class="desktop" id ="li-contact">
-                    <a>Contact</a>
-                    <ul class="contact-dropdown">
-                        <a href="https://www.linkedin.com/in/arturo-villag%C3%B3mez-g%C3%B3mez-5bb131119/"><li><img src="./resources/images/linkedin.png" alt="FinDataMan LinkedIn"></li></a>
-                        <a href="mailto:arturo.villagomezg@gmail.com?subject=Consulta%20para%20FinDataMan&body=Me%20interesa%20saber%20c%C3%B3mo%20puedo%20incrementar%20la%20rentabilidad%20de%20mi%20empresa"><li><img src="./resources/images/mail.png" alt="FinDataMan mail"></li></a>
-                        <a href="https://wa.me/5551054347?text=Me%20interesa%20saber%20c%C3%B3mo%20puedo%20incrementar%20la%20rentabilidad%20de%20mi%20empresa"><li><img src="./resources/images/whatsapp.png" alt="FinDataMan number"></li></a>
-                    </ul>
-                </div>
-                <div class="mobile" id="li-menu" class="menu-icon" aria-label="Menu">
-                    <img id="nav-menu" src="./resources/images/menu-gray.png" data-color="./resources/images/menu-gold.png" aria-hidden="true" alt="menu icon">
-                </div>
-            </div>
-        </nav>                       
-    </header>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,ital,wght@8..60,0,400;8..60,0,500;8..60,0,600;8..60,0,700;8..60,1,400;8..60,1,500&family=Hanken+Grotesk:wght@400;500;600;700&family=Martian+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  html, body { margin:0; padding:0; background:#e7e3db; }
+  a { color:#185e6b; text-decoration:none; }
+  a:hover { color:#0f3f48; }
+  ::selection { background:#185e6b; color:#f7f5f1; }
+  a:focus-visible, button:focus-visible, [role="button"]:focus-visible { outline:2px solid #185e6b; outline-offset:3px; border-radius:4px; }
+  @media (max-width:920px){
+    [data-r="hero"]{ grid-template-columns:1fr !important; }
+    [data-r="hero"] > div:first-child{ padding:76px 28px 56px !important; }
+    [data-r="hero"] > div:last-child{ min-height:360px !important; }
+    [data-r="g3"]{ grid-template-columns:1fr 1fr !important; }
+    [data-r="g5"]{ grid-template-columns:1fr 1fr 1fr !important; }
+    [data-r="about"]{ grid-template-columns:1fr !important; gap:40px !important; }
+  }
+  @media (max-width:620px){
+    [data-r="g3"], [data-r="g5"]{ grid-template-columns:1fr !important; }
+  }
+  
+</style>
+<script src="./image-slot.js"></script>
+</helmet>
+<div style="font-family:'Hanken Grotesk',sans-serif; color:#1a1a17; background:#e7e3db; overflow-x:hidden;">
 
-    <main>
-        <section id="banner">
-            <div id="feel">
-                <h1 class="center shadowed animated">This is how I make business people feel</h1>
-                <div class="container">
-                    <div id="empowered">
-                        <h2>Empowered</h2>
-                    </div>
-                    <div id="confident">
-                        <h2>Confident</h2>
-                    </div>
-                    <div id="prepared">
-                        <h2>Prepared</h2>
-                    </div>
-                    <div id="control">
-                        <h2>In Control</h2>
-                    </div>
-                </div> 
-                <a href="#why-me" class="center more scrolly">
-                    <div id="know-how">
-                        <p>Know-how</p>
-                        <img src="./resources/images/arrow.png" data-color="./resources/images/arrow-gold.png" alt="">
-                    </div>
-                </a>
-            </div>
-        </section> 
+  
+  <div style="position:sticky; top:0; z-index:100; background:rgba(26,26,23,0.94); backdrop-filter:blur(10px); border-bottom:1px solid #2c2a26;">
+    <div style="max-width:1200px; margin:0 auto; padding:15px 40px; display:flex; align-items:center; justify-content:space-between; gap:16px 24px; flex-wrap:wrap;">
+      <a href="#top" style="display:flex; align-items:center; gap:12px; text-decoration:none;">
+        <svg viewBox="0 0 100 96" width="26" height="25" fill="none" stroke="#8fbac0" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"><polyline points="8,84 34,22 60,72 86,10"></polyline><line x1="20.6" y1="54" x2="50.6" y2="54"></line></svg>
+        <span style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#f7f5f1;">Arturo Villagomez</span>
+      </a>
+      <div style="display:flex; align-items:center; gap:16px 30px; flex-wrap:wrap;">
+        <div data-r="navlinks" style="display:flex; align-items:center; gap:16px 26px; flex-wrap:wrap;">
+          <sc-for list="{{ nav }}" as="n" hint-placeholder-count="5">
+            <a href="{{ n.href }}" style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:#a49d92; text-decoration:none;" style-hover="color:#f7f5f1;">{{ n.label }}</a>
+          </sc-for>
+        </div>
+        <div style="display:inline-flex; border:1px solid #3a3833; border-radius:100px; overflow:hidden;">
+          <button onClick="{{ setEs }}" style="{{ esBtn }}">ES</button>
+          <button onClick="{{ setEn }}" style="{{ enBtn }}">EN</button>
+        </div>
+        <a href="#contacto" style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.05em; padding:9px 20px; border-radius:100px; background:#185e6b; color:#f7f5f1; text-decoration:none;" style-hover="background:#1f7482;">{{ navCta }}</a>
+      </div>
+    </div>
+  </div>
 
-        <section id="why-me">
-            <div id ="resume" class="text container">
-                <div id="profile">
-                    <h1>Arturo Villagomez</h1>
-                    <h2 class="justify">Chief Financial Officer | Chief Operating Officer | Partner | Product Manager | Full-Stack Engineer (In progress)</h2>
-                    <p class="justify">I'm a <strong>high-performance</strong> professional offering <strong>practical solutions</strong> to the business sector to improve their companies' performance.</p>
-                    <p class="justify">I understand and comprehend the <strong>challenges and needs</strong> of <strong>owners</strong>, <strong>directors</strong>, <strong>administrators</strong>, and <strong>accountants</strong>.</p>
-                    <p class="justify">I'm <strong>specialized</strong> in <strong>consolidating</strong>, <strong>structuring</strong>, and <strong>transforming</strong> companies' <strong>accounting records</strong> into <strong>financial analysis</strong> to provide
-                    clients with a <strong>precise understanding</strong> of their companies' <strong>financial situation</strong> and <strong>strategies</strong> to help them achieve their <strong>key performance indicators (KPIs)</strong>.</p>
-                </div>
-                <div class="image container">
-                    <img id="profile-picture" src="./resources/images/profile.jpeg" alt="A photo of FinDataMan">
-                </div>
-            </div>
-            <div id="highlights">
-                <div class="column">
-                    <div class="content-container">
-                        <div class="title">
-                            <h2 class="center">Unlock Efficiency in Minutes</h2>
-                        </div>
-                        <div class="text">
-                            <p class="justify"><strong>Actionable Insights</strong>: My experience with over <strong>30 companies</strong> across <strong>20 sectors</strong> fuels the development of <strong>automated financial analysis models</strong>.</p>
-                            <p class="justify"><strong>Boost Productivity</strong>: These models deliver <strong>actionable insights in minutes</strong>, saving valuable analyst time and <strong>accelerating decision-making</strong>.</p>
-                        </div>    
-                    </div>        
-                </div>
-                <div class="column">
-                    <div class="content-container">
-                        <div class="title">
-                            <h2 class="center">Deep Industry Expertise for Your Advantage</h2>
-                        </div>
-                        <div class="text">
-                            <p class="justify"><strong>Proven Track Record</strong>: <strong>+4 years</strong> of experience <strong>crafting financial tools</strong> used by <strong>leading CFO service providers</strong> in Mexico.</p>
-                            <p class="justify"><strong>Tailored Solutions</strong>: My understanding of <strong>mid-sized company finance</strong> facilitates the development of <strong>targeted solutions</strong> for your <strong>unique needs</strong>.</p>
-                        </div>
-                    </div>    
-                </div>
-                <div class="column">
-                    <div class="content-container">
-                        <div class="title">
-                            <h2 class="center">Building Solutions for Businessmen</h2>
-                        </div>
-                        <div class="text">
-                            <p class="justify"><strong>Passion for Innovation</strong>: <strong>Spearhead</strong> the creation of <strong>ButterBuck</strong>, the <strong>first Mexican financial analysis SaaS platform</strong> dedicated to <strong>businessmen</strong>.</p>
-                            <p class="justify"><strong>Problem-Solving Focus</strong>: Deeply understand the <strong>challenges faced by growing businesses</strong>, using <strong>technology</strong> to simplify <strong>financial management</strong>.</p>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-        </section>
-
-        <section id="experience">
-            <a href="https://butterbuck.com.mx/">
-                <div id="ButterBuck" class="experience-row">
-                    <div class="logo-container">
-                        <img class="logo" src="./resources/images/bb-blanco.png" alt="ButterBuck Logo">
-                    </div>
-                    <div class="text-container">
-                        <h2 class="company">ButterBuck</h2>
-                        <h3 class="position">Chief Operating Officer (Nov 2023 - Present)</h3>
-                    </div>
-                </div>
-            </a>
-            <a href="https://amezcfo.com/">
-                <div id="AMEZ-CFO" class="experience-row">
-                    <div class="logo-container">
-                        <img class="logo" src="./resources/images/amez-cfo-negativo.png" alt="AMEZ CFO Logo">
-                    </div>
-                    <div class="text-container">
-                        <h2 class="company">AMEZ CFO Strategies</h2>
-                        <h3 class="position">From Junior Financial Analyst to Chief Operating Officer (May 2020 - Present)</h3>
-                    </div>
-                </div>
-            </a>
-            <a href="https://gbm.com/">
-                <div id="GBM" class="experience-row">
-                    <div class="logo-container">
-                        <img class="logo" src="./resources/images/gbm-negativo.png" alt="GBM Logo">
-                    </div>
-                    <div class="text-container">
-                        <h2 class="company">GBM</h2>
-                        <h3 class="position">Commercial Partner (Oct 2018 - May 2020)</h3>
-                    </div>
-                </div>
-            </a>
-        </section>
-
-        <section id="skills">
-            <div id="hard">
-                <div class="tabs">
-                    <div class="tab-nav">
-                        <div id="financial-modeling" class="tab-item active" data-tab="tab-1">
-                            <span><img src="./resources/images/financial-modeling-blue.png" alt="financial modeling icon"></span>
-                            <p>Financial Modeling</p>
-                        </div>
-                        <div id="corporate-finance" class="tab-item" data-tab="tab-2">
-                            <span><img src="./resources/images/corporate-finance-blue.png" alt="corporate finance icon"></span>
-                            <p>Corporate Finance</p>
-                        </div>
-                        <div id="product-management" class="tab-item" data-tab="tab-3">
-                            <span><img src="./resources/images/product-management-blue.png" alt="product management icon"></span>
-                            <p>Product Management</p>
-                        </div>
-                    </div>
-                    <div class="tab-content">
-                        <div id="tab-1" class="tab-item-content active">
-                            <div class="image-container">
-                                <img src="./resources/images/financial-modeling.png" alt="Financial Modeling">
-                            </div>
-                            <div class="text-container">
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Financial principles</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Financial statement analysis</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Theory of discounted cash flows</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Data analysis</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Programming</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Statistics</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Probability</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-2" class="tab-item-content">
-                            <div class="image-container">
-                                <img src="./resources/images/corporate-finance.png" alt="Corporate Finance">
-                            </div>
-                            <div class="text-container">
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Financial modeling</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Financial analysis</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Company valuation</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Financial planning</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Risk management</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Budgeting</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Forecasting</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Sensitivity analysis</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-3" class="tab-item-content">
-                            <div class="image-container">
-                                <img src="./resources/images/product-management.png" alt="Product Management">
-                            </div>
-                            <div class="text-container">
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Functionality</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Technical features</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Usage data analysis</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Prioritization</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Prototyping</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Software development principles</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Project management</p>
-                                </div>
-                                <div class="hard-skill-item">
-                                    <span><img src="./resources/images/check-blue.png" data-color="./resources/images/check-gold.png" alt="financial modeling icon"></span>
-                                    <p>Product marketing</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="soft">
-                <ul class="items">
-                    <div class="column-1">
-                        <li><span><img src="./resources/images/1.png" data-color="./resources/images/1-gray.png" alt="first soft skill"></span>Problem-solving</li>
-                        <li><span><img src="./resources/images/2.png" data-color="./resources/images/2-gray.png" alt="second soft skill"></span>Results-oriented</li>
-                        <li><span><img src="./resources/images/3.png" data-color="./resources/images/3-gray.png" alt="third soft skill"></span>Critical thinking</li>
-                    </div>
-                    <div class="column-2">
-                        <li><span><img src="./resources/images/4.png" data-color="./resources/images/4-gray.png" alt="fourth soft skill"></span>Self-learning</li>
-                        <li><span><img src="./resources/images/5.png" data-color="./resources/images/5-gray.png" alt="fifth soft skill"></span>Creativity</li>
-                        <li><span><img src="./resources/images/6.png" data-color="./resources/images/6-gray.png" alt="sixth soft skill"></span>Communication</li>
-                    </div>
-                    <div class="column-3">
-                        <li><span><img src="./resources/images/7.png" data-color="./resources/images/7-gray.png" alt="seventh soft skill"></span>Resilience</li>
-                        <li><span><img src="./resources/images/8.png" data-color="./resources/images/8-gray.png" alt="eight soft skill"></span>Leadership</li>
-                        <li><span><img src="./resources/images/9.png" data-color="./resources/images/9-gray.png" alt="ninth soft skill"></span>Teamwork</li>
-                    </div>
-                </ul>
-            </div>
-            <div id="software">
-                <button class="carousel-arrow prev">&lt;</button>
-                <div class="carousel-container">
-                  <ul class="carousel-list">
-                    <li>
-                      <img src="./resources/images/excel.png" alt="Excel logo">
-                      <div class="app-info">
-                        <h3>Excel</h3>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="./resources/images/tableau.png" alt="Tableau logo">
-                      <div class="app-info">
-                        <h3>Tableau</h3>
-                      </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/power-bi.png" alt="Power BI logo">
-                        <div class="app-info">
-                          <h3>Power BI</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/bb-principal.png" alt="ButterBuck logo">
-                        <div class="app-info">
-                          <h3>ButterBuck</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/r.png" alt="R logo">
-                        <div class="app-info">
-                          <h3>R</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/bloomberg.png" alt="Bloomberg logo">
-                        <div class="app-info">
-                          <h3>Bloomberg</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/vstudio.png" alt="Visual Studio logo">
-                        <div class="app-info">
-                          <h3>Visual Studio</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/git.png" alt="Git logo">
-                        <div class="app-info">
-                          <h3>Git</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/github.png" alt="Github logo">
-                        <div class="app-info">
-                          <h3>Github</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/html.png" alt="HTML logo">
-                        <div class="app-info">
-                          <h3>HTML</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/css.png" alt="CSS logo">
-                        <div class="app-info">
-                          <h3>CSS</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/canva.png" alt="Canva logo">
-                        <div class="app-info">
-                          <h3>Canva</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/js.png" alt="JavaScript logo">
-                        <div class="app-info">
-                          <h3>JavaScript</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/gemini.png" alt="Gemini logo">
-                        <div class="app-info">
-                          <h3>Gemini</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/chatgpt.png" alt="Chatgpt logo">
-                        <div class="app-info">
-                          <h3>Chat GPT</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/clickup.png" alt="Clickup logo">
-                        <div class="app-info">
-                          <h3>Clickup</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/notion.png" alt="Notion logo">
-                        <div class="app-info">
-                          <h3>Notion</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./resources/images/trello.png" alt="Trello logo">
-                        <div class="app-info">
-                          <h3>Trello</h3>
-                        </div>
-                    </li>
-                </ul>
-                </div>
-                <button class="carousel-arrow next">&gt;</button>    
-            </div>
-        </section>
-
-        <section id="education">
-            <div id="ITESM" class="card-container">
-                <div class="card">
-                    <div class="front">
-                        <img src="./resources/images/ITESM.png" alt="ITESM logo">
-                    </div>
-                    <div class="back">
-                        <div class="title">
-                            <h2 class="center">ITESM</h2>
-                        </div>
-                        <div class="text">
-                            <p class="date center">(08/2016 - 12/2020)</p>
-                            <p class="grade center"><strong>Bachelor's Degree in Economics and Finance</strong></p>
-                            <p class="date center">(08/2013 - 05/2016)</p>
-                            <P class="grade center"><strong>Bicultural High School</strong> <em>(Honors Mention)</em></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="UTSA" class="card-container">
-                <div class="card">
-                    <div class="front">
-                        <img src="./resources/images/UTSA.png" alt="UTSA logo">
-                    </div>
-                    <div class="back">
-                        <div class="title">
-                            <h2 class="center">UTSA</h2>
-                        </div>
-                        <div class="text">
-                            <p class="date center">(01/2020 - 02/2020)</p>
-                            <P class="grade center"><strong>Financial Programming</strong> <em>(final grade: 99)</em></p>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div id="footer-container" class="footer-flex">
-          <div id="footer-logo">
-            <a href="#banner"><img src="./resources/images/grey-fdm-icon.png" data-color="./resources/images/gold-fdm-icon.png" alt="FinDataMan Logo"></a>
-          </div>
-          <div id="copyright">
-            <p class="center">© 2024 FinDataMan</p>
-          </div>
-          <div id="footer-socials">
-            <a href="https://www.linkedin.com/in/arturo-villag%C3%B3mez-g%C3%B3mez-5bb131119/"><img src="./resources/images/linkedin.png" alt="FinDataMan LinkedIn"></a>
-            <a href="mailto:arturo.villagomezg@gmail.com?subject=Consulta%20para%20FinDataMan&body=Me%20interesa%20saber%20c%C3%B3mo%20puedo%20incrementar%20la%20rentabilidad%20de%20mi%20empresa"><img src="./resources/images/mail.png" alt="FinDataMan mail"></a>
-            <a href="https://wa.me/5551054347?text=Me%20interesa%20saber%20c%C3%B3mo%20puedo%20incrementar%20la%20rentabilidad%20de%20mi%20empresa"><img src="./resources/images/whatsapp.png" alt="FinDataMan number"></a>
+  
+  <div id="top" style="position:relative; overflow:hidden; background:#185e6b; color:#f7f5f1;">
+    <div data-r="hero" style="position:relative; z-index:1; max-width:1280px; margin:0 auto; display:grid; grid-template-columns:1.12fr 0.88fr; align-items:stretch; gap:0;">
+      <div style="position:relative; overflow:hidden; padding:104px 56px 96px 40px;">
+        <svg width="100%" height="100%" preserveAspectRatio="none" shape-rendering="geometricPrecision" style="position:absolute; inset:0; z-index:0; pointer-events:none; opacity:0.55; mask-image:linear-gradient(105deg, transparent 0%, #000 78%); -webkit-mask-image:linear-gradient(105deg, transparent 0%, #000 78%);"><defs><pattern id="lz-hero" width="150" height="98" patternUnits="userSpaceOnUse" patternTransform="rotate(-24)"><polyline points="-37,80 0,26 37,80 75,26 112,80 150,26 188,80" fill="none" stroke="#f7f5f1" stroke-opacity="0.07" stroke-width="5.5" stroke-linejoin="miter" stroke-miterlimit="12" stroke-linecap="square"></polyline></pattern></defs><rect width="100%" height="100%" fill="url(#lz-hero)"></rect></svg>
+        <div style="position:relative; z-index:1;">
+          <div style="font-family:'Martian Mono',monospace; font-size:12.5px; letter-spacing:0.16em; text-transform:uppercase; color:#bfe0e4; margin-bottom:32px;">{{ kicker }} &nbsp;&middot;&nbsp; {{ descriptor }}</div>
+          <h1 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(40px,7.5vw,64px); line-height:1.06; letter-spacing:-0.022em; margin:0; max-width:15ch;">{{ essence }}</h1>
+          <div style="width:110px; height:5px; background:#f7f5f1; margin:40px 0 0;"></div>
+          <p style="font-family:'Hanken Grotesk',sans-serif; font-size:19px; line-height:1.55; color:#d6ecee; margin:36px 0 0; max-width:46ch;">{{ heroSub }}</p>
+          <div style="margin-top:40px; display:flex; align-items:center; gap:24px; flex-wrap:wrap;">
+            <a href="#contacto" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; padding:16px 32px; border-radius:100px; background:#f7f5f1; color:#185e6b; text-decoration:none;" style-hover="background:#fff;">{{ heroCta }} &#8594;</a>
+            <a href="#perfil" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; color:#d6ecee; text-decoration:none;" style-hover="color:#f7f5f1;">{{ heroCta2 }} &#8595;</a>
           </div>
         </div>
-    </footer>
+      </div>
+      <div style="position:relative; min-height:560px;">
+        <image-slot id="hero-photo" src="assets/landing-hero.svg" shape="rect" fit="cover" placeholder="Foto dirigida · pendiente" style="position:absolute; inset:0; width:100%; height:100%;"></image-slot>
+        <div style="position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg, #185e6b 0%, rgba(24,94,107,0.35) 22%, rgba(24,94,107,0.05) 50%);"></div>
+        <div style="position:absolute; inset:0; pointer-events:none; mix-blend-mode:multiply; background:rgba(24,94,107,0.28);"></div>
+      </div>
+    </div>
+    <div style="position:relative; z-index:1; border-top:1px solid rgba(247,245,241,0.16);">
+      <div style="max-width:1280px; margin:0 auto; padding:22px 40px; display:flex; align-items:center; gap:40px; flex-wrap:wrap;">
+        <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#9dc9ce;">{{ trustLabel }}</span>
+        <sc-for list="{{ trust }}" as="t" hint-placeholder-count="3">
+          <span style="font-family:'Hanken Grotesk',sans-serif; font-size:14px; color:#d6ecee;">{{ t }}</span>
+        </sc-for>
+      </div>
+    </div>
+  </div>
 
-    <!-- Scripts -->
-    <script src="./resources/main.js"></script>
+  
+  <div id="perfil" style="background:#f7f5f1; border-bottom:1px solid #e2ddd4;">
+    <div style="max-width:1200px; margin:0 auto; padding:88px 40px 92px;">
+      <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:18px;">{{ posKicker }}</div>
+      <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(30px,5vw,44px); line-height:1.12; letter-spacing:-0.02em; margin:0; max-width:20ch;">{{ posTitle }}</h2>
+      <p style="font-family:'Hanken Grotesk',sans-serif; font-size:19px; line-height:1.6; color:#4a463e; margin:26px 0 0; max-width:64ch;">{{ posBody }}</p>
+      <div data-r="g3" style="margin-top:56px; display:grid; grid-template-columns:repeat(3,1fr); gap:2px; background:#e2ddd4; border:1px solid #e2ddd4;">
+        <sc-for list="{{ pillars }}" as="p" hint-placeholder-count="3">
+          <div style="background:#f7f5f1; padding:34px 30px;">
+            <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.08em; color:#185e6b; margin-bottom:16px;">{{ p.no }}</div>
+            <div style="font-family:'Source Serif 4',serif; font-weight:600; font-size:24px; line-height:1.15; letter-spacing:-0.01em; margin-bottom:12px;">{{ p.title }}</div>
+            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:15px; line-height:1.55; color:#6b665d;">{{ p.body }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="rutas" style="background:#e7e3db; border-bottom:1px solid #d3cdc1;">
+    <div style="max-width:1200px; margin:0 auto; padding:80px 40px 90px;">
+      <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:30px; flex-wrap:wrap; margin-bottom:8px;">
+        <div>
+          <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ routerKicker }}</div>
+          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ routerTitle }}</h2>
+        </div>
+        <p style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#6b665d; margin:0; max-width:40ch;">{{ routerSub }}</p>
+      </div>
+      <div style="margin-top:36px; border-top:1px solid #d3cdc1;">
+        <sc-for list="{{ routes }}" as="r" hint-placeholder-count="4">
+          <div style="{{ r.rowStyle }}">
+            <button type="button" onClick="{{ r.on }}" aria-expanded="{{ r.active }}" aria-controls="route-panel-{{ r.key }}" style="display:flex; align-items:center; gap:26px; padding:26px 24px; width:100%; text-align:left; background:transparent; border:none; cursor:pointer; color:inherit; font:inherit;">
+              <span style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.06em; color:#a49d92; width:28px; flex-shrink:0;">{{ r.num }}</span>
+              <span style="font-family:'Source Serif 4',serif; font-weight:600; font-size:30px; letter-spacing:-0.015em; min-width:210px;">{{ r.tab }}</span>
+              <span style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; color:#6b665d; flex:1; min-width:200px;">{{ r.teaser }}</span>
+              <span style="{{ r.chev }}">&#8594;</span>
+            </button>
+            <sc-if value="{{ r.active }}" hint-placeholder-val="{{ false }}">
+              <div id="route-panel-{{ r.key }}" style="padding:0 24px 34px 82px;">
+                <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:48px; flex-wrap:wrap;">
+                  <div style="max-width:50ch;">
+                    <div style="font-family:'Source Serif 4',serif; font-weight:500; font-style:italic; font-size:24px; line-height:1.3; color:#1a1a17;">{{ r.thesis }}</div>
+                    <div style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#6b665d; margin-top:12px;">{{ r.sub }}</div>
+                  </div>
+                  <div style="min-width:250px; flex:1;">
+                    <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ r.formLabel }}</div>
+                    <div style="display:flex; flex-direction:column; gap:11px;">
+                      <sc-for list="{{ r.forms }}" as="fm" hint-placeholder-count="3">
+                        <div style="display:flex; align-items:flex-start; gap:10px; font-family:'Hanken Grotesk',sans-serif; font-size:15px; line-height:1.45; color:#3a3730;"><span style="color:#185e6b; flex-shrink:0;">&#8594;</span><span>{{ fm }}</span></div>
+                      </sc-for>
+                    </div>
+                  </div>
+                </div>
+                <a href="#contacto" style="display:inline-block; margin-top:26px; font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; padding:14px 28px; border-radius:100px; background:#185e6b; color:#f7f5f1; text-decoration:none;" style-hover="background:#0f3f48;">{{ r.cta }} &#8594;</a>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="casos" style="background:#e7e3db; border-bottom:1px solid #d3cdc1;">
+    <div style="max-width:1200px; margin:0 auto; padding:84px 40px 92px;">
+      <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:30px; flex-wrap:wrap;">
+        <div>
+          <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ casesKicker }}</div>
+          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ casesTitle }}</h2>
+        </div>
+        <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; color:#a08a5a; background:#f3ead4; border:1px solid #e4d5ad; padding:8px 14px; border-radius:6px; max-width:38ch;">{{ casesFlag }}</div>
+      </div>
+      <div data-r="g3" style="margin-top:40px; display:grid; grid-template-columns:repeat(3,1fr); gap:20px;">
+        <sc-for list="{{ cases }}" as="c" hint-placeholder-count="6">
+          <button type="button" onClick="{{ c.on }}" aria-haspopup="dialog" style="cursor:pointer; background:#f7f5f1; border:1px solid #e2ddd4; border-radius:12px; padding:26px 24px 22px; display:flex; flex-direction:column; min-height:230px; text-align:left; color:inherit; font:inherit; width:100%; transition:transform .15s, box-shadow .15s;" style-hover="transform:translateY(-3px); box-shadow:0 18px 40px -22px rgba(26,26,23,.4);">
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:18px;">
+              <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#185e6b; background:#e9f0ef; padding:4px 10px; border-radius:100px;">{{ c.tag }}</span>
+              <span style="font-family:'Martian Mono',monospace; font-size:11px; color:#c2bbad;">{{ c.num }}</span>
+            </div>
+            <div style="font-family:'Source Serif 4',serif; font-weight:600; font-size:22px; line-height:1.2; letter-spacing:-0.01em; margin-bottom:10px;">{{ c.title }}</div>
+            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:14.5px; line-height:1.5; color:#6b665d; flex:1;">{{ c.teaser }}</div>
+            <div style="margin-top:18px; padding-top:16px; border-top:1px solid #eee7dd; display:flex; align-items:center; justify-content:space-between;">
+              <span style="font-family:'Martian Mono',monospace; font-size:12px; font-weight:600; color:#1a1a17;">{{ c.metric }}</span>
+              <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#185e6b;">{{ c.open }} &#8594;</span>
+            </div>
+          </button>
+        </sc-for>
+      </div>
+      <div style="margin-top:28px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+        <a href="https://github.com/FinDataMan" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; padding:13px 26px; border-radius:100px; border:1px solid #1a1a17; color:#1a1a17; text-decoration:none;" style-hover="background:#1a1a17; color:#f7f5f1;">{{ casesSource1 }} &#8599;</a>
+        <span style="font-family:'Hanken Grotesk',sans-serif; font-size:14px; color:#8a837a;">{{ casesSource2 }}</span>
+      </div>
+    </div>
+  </div>
+
+  
+  <sc-if value="{{ modal.open }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeCase }}" style="position:fixed; inset:0; z-index:200; background:rgba(20,19,16,0.62); backdrop-filter:blur(3px); display:flex; align-items:center; justify-content:center; padding:32px;">
+      <div onClick="{{ stop }}" ref="{{ dialogRef }}" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="case-modal-title" style="position:relative; width:760px; max-width:100%; max-height:88vh; overflow:auto; outline:none; background:#f7f5f1; border-radius:16px; box-shadow:0 40px 100px -30px rgba(0,0,0,.6);">
+        <div style="position:relative; overflow:hidden; background:#1a1a17; color:#f7f5f1; padding:40px 44px 34px;">
+          <svg width="100%" height="100%" preserveAspectRatio="none" style="position:absolute; inset:0; z-index:0; pointer-events:none;"><defs><pattern id="lz-modal" width="120" height="78" patternUnits="userSpaceOnUse" patternTransform="rotate(-24)"><polyline points="-30,64 0,20 30,64 60,20 90,64 120,20 150,64" fill="none" stroke="#8fbac0" stroke-opacity="0.12" stroke-width="6" stroke-linejoin="miter" stroke-miterlimit="12"></polyline></pattern></defs><rect width="100%" height="100%" fill="url(#lz-modal)"></rect></svg>
+          <div style="position:relative; z-index:1;">
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
+              <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#8fbac0; background:rgba(143,186,192,0.12); padding:5px 12px; border-radius:100px;">{{ modal.tag }}</span>
+              <button onClick="{{ closeCase }}" style="font-family:'Martian Mono',monospace; font-size:18px; color:#a49d92; background:transparent; border:none; cursor:pointer; line-height:1;" style-hover="color:#f7f5f1;">&#10005;</button>
+            </div>
+            <div id="case-modal-title" style="font-family:'Source Serif 4',serif; font-weight:600; font-size:34px; line-height:1.12; letter-spacing:-0.02em; margin-top:20px; max-width:22ch;">{{ modal.title }}</div>
+          </div>
+        </div>
+        <div style="padding:34px 44px 40px;">
+          <div style="display:inline-block; font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; color:#a08a5a; background:#f3ead4; border:1px solid #e4d5ad; padding:7px 13px; border-radius:6px; margin-bottom:26px;">{{ modal.flag }}</div>
+          <sc-for list="{{ modal.blocks }}" as="b" hint-placeholder-count="3">
+            <div style="margin-bottom:24px;">
+              <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#185e6b; margin-bottom:8px;">{{ b.k }}</div>
+              <div style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.6; color:#3a3730;">{{ b.v }}</div>
+            </div>
+          </sc-for>
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:32px; padding-top:24px; border-top:1px solid #e2ddd4;">
+            <button onClick="{{ prevCase }}" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#1a1a17; background:transparent; border:1px solid #d3cdc1; padding:11px 22px; border-radius:100px; cursor:pointer;" style-hover="border-color:#1a1a17;">&#8592; {{ modal.prev }}</button>
+            <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#a49d92;">{{ modal.counter }}</span>
+            <button onClick="{{ nextCase }}" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#1a1a17; background:transparent; border:1px solid #d3cdc1; padding:11px 22px; border-radius:100px; cursor:pointer;" style-hover="border-color:#1a1a17;">{{ modal.next }} &#8594;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  
+  <div id="metodo" style="background:#f7f5f1; border-bottom:1px solid #e2ddd4;">
+    <div style="max-width:1200px; margin:0 auto; padding:84px 40px 88px;">
+      <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:30px; flex-wrap:wrap; margin-bottom:8px;">
+        <div>
+          <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ methodKicker }}</div>
+          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ methodTitle }}</h2>
+        </div>
+        <p style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#6b665d; margin:0; max-width:42ch;">{{ methodSub }}</p>
+      </div>
+      <div data-r="g5" style="margin-top:40px; display:grid; grid-template-columns:repeat(5,1fr); gap:2px; background:#e2ddd4; border:1px solid #e2ddd4;">
+        <sc-for list="{{ method }}" as="m" hint-placeholder-count="5">
+          <div style="background:#f7f5f1; padding:26px 22px;">
+            <div style="font-family:'Martian Mono',monospace; font-size:11px; color:#185e6b; margin-bottom:14px;">{{ m.no }}</div>
+            <div style="font-family:'Source Serif 4',serif; font-weight:600; font-size:19px; line-height:1.2; letter-spacing:-0.01em; margin-bottom:9px;">{{ m.title }}</div>
+            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:13.5px; line-height:1.5; color:#6b665d;">{{ m.body }}</div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="margin-top:22px; font-family:'Hanken Grotesk',sans-serif; font-size:14px; line-height:1.55; color:#8a837a;">{{ methodTools }}</div>
+    </div>
+  </div>
+
+  
+  <div id="sobre" style="background:#e7e3db; border-bottom:1px solid #d3cdc1;">
+    <div data-r="about" style="max-width:1200px; margin:0 auto; padding:88px 40px 92px; display:grid; grid-template-columns:1.4fr 1fr; gap:56px; align-items:start;">
+      <div>
+        <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:16px;">{{ aboutKicker }}</div>
+        <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:40px; line-height:1.12; letter-spacing:-0.02em; margin:0 0 26px; max-width:18ch;">{{ aboutTitle }}</h2>
+        <sc-for list="{{ aboutBody }}" as="para" hint-placeholder-count="3">
+          <p style="font-family:'Hanken Grotesk',sans-serif; font-size:17px; line-height:1.65; color:#4a463e; margin:0 0 18px; max-width:56ch;">{{ para }}</p>
+        </sc-for>
+        <div style="margin-top:22px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+          <a href="https://www.linkedin.com/in/arturo-villagomez-gomez" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#185e6b;" style-hover="color:#0f3f48;">LinkedIn &#8599;</a>
+          <a href="https://github.com/FinDataMan" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#185e6b;" style-hover="color:#0f3f48;">FinDataMan &#8599;</a>
+        </div>
+      </div>
+      <div>
+        <image-slot id="about-photo" src="assets/landing-about.svg" shape="rect" fit="cover" placeholder="Retrato" style="display:block; width:100%; aspect-ratio:4/5; border-radius:12px; margin-bottom:20px;"></image-slot>
+        <div style="position:relative; background:#f7f5f1; border:1px solid #e2ddd4; border-radius:10px; padding:24px 24px 26px;">
+          <span style="position:absolute; top:9px; left:9px; width:13px; height:13px; border-top:2px solid #185e6b; border-left:2px solid #185e6b;"></span>
+          <span style="position:absolute; top:9px; right:9px; width:13px; height:13px; border-top:2px solid #185e6b; border-right:2px solid #185e6b;"></span>
+          <span style="position:absolute; bottom:9px; left:9px; width:13px; height:13px; border-bottom:2px solid #185e6b; border-left:2px solid #185e6b;"></span>
+          <span style="position:absolute; bottom:9px; right:9px; width:13px; height:13px; border-bottom:2px solid #185e6b; border-right:2px solid #185e6b;"></span>
+          <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#8a837a; padding-bottom:15px; border-bottom:1px solid #eee7dd; margin-bottom:15px;">{{ dossierTitle }}</div>
+          <div style="display:flex; flex-direction:column; gap:13px;">
+            <sc-for list="{{ dossier }}" as="d" hint-placeholder-count="5">
+              <div style="display:flex; justify-content:space-between; gap:16px; align-items:baseline;">
+                <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a837a; flex-shrink:0;">{{ d.k }}</span>
+                <span style="font-family:'Hanken Grotesk',sans-serif; font-weight:600; font-size:14px; color:#1a1a17; text-align:right;">{{ d.v }}</span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="escritura" style="background:#f7f5f1; border-bottom:1px solid #e2ddd4;">
+    <div style="max-width:1200px; margin:0 auto; padding:84px 40px 92px;">
+      <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:30px; flex-wrap:wrap; margin-bottom:38px;">
+        <div>
+          <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ writeKicker }}</div>
+          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ writeTitle }}</h2>
+        </div>
+        <a href="https://github.com/FinDataMan" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#185e6b;" style-hover="color:#0f3f48;">{{ writeAll }} &#8599;</a>
+      </div>
+      <div style="border-top:1px solid #e2ddd4;">
+        <sc-for list="{{ themes }}" as="th" hint-placeholder-count="4">
+          <div style="display:flex; align-items:center; gap:30px; padding:22px 8px; border-bottom:1px solid #e2ddd4;">
+            <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#a49d92; width:104px; flex-shrink:0;">{{ th.tag }}</span>
+            <span style="font-family:'Source Serif 4',serif; font-weight:600; font-size:21px; letter-spacing:-0.01em; color:#1a1a17; flex:1;">{{ th.title }}</span>
+            <span style="font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; color:#8a837a; flex-shrink:0;">{{ soonLabel }}</span>
+          </div>
+        </sc-for>
+      </div>
+      <div style="margin-top:22px; font-family:'Hanken Grotesk',sans-serif; font-size:14px; line-height:1.55; color:#6b665d; max-width:60ch;">{{ writeNote }}</div>
+    </div>
+  </div>
+
+  
+  <div id="contacto" style="position:relative; overflow:hidden; background:#185e6b; color:#f7f5f1;">
+    <svg width="100%" height="100%" preserveAspectRatio="none" shape-rendering="geometricPrecision" style="position:absolute; inset:0; z-index:0; pointer-events:none;"><defs><pattern id="lz-cta" width="132" height="86" patternUnits="userSpaceOnUse" patternTransform="rotate(-24)"><polyline points="-33,70 0,23 33,70 66,23 99,70 132,23 165,70" fill="none" stroke="#f7f5f1" stroke-opacity="0.06" stroke-width="5.5" stroke-linejoin="miter" stroke-miterlimit="12"></polyline></pattern></defs><rect width="100%" height="100%" fill="url(#lz-cta)"></rect></svg>
+    <div style="position:relative; z-index:1; max-width:1200px; margin:0 auto; padding:96px 40px 100px; text-align:center;">
+      <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#bfe0e4; margin-bottom:22px;">{{ ctaKicker }}</div>
+      <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(32px,6vw,52px); line-height:1.1; letter-spacing:-0.02em; margin:0 auto; max-width:20ch;">{{ ctaTitle }}</h2>
+      <p style="font-family:'Hanken Grotesk',sans-serif; font-size:19px; line-height:1.55; color:#d6ecee; margin:24px auto 0; max-width:52ch;">{{ ctaBody }}</p>
+      <div style="margin-top:40px; display:flex; align-items:center; justify-content:center; gap:18px; flex-wrap:wrap;">
+        <a href="mailto:hola@arturovillagomez.com" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; padding:17px 34px; border-radius:100px; background:#f7f5f1; color:#185e6b; text-decoration:none;" style-hover="background:#fff;">{{ ctaEmail }} &#8594;</a>
+        <a href="https://www.linkedin.com/in/arturo-villagomez-gomez" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; padding:17px 34px; border-radius:100px; border:1px solid rgba(247,245,241,0.4); color:#f7f5f1; text-decoration:none;" style-hover="border-color:#f7f5f1;">LinkedIn &#8599;</a>
+      </div>
+    </div>
+  </div>
+
+  
+  <div style="background:#1a1a17; color:#8a837a;">
+    <div style="max-width:1200px; margin:0 auto; padding:34px 40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+      <div style="display:flex; align-items:center; gap:12px;">
+        <svg viewBox="0 0 100 96" width="20" height="19" fill="none" stroke="#5f5a52" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"><polyline points="8,84 34,22 60,72 86,10"></polyline><line x1="20.6" y1="54" x2="50.6" y2="54"></line></svg>
+        <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; color:#5f5a52;">© 2026 Arturo Villagomez</span>
+      </div>
+      <div style="font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:0.06em; color:#4a463e;">{{ footerNote }}</div>
+    </div>
+  </div>
+
+</div>
+<template id="__bundler_thumbnail" data-bg-color="#185e6b"><svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg"><rect width="1200" height="800" fill="#185e6b"/><polyline points="470,520 545,320 620,470 720,290" fill="none" stroke="#f7f5f1" stroke-width="34" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="12"/><line x1="505" y1="440" x2="620" y2="440" stroke="#f7f5f1" stroke-width="34" stroke-linecap="butt"/></svg></template>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { lang:'es', route:'empleo', caseIdx:null };
+  dialogRef = React.createRef();
+  _lastFocus = null;
+
+  componentDidMount() {
+    this._onKey = (e) => {
+      if (this.state.caseIdx === null) return;
+      if (e.key === 'Escape') { e.preventDefault(); this.setState({ caseIdx:null }, () => { if(this._lastFocus && this._lastFocus.focus) this._lastFocus.focus(); }); return; }
+      if (e.key === 'Tab') {
+        const d = this.dialogRef.current; if (!d) return;
+        const f = d.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+        if (!f.length) return;
+        const first = f[0], last = f[f.length-1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    };
+    document.addEventListener('keydown', this._onKey);
+    document.documentElement.lang = this.state.lang;
+  }
+  componentWillUnmount() { document.removeEventListener('keydown', this._onKey); }
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.lang !== this.state.lang) document.documentElement.lang = this.state.lang;
+    if (prevState.caseIdx === null && this.state.caseIdx !== null) {
+      this._lastFocus = document.activeElement;
+      const d = this.dialogRef.current; if (d) d.focus();
+    } else if (prevState.caseIdx !== null && this.state.caseIdx === null) {
+      if (this._lastFocus && this._lastFocus.focus) this._lastFocus.focus();
+    }
+  }
+
+  data() {
+    const es = this.state.lang !== 'en';
+    const t = (a,b) => es ? a : b;
+
+    // Tesis editorial canónica — mirror de ARTURO.THESIS.CANONICAL
+    const AV_THESIS = {
+      heroShort: t('Convierto la complejidad de un negocio en decisiones y en los sistemas que las ejecutan.','I turn business complexity into decisions — and the systems that execute them.'),
+      heroSupport: t('Criterio financiero, disciplina operativa e IA aplicada para que la información correcta llegue a la decisión correcta en el momento correcto.','Financial judgment, operational discipline and applied AI — so the right information reaches the right decision at the right moment.'),
+    };
+
+    const routes = [
+      { key:'empleo', tab:t('Empleo','Hiring'),
+        teaser:t('Chief of Staff · Strategy & Ops · Finanzas + IA','Chief of Staff · Strategy & Ops · Finance + AI'),
+        thesis:t('La tesis dentro de tu equipo: decisiones y sistemas, con columna financiera.','The thesis inside your team: decisions and systems, with a financial backbone.'),
+        sub:t('Me sumo como operador cross-functional que cruza finanzas, operación e IA — con criterio para decidir y disciplina para ejecutar desde el primer día.','I join as a cross-functional operator across finance, operations and AI — with judgment to decide and discipline to execute from day one.'),
+        formLabel:t('En concreto','In concrete terms'),
+        forms: es ? ['Rol cross-functional: finanzas + operación + IA','Sistemas de decisión y control que quedan montados','Continuidad garantizada con handoff documentado'] : ['Cross-functional role: finance + operations + AI','Decision and control systems left in place','Guaranteed continuity with documented handoff'],
+        cta:t('Hablemos','Let’s talk') },
+      { key:'consultoria', tab:t('Consultoría','Consulting'),
+        teaser:t('Fractional CFO & constructor de sistemas de negocio','Fractional CFO & business-systems builder'),
+        thesis:t('La tesis para tu negocio: criterio que decide y un sistema que lo ejecuta — no otro dashboard.','The thesis for your business: judgment that decides and a system that runs it — not another dashboard.'),
+        sub:t('Convierto números en decisiones y monto el sistema que corre el negocio, con IA donde suma. Por entregables, vía Don Ventas.','I turn numbers into decisions and build the system that runs the business, with AI where it helps. By deliverables, via Don Ventas.'),
+        formLabel:t('En concreto','In concrete terms'),
+        forms: es ? ['Diagnóstico financiero y de operación','Modelos, presupuesto y automatización con IA','Trabajo por entregables, no por horas'] : ['Financial and operational diagnosis','Models, budgeting and AI automation','Work by deliverables, not by the hour'],
+        cta:t('Agendar diagnóstico','Book a diagnosis') },
+      { key:'ventures', tab:t('Ventures','Ventures'),
+        teaser:t('Founder-operator · el operador tras el producto','Founder-operator · the operator behind the product'),
+        thesis:t('La tesis detrás del producto: el operador que la sostiene con números y ejecución.','The thesis behind the product: the operator who backs it with numbers and execution.'),
+        sub:t('Del discovery de mercado al producto y el handoff — con gobernanza y disciplina financiera.','From market discovery to product and handoff — with governance and financial discipline.'),
+        formLabel:t('En concreto','In concrete terms'),
+        forms: es ? ['Investigación y validación de mercado','Estados pro forma, producto y MVP','Gobernanza y handoff documentado'] : ['Market research and validation','Pro forma statements, product and MVP','Governance and documented handoff'],
+        cta:t('Conversemos','Let’s talk') },
+      { key:'escritura', tab:t('Escritura','Writing'),
+        teaser:t('Ensayos sobre finanzas, operación e IA aplicada','Essays on finance, operations and applied AI'),
+        thesis:t('La tesis, en voz alta: la amplitud como ventaja, no como dispersión.','The thesis, out loud: breadth as an advantage, not scatter.'),
+        sub:t('Ensayos y notas sobre finanzas, operación e IA aplicada — pensar en público.','Essays and notes on finance, operations and applied AI — thinking in public.'),
+        formLabel:t('Temas','Topics'),
+        forms: es ? ['Cómo leer un negocio por sus números','Sistemas y procesos que la gente usa','IA aplicada sin perder el criterio'] : ['Reading a business through its numbers','Systems and processes people use','Applied AI without losing judgment'],
+        cta:t('Ver temas','See topics') },
+    ];
+
+    const cases = [
+      { tag:t('Finanzas','Finance'),
+        title:t('Modelo financiero a la medida · sector alimentos','Custom financial model · food sector'),
+        teaser:t('De hojas dispersas a un modelo que anticipa el impacto de cada decisión.','From scattered sheets to a model that anticipates the impact of each decision.'),
+        metric:t('Del dato a la decisión','From data to decision') },
+      { tag:t('Finanzas','Finance'),
+        title:t('Presupuesto vs. real con explicación de variaciones','Budget vs. actual with variance explanation'),
+        teaser:t('Seguimiento mensual junto al equipo contable; qué varió, por qué y qué hacer.','Monthly tracking with the accounting team; what moved, why, and what to do.'),
+        metric:t('Variaciones que llevan a acción','Variances that drive action') },
+      { tag:t('IA aplicada','Applied AI'),
+        title:t('Automatización de reporting y tareas repetitivas','Automation of reporting and repetitive tasks'),
+        teaser:t('Flujos con IA que quitan trabajo manual y devuelven horas al criterio.','AI flows that remove manual work and return hours to judgment.'),
+        metric:t('Horas devueltas al criterio','Hours returned to judgment') },
+      { tag:t('Ventures','Ventures'),
+        title:t('Estados pro forma para un proyecto en arranque','Pro forma statements for an early-stage project'),
+        teaser:t('Variables clave, rentabilidad y periodo de recuperación de la inversión.','Key variables, profitability and investment payback period.'),
+        metric:t('Tesis con números que la sostienen','A thesis with numbers behind it') },
+      { tag:t('Operaciones','Operations'),
+        title:t('Sistema de operación y procesos · servicios','Operations & process system · services'),
+        teaser:t('Mapa de procesos, SOPs y tablero para escalar sin perder el control.','Process map, SOPs and dashboard to scale without losing control.'),
+        metric:t('Escalar sin caos','Scale without chaos') },
+      { tag:t('Datos','Data'),
+        title:t('Visualización que las áreas de negocio sí usan','Data viz business teams actually use'),
+        teaser:t('Una fuente de verdad y tableros que se leen en segundos.','One source of truth and dashboards read in seconds.'),
+        metric:t('Una fuente de verdad','One source of truth') },
+    ];
+
+    return { es, t, routes, cases, AV_THESIS };
+  }
+
+  renderVals() {
+    const { es, t, routes, cases, AV_THESIS } = this.data();
+
+    const rowBase = "transition:background .15s; border-bottom:1px solid #d3cdc1;";
+    const routeVals = routes.map((r,i) => {
+      const active = this.state.route===r.key;
+      return { ...r, num:'0'+(i+1), active,
+        rowStyle: rowBase + (active ? "background:#dfdacf; border-left:4px solid #185e6b;" : "background:transparent; border-left:4px solid transparent;"),
+        chev: "font-family:'Martian Mono',monospace; font-size:20px; transition:transform .15s; " + (active ? "color:#185e6b; transform:rotate(90deg);" : "color:#b7b0a2;"),
+        on: () => this.setState({ route:r.key }),
+      };
+    });
+
+    const caseVals = cases.map((c,i) => ({ ...c, num:'0'+(i+1), open:t('Ver caso','View case'),
+      on: () => { this._lastFocus = document.activeElement; this.setState({ caseIdx:i }, () => { const d=this.dialogRef.current; if(d) d.focus(); }); } }));
+
+    const idx = this.state.caseIdx;
+    let modal = { open:false };
+    if (idx !== null && cases[idx]) {
+      const c = cases[idx];
+      modal = { open:true, tag:c.tag, title:c.title,
+        flag: t('Caso anonimizado · sector real. El cliente se nombra solo con su permiso.','Anonymized case · real sector. The client is named only with permission.'),
+        blocks: [
+          { k:t('Contexto','Context'), v:t('Sector y punto de partida — resumen anonimizado del reto financiero u operativo que traía la organización.','Sector and starting point — anonymized summary of the financial or operational challenge the organization faced.') },
+          { k:t('Qué hice','What I did'), v:t('Diagnóstico, modelo/sistema a la medida y ejecución junto al equipo, con IA donde suma.','Diagnosis, a custom model/system and hands-on execution with the team, with AI where it adds value.') },
+          { k:t('Resultado','Outcome'), v: c.metric + t('. Resultado cualitativo; las cifras específicas se comparten en conversación, no en público.','. Qualitative outcome; specific figures are shared in conversation, not in public.') },
+        ],
+        prev:t('Anterior','Prev'), next:t('Siguiente','Next'),
+        counter:(idx+1)+' / '+cases.length,
+      };
+    }
+
+    return {
+      // lang
+      dialogRef: this.dialogRef,
+      setEs: () => { document.documentElement.lang='es'; this.setState({ lang:'es' }); },
+      setEn: () => { document.documentElement.lang='en'; this.setState({ lang:'en' }); },
+      esBtn: this.langBtn(es),
+      enBtn: this.langBtn(!es),
+      // nav
+      nav: [
+        { label:t('Tesis','Thesis'), href:'#perfil' },
+        { label:t('Rutas','Routes'), href:'#rutas' },
+        { label:t('Casos','Cases'), href:'#casos' },
+        { label:t('Escritura','Writing'), href:'#escritura' },
+      ],
+      navCta:t('Contacto','Contact'),
+      // hero
+      kicker:'Finanzas · Operaciones · IA aplicada',
+      descriptor: t('Sistemas que escalan','Systems that scale'),
+      essence: AV_THESIS.heroShort,   // consume ARTURO.THESIS.CANONICAL · hero_short
+      heroSub: AV_THESIS.heroSupport, // consume ARTURO.THESIS.CANONICAL · hero_support
+      heroCta: t('Hablemos','Let’s talk'),
+      heroCta2: t('Ver la tesis','See the thesis'),
+      trustLabel: t('Enfoque','Focus'),
+      trust: es ? ['Finanzas & control','Operación & procesos','IA aplicada','Discovery & ventures'] : ['Finance & control','Operations & process','Applied AI','Discovery & ventures'],
+      // router
+      routerKicker: t('Aplícala a tu caso','Apply it to your case'),
+      routerTitle: t('Una tesis. Cuatro formas de aplicarla.','One thesis. Four ways to apply it.'),
+      routerSub: t('La misma tesis, según desde dónde llegas: empleo, consultoría, ventures o escritura.','The same thesis, depending on where you come from: hiring, consulting, ventures or writing.'),
+      routes: routeVals,
+      // positioning
+      posKicker: t('La tesis','The thesis'),
+      posTitle: t('No un especialista más: un operador que conecta las piezas.','Not one more specialist: an operator who connects the pieces.'),
+      posBody: t('Casi ningún problema de negocio vive en un solo silo: es finanzas, operación y datos al mismo tiempo. Por eso convierto la complejidad en decisiones y en los sistemas que las ejecutan — criterio financiero para decidir, disciplina operativa para ejecutar e IA aplicada para escalar lo repetitivo. Una sola creencia lo ordena todo: la información correcta, en la decisión correcta, en el momento correcto.','Almost no business problem lives in a single silo: it’s finance, operations and data at once. That’s why I turn complexity into decisions — and the systems that execute them — with financial judgment to decide, operational discipline to execute and applied AI to scale the repetitive. One belief orders it all: the right information, in the right decision, at the right time.'),
+      pillars: [
+        { no:'01', title:t('Criterio financiero','Financial judgment'), body:t('Leer el negocio por sus números y decidir dónde poner el foco y el capital.','Reading the business through its numbers and deciding where focus and capital go.') },
+        { no:'02', title:t('Disciplina operativa','Operational discipline'), body:t('Convertir la estrategia en procesos, SOPs y sistemas que otros pueden operar.','Turning strategy into processes, SOPs and systems others can run.') },
+        { no:'03', title:t('IA aplicada','Applied AI'), body:t('Automatizar lo repetitivo y amplificar el criterio, no reemplazarlo.','Automating the repetitive and amplifying judgment, not replacing it.') },
+      ],
+      // cases
+      casesKicker: t('La tesis, en la práctica','The thesis in practice'),
+      casesTitle: t('Decisiones y sistemas, entregados','Decisions and systems, delivered'),
+      casesFlag: t('Casos anonimizados · sectores reales. Los clientes se nombran solo con su permiso.','Anonymized cases · real sectors. Clients are named only with their permission.'),
+      cases: caseVals,
+      casesSource1: t('Proyectos anteriores (GitHub)','Past projects (GitHub)'),
+      casesSource2: t('Trabajo reciente construido en Claude Design.','Recent work built in Claude Design.'),
+      // modal
+      modal,
+      closeCase: () => this.setState({ caseIdx:null }, () => { if(this._lastFocus && this._lastFocus.focus) this._lastFocus.focus(); }),
+      stop: (e) => e.stopPropagation(),
+      prevCase: () => this.setState(s => ({ caseIdx:(s.caseIdx+cases.length-1)%cases.length })),
+      nextCase: () => this.setState(s => ({ caseIdx:(s.caseIdx+1)%cases.length })),
+      // método (reemplaza Stack)
+      methodKicker: t('Método','Method'),
+      methodTitle: t('Cómo trabajo','How I work'),
+      methodSub: t('Un mismo sistema de trabajo, sin importar la ruta: del criterio a la ejecución.','One working system, whatever the route: from judgment to execution.'),
+      method: [
+        { no:'01', title:t('Criterio financiero','Financial judgment'), body:t('Leer el negocio por sus números para decidir dónde poner foco y capital.','Reading the business by its numbers to decide where focus and capital go.') },
+        { no:'02', title:t('Disciplina operativa','Operational discipline'), body:t('Convertir decisiones en procesos y SOPs que otros pueden operar.','Turning decisions into processes and SOPs others can run.') },
+        { no:'03', title:t('Pensamiento de producto','Product thinking'), body:t('Definir el problema, priorizar y validar antes de construir.','Framing the problem, prioritizing and validating before building.') },
+        { no:'04', title:t('Procesos estructurados','Structured processes'), body:t('Documentar y estandarizar para que el sistema no dependa de una sola persona.','Documenting and standardizing so the system doesn’t depend on one person.') },
+        { no:'05', title:t('Datos e IA aplicada','Data & applied AI'), body:t('Automatizar lo repetitivo y amplificar el criterio, no reemplazarlo.','Automating the repetitive and amplifying judgment, not replacing it.') },
+      ],
+      methodTools: t('Herramientas al servicio del criterio: R y visualización, hojas de cálculo avanzadas, IA/LLMs y prototipado rápido — nunca al revés.','Tools in service of judgment: R and visualization, advanced spreadsheets, AI/LLMs and rapid prototyping — never the other way around.'),
+            // about
+      aboutKicker: t('Sobre mí','About'),
+      aboutTitle: t('Un operador que piensa en sistemas','An operator who thinks in systems'),
+      aboutBody: es ? [
+        'COO y socio en AMEZ CFO, donde dirijo el análisis financiero, la metodología operativa y los sistemas de entrega de la firma. Antes, analista financiero para empresas de varios sectores.',
+        'También cofundé ButterBuck, donde construí la arquitectura financiera y de producto y dirigí Product Operations. Mi ventaja está en combinar finanzas, operación, producto e IA aplicada en una sola cabeza.',
+      ] : [
+        'COO and partner at AMEZ CFO, where I lead the firm’s financial analysis, operating methodology and delivery systems. Before that, financial analyst for companies across several sectors.',
+        'I also co-founded ButterBuck, where I built the financial and product architecture and led Product Operations. My edge is combining finance, operations, product and applied AI in one head.',
+      ],
+      photoPlaceholder: t('Foto dirigida · pendiente','Directed photo · pending'),
+      dossierTitle: t('Perfil · resumen','Profile · summary'),
+      dossier: [
+        { k:t('Rol','Role'), v:t('COO y Socio · AMEZ CFO','COO & Partner · AMEZ CFO') },
+        { k:'Base', v:t('Ciudad de México','Mexico City') },
+        { k:t('Formación','Education'), v:t('Economía y Finanzas · Tecnológico de Monterrey','Economics & Finance · Tecnológico de Monterrey') },
+        { k:t('Idiomas','Languages'), v:t('Español · Inglés','Spanish · English') },
+        { k:t('Estado','Status'), v:t('Abierto a conversaciones','Open to conversations') },
+      ],
+      // writing
+      writeKicker: t('Escritura','Writing'),
+      writeTitle: t('La tesis, pensada en público','The thesis, thought in public'),
+      writeAll: t('Proyectos anteriores · GitHub','Past projects · GitHub'),
+      themes: [
+        { tag:t('Finanzas','Finance'), title:t('Cómo leer un negocio por sus números','How to read a business through its numbers') },
+        { tag:t('Operación','Ops'), title:t('Sistemas y SOPs que la gente sí usa','Systems and SOPs people actually use') },
+        { tag:t('IA aplicada','Applied AI'), title:t('Automatizar sin perder el criterio','Automating without losing judgment') },
+        { tag:t('Perspectiva','Perspective'), title:t('Finanzas, operación y producto como un solo oficio','Finance, operations and product as one craft') },
+      ],
+      soonLabel: t('Próximamente','Coming soon'),
+      writeNote: t('Temas sobre los que escribiré. Aún no hay artículos publicados; los enlazaré aquí cuando existan.','Themes I’ll write on. No articles published yet; I’ll link them here once they exist.'),
+            // contact
+      ctaKicker: t('Contacto','Contact'),
+      ctaTitle: t('¿Trabajamos juntos?','Shall we work together?'),
+      ctaBody: t('¿Tienes complejidad que convertir en decisiones y en sistemas que las ejecuten? Empleo, consultoría o una idea de venture — escríbeme. Respondo directo.','Have complexity to turn into decisions and systems that execute them? A role, consulting or a venture idea — write me. I reply directly.'),
+      ctaEmail: t('Escríbeme','Email me'),
+      // footer
+      footerNote: t('Finanzas · Operaciones · IA aplicada','Finance · Operations · Applied AI'),
+    };
+  }
+
+  langBtn(active) {
+    return "font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.08em; padding:9px 16px; border:none; cursor:pointer; " +
+      (active ? "background:#f7f5f1; color:#1a1a17;" : "background:transparent; color:#a49d92;");
+  }
+}
+</script>
 </body>
 </html>

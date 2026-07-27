@@ -1,0 +1,67 @@
+{
+  "release": "Arturo Landing v1",
+  "domain": "arturovillagomez.com",
+  "development_source": "FinDataMan/arturo-personal-runtime",
+  "source_component": "arturo-villagomez/bloques/bloque-10-landing.dc.html",
+  "release_target": "FinDataMan/FinDataMan",
+  "branch": "release/arturo-landing-v1",
+  "release_status": "USER_APPROVED_PREVIEW",
+  "approved_at": "2026-07-27",
+  "private_hub_link_removed": true,
+  "professional_email_only": true,
+  "personal_gmail_or_whatsapp_present": false,
+  "files": {
+    ".nojekyll": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    "404.html": {
+      "sha256": "fc6216111c0d37ebfcfbdd6f2e9c08f9863bb513104b59886c1be722b73b8ca5",
+      "size_bytes": 654
+    },
+    "CNAME": {
+      "sha256": "8f4edc46c8f71ce74b9b690014c10129485e02194cfbe00f28654bbbaa01e616",
+      "size_bytes": 21
+    },
+    "ROLLBACK.md": {
+      "sha256": "d5ec5dd3181d7e1e75384cfcb85e5f4d5a0624bf5d3b2762232b17aa263d4b20",
+      "size_bytes": 504
+    },
+    "assets/favicon.svg": {
+      "sha256": "e224a4a6c7cd9fc5dea8b4d328c114ff817b9f9e7fbc9dd7955c65e5450da569",
+      "size_bytes": 379
+    },
+    "assets/landing-about.svg": {
+      "sha256": "b8bc451aa883750874b8d21350e71bbc28f9c6e7c6795f75b8a61c3de5b35eb0",
+      "size_bytes": 139992
+    },
+    "assets/landing-hero.svg": {
+      "sha256": "7918bf529fd43bf66449b5147b9fd78050419fd4b2ab5a6a86ac448cbe1fd080",
+      "size_bytes": 126160
+    },
+    "assets/og-image.jpg": {
+      "sha256": "eeaad1cbeec1c82b66d103b890800bf633cdab112be8b44c22fae3b066940052",
+      "size_bytes": 90746
+    },
+    "image-slot.js": {
+      "sha256": "1aa09553ed246a78119b5156cf29b0f11bf1e48df259e38536e4a3d71e283667",
+      "size_bytes": 64753
+    },
+    "index.html": {
+      "sha256": "a284a1bc81d938f6d206767552bbc54d34d357a57f485e0d3c8e230ea20132f4",
+      "size_bytes": 53072
+    },
+    "robots.txt": {
+      "sha256": "a1af87158899f3ddcbe5edc911631c22c43a7473f428f80e1c89522976621056",
+      "size_bytes": 74
+    },
+    "sitemap.xml": {
+      "sha256": "e6420d219478387affd935eef00d85a45833b5c98f995f979c3593e9254d0e25",
+      "size_bytes": 238
+    },
+    "support.js": {
+      "sha256": "c60c49083997f51a592df118c0068475337afd20b8cfd8e1cd9d5eb0c7e254f6",
+      "size_bytes": 66404
+    }
+  }
+}
