@@ -1,0 +1,73 @@
+{
+  "release": "arturo-public-cv-v2",
+  "version": "1.1",
+  "date": "2026-07-27",
+  "issue": "FinDataMan/FinDataMan#12",
+  "branch": "release/arturo-public-cv-v2",
+  "phase_2_source": {
+    "package": "arturo-public-cv-v2-claude-return-v1.1",
+    "status": "AUDITED_PASS",
+    "manifest_file_count": 13
+  },
+  "pdf": {
+    "canonical_path": "cv/arturo-villagomez-cv.pdf",
+    "compatibility_alias": "cv/Arturo_Villagomez_Gomez_CV.pdf",
+    "sha256": "1962aeb265f5b834fd29d6fcc8d7a021fe34520322c84529b87a64ce3d467a0e",
+    "pages": 2,
+    "page_size_pt": [
+      612,
+      792
+    ],
+    "internal_title": "CV — Arturo Villagomez Gomez",
+    "clickable_links": 4,
+    "selectable_text": true
+  },
+  "social_preview": {
+    "homepage_asset": "assets/arturo-villagomez-social-card-v1.jpg",
+    "cv_asset": "assets/arturo-villagomez-cv-social-card-v1.jpg",
+    "cv_asset_url": "https://arturovillagomez.com/assets/arturo-villagomez-cv-social-card-v1.jpg",
+    "assets_modified": false
+  },
+  "protected_surfaces": {
+    "landing_modified": false,
+    "dns_modified": false,
+    "social_cards_modified": false
+  },
+  "files": [
+    {
+      "path": "cv/index.html",
+      "bytes": 32194,
+      "sha256": "69960337019bc92e45010999041b44a40684568d011bb8593b7b6ca7a8389286"
+    },
+    {
+      "path": "cv/arturo-villagomez-cv.pdf",
+      "bytes": 580156,
+      "sha256": "1962aeb265f5b834fd29d6fcc8d7a021fe34520322c84529b87a64ce3d467a0e"
+    },
+    {
+      "path": "cv/Arturo_Villagomez_Gomez_CV.pdf",
+      "bytes": 580156,
+      "sha256": "1962aeb265f5b834fd29d6fcc8d7a021fe34520322c84529b87a64ce3d467a0e"
+    },
+    {
+      "path": "cv/assets/cv-page-1-thumbnail.png",
+      "bytes": 263762,
+      "sha256": "9b50f12c9e1b6d695723989e1508e32f7126fb6f13d022704b9ebe139e7151ab"
+    },
+    {
+      "path": "cv/assets/cv-page-2-thumbnail.png",
+      "bytes": 278309,
+      "sha256": "a7faf033718244574983008d2dad545cc5d0d1378abce4defb9eece2ccb6336e"
+    },
+    {
+      "path": "cv/assets/favicon.svg",
+      "bytes": 379,
+      "sha256": "e224a4a6c7cd9fc5dea8b4d328c114ff817b9f9e7fbc9dd7955c65e5450da569"
+    },
+    {
+      "path": "SEO-GEO-BASELINE.md",
+      "bytes": 1640,
+      "sha256": "f8db659c15ee9d344487d3ee655e0667e50ffb0df540876887fec5c311ef3f6c"
+    }
+  ]
+}
