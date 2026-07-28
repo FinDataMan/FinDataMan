@@ -91,7 +91,7 @@
     </div>
   </div>
 
-  
+  <main>
   <div id="top" style="position:relative; overflow:hidden; background:#185e6b; color:#f7f5f1;">
     <div data-r="hero" style="position:relative; z-index:1; max-width:1280px; margin:0 auto; display:grid; grid-template-columns:1.12fr 0.88fr; align-items:stretch; gap:0;">
       <div style="position:relative; overflow:hidden; padding:104px 56px 96px 40px;">
@@ -115,7 +115,7 @@
     </div>
     <div style="position:relative; z-index:1; border-top:1px solid rgba(247,245,241,0.16);">
       <div style="max-width:1280px; margin:0 auto; padding:22px 40px; display:flex; align-items:center; gap:40px; flex-wrap:wrap;">
-        <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#9dc9ce;">{{ trustLabel }}</span>
+        <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#bfe0e4;">{{ trustLabel }}</span>
         <sc-for list="{{ trust }}" as="t" hint-placeholder-count="3">
           <span style="font-family:'Hanken Grotesk',sans-serif; font-size:14px; color:#d6ecee;">{{ t }}</span>
         </sc-for>
@@ -134,7 +134,7 @@
           <div style="background:#f7f5f1; padding:34px 30px;">
             <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.08em; color:#185e6b; margin-bottom:16px;">{{ p.no }}</div>
             <div style="font-family:'Source Serif 4',serif; font-weight:600; font-size:24px; line-height:1.15; letter-spacing:-0.01em; margin-bottom:12px;">{{ p.title }}</div>
-            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:15px; line-height:1.55; color:#6b665d;">{{ p.body }}</div>
+            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:15px; line-height:1.55; color:#625e56;">{{ p.body }}</div>
           </div>
         </sc-for>
       </div>
@@ -149,15 +149,15 @@
           <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ routerKicker }}</div>
           <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ routerTitle }}</h2>
         </div>
-        <p style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#6b665d; margin:0; max-width:40ch;">{{ routerSub }}</p>
+        <p style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#625e56; margin:0; max-width:40ch;">{{ routerSub }}</p>
       </div>
       <div style="margin-top:36px; border-top:1px solid #d3cdc1;">
         <sc-for list="{{ routes }}" as="r" hint-placeholder-count="4">
           <div style="{{ r.rowStyle }}">
             <button type="button" onClick="{{ r.on }}" aria-expanded="{{ r.active }}" aria-controls="route-panel-{{ r.key }}" style="display:flex; align-items:center; gap:26px; padding:26px 24px; width:100%; text-align:left; background:transparent; border:none; cursor:pointer; color:inherit; font:inherit;">
-              <span style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.06em; color:#a49d92; width:28px; flex-shrink:0;">{{ r.num }}</span>
+              <span style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.06em; color:#625e56; width:28px; flex-shrink:0;">{{ r.num }}</span>
               <span style="font-family:'Source Serif 4',serif; font-weight:600; font-size:30px; letter-spacing:-0.015em; min-width:210px;">{{ r.tab }}</span>
-              <span style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; color:#6b665d; flex:1; min-width:200px;">{{ r.teaser }}</span>
+              <span style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; color:#625e56; flex:1; min-width:200px;">{{ r.teaser }}</span>
               <span style="{{ r.chev }}">&#8594;</span>
             </button>
             <sc-if value="{{ r.active }}" hint-placeholder-val="{{ false }}">
@@ -165,7 +165,7 @@
                 <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:48px; flex-wrap:wrap;">
                   <div style="max-width:50ch;">
                     <div style="font-family:'Source Serif 4',serif; font-weight:500; font-style:italic; font-size:24px; line-height:1.3; color:#1a1a17;">{{ r.thesis }}</div>
-                    <div style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#6b665d; margin-top:12px;">{{ r.sub }}</div>
+                    <div style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#625e56; margin-top:12px;">{{ r.sub }}</div>
                   </div>
                   <div style="min-width:250px; flex:1;">
                     <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ r.formLabel }}</div>
@@ -193,17 +193,17 @@
           <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ casesKicker }}</div>
           <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ casesTitle }}</h2>
         </div>
-        <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; color:#a08a5a; background:#f3ead4; border:1px solid #e4d5ad; padding:8px 14px; border-radius:6px; max-width:38ch;">{{ casesFlag }}</div>
+        <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; color:#725f35; background:#f3ead4; border:1px solid #e4d5ad; padding:8px 14px; border-radius:6px; max-width:38ch;">{{ casesFlag }}</div>
       </div>
       <div data-r="g3" style="margin-top:40px; display:grid; grid-template-columns:repeat(3,1fr); gap:20px;">
         <sc-for list="{{ cases }}" as="c" hint-placeholder-count="6">
           <button type="button" onClick="{{ c.on }}" aria-haspopup="dialog" style="cursor:pointer; background:#f7f5f1; border:1px solid #e2ddd4; border-radius:12px; padding:26px 24px 22px; display:flex; flex-direction:column; min-height:230px; text-align:left; color:inherit; font:inherit; width:100%; transition:transform .15s, box-shadow .15s;" style-hover="transform:translateY(-3px); box-shadow:0 18px 40px -22px rgba(26,26,23,.4);">
             <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:18px;">
               <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#185e6b; background:#e9f0ef; padding:4px 10px; border-radius:100px;">{{ c.tag }}</span>
-              <span style="font-family:'Martian Mono',monospace; font-size:11px; color:#c2bbad;">{{ c.num }}</span>
+              <span style="font-family:'Martian Mono',monospace; font-size:11px; color:#625e56;">{{ c.num }}</span>
             </div>
             <div style="font-family:'Source Serif 4',serif; font-weight:600; font-size:22px; line-height:1.2; letter-spacing:-0.01em; margin-bottom:10px;">{{ c.title }}</div>
-            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:14.5px; line-height:1.5; color:#6b665d; flex:1;">{{ c.teaser }}</div>
+            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:14.5px; line-height:1.5; color:#625e56; flex:1;">{{ c.teaser }}</div>
             <div style="margin-top:18px; padding-top:16px; border-top:1px solid #eee7dd; display:flex; align-items:center; justify-content:space-between;">
               <span style="font-family:'Martian Mono',monospace; font-size:12px; font-weight:600; color:#1a1a17;">{{ c.metric }}</span>
               <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#185e6b;">{{ c.open }} &#8594;</span>
@@ -213,7 +213,7 @@
       </div>
       <div style="margin-top:28px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
         <a href="https://github.com/FinDataMan" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; padding:13px 26px; border-radius:100px; border:1px solid #1a1a17; color:#1a1a17; text-decoration:none;" style-hover="background:#1a1a17; color:#f7f5f1;">{{ casesSource1 }} &#8599;</a>
-        <span style="font-family:'Hanken Grotesk',sans-serif; font-size:14px; color:#8a837a;">{{ casesSource2 }}</span>
+        <span style="font-family:'Hanken Grotesk',sans-serif; font-size:14px; color:#625e56;">{{ casesSource2 }}</span>
       </div>
     </div>
   </div>
@@ -233,7 +233,7 @@
           </div>
         </div>
         <div style="padding:34px 44px 40px;">
-          <div style="display:inline-block; font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; color:#a08a5a; background:#f3ead4; border:1px solid #e4d5ad; padding:7px 13px; border-radius:6px; margin-bottom:26px;">{{ modal.flag }}</div>
+          <div style="display:inline-block; font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; color:#725f35; background:#f3ead4; border:1px solid #e4d5ad; padding:7px 13px; border-radius:6px; margin-bottom:26px;">{{ modal.flag }}</div>
           <sc-for list="{{ modal.blocks }}" as="b" hint-placeholder-count="3">
             <div style="margin-bottom:24px;">
               <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#185e6b; margin-bottom:8px;">{{ b.k }}</div>
@@ -242,7 +242,7 @@
           </sc-for>
           <div style="display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:32px; padding-top:24px; border-top:1px solid #e2ddd4;">
             <button onClick="{{ prevCase }}" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#1a1a17; background:transparent; border:1px solid #d3cdc1; padding:11px 22px; border-radius:100px; cursor:pointer;" style-hover="border-color:#1a1a17;">&#8592; {{ modal.prev }}</button>
-            <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#a49d92;">{{ modal.counter }}</span>
+            <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#625e56;">{{ modal.counter }}</span>
             <button onClick="{{ nextCase }}" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#1a1a17; background:transparent; border:1px solid #d3cdc1; padding:11px 22px; border-radius:100px; cursor:pointer;" style-hover="border-color:#1a1a17;">{{ modal.next }} &#8594;</button>
           </div>
         </div>
@@ -258,18 +258,18 @@
           <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ methodKicker }}</div>
           <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ methodTitle }}</h2>
         </div>
-        <p style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#6b665d; margin:0; max-width:42ch;">{{ methodSub }}</p>
+        <p style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#625e56; margin:0; max-width:42ch;">{{ methodSub }}</p>
       </div>
       <div data-r="g5" style="margin-top:40px; display:grid; grid-template-columns:repeat(5,1fr); gap:2px; background:#e2ddd4; border:1px solid #e2ddd4;">
         <sc-for list="{{ method }}" as="m" hint-placeholder-count="5">
           <div style="background:#f7f5f1; padding:26px 22px;">
             <div style="font-family:'Martian Mono',monospace; font-size:11px; color:#185e6b; margin-bottom:14px;">{{ m.no }}</div>
             <div style="font-family:'Source Serif 4',serif; font-weight:600; font-size:19px; line-height:1.2; letter-spacing:-0.01em; margin-bottom:9px;">{{ m.title }}</div>
-            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:13.5px; line-height:1.5; color:#6b665d;">{{ m.body }}</div>
+            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:13.5px; line-height:1.5; color:#625e56;">{{ m.body }}</div>
           </div>
         </sc-for>
       </div>
-      <div style="margin-top:22px; font-family:'Hanken Grotesk',sans-serif; font-size:14px; line-height:1.55; color:#8a837a;">{{ methodTools }}</div>
+      <div style="margin-top:22px; font-family:'Hanken Grotesk',sans-serif; font-size:14px; line-height:1.55; color:#625e56;">{{ methodTools }}</div>
     </div>
   </div>
 
@@ -295,11 +295,11 @@
           <span style="position:absolute; top:9px; right:9px; width:13px; height:13px; border-top:2px solid #185e6b; border-right:2px solid #185e6b;"></span>
           <span style="position:absolute; bottom:9px; left:9px; width:13px; height:13px; border-bottom:2px solid #185e6b; border-left:2px solid #185e6b;"></span>
           <span style="position:absolute; bottom:9px; right:9px; width:13px; height:13px; border-bottom:2px solid #185e6b; border-right:2px solid #185e6b;"></span>
-          <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#8a837a; padding-bottom:15px; border-bottom:1px solid #eee7dd; margin-bottom:15px;">{{ dossierTitle }}</div>
+          <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#625e56; padding-bottom:15px; border-bottom:1px solid #eee7dd; margin-bottom:15px;">{{ dossierTitle }}</div>
           <div style="display:flex; flex-direction:column; gap:13px;">
             <sc-for list="{{ dossier }}" as="d" hint-placeholder-count="5">
               <div style="display:flex; justify-content:space-between; gap:16px; align-items:baseline;">
-                <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a837a; flex-shrink:0;">{{ d.k }}</span>
+                <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#625e56; flex-shrink:0;">{{ d.k }}</span>
                 <span style="font-family:'Hanken Grotesk',sans-serif; font-weight:600; font-size:14px; color:#1a1a17; text-align:right;">{{ d.v }}</span>
               </div>
             </sc-for>
@@ -322,13 +322,13 @@
       <div style="border-top:1px solid #e2ddd4;">
         <sc-for list="{{ themes }}" as="th" hint-placeholder-count="4">
           <div style="display:flex; align-items:center; gap:30px; padding:22px 8px; border-bottom:1px solid #e2ddd4;">
-            <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#a49d92; width:104px; flex-shrink:0;">{{ th.tag }}</span>
+            <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#625e56; width:104px; flex-shrink:0;">{{ th.tag }}</span>
             <span style="font-family:'Source Serif 4',serif; font-weight:600; font-size:21px; letter-spacing:-0.01em; color:#1a1a17; flex:1;">{{ th.title }}</span>
-            <span style="font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; color:#8a837a; flex-shrink:0;">{{ soonLabel }}</span>
+            <span style="font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; color:#625e56; flex-shrink:0;">{{ soonLabel }}</span>
           </div>
         </sc-for>
       </div>
-      <div style="margin-top:22px; font-family:'Hanken Grotesk',sans-serif; font-size:14px; line-height:1.55; color:#6b665d; max-width:60ch;">{{ writeNote }}</div>
+      <div style="margin-top:22px; font-family:'Hanken Grotesk',sans-serif; font-size:14px; line-height:1.55; color:#625e56; max-width:60ch;">{{ writeNote }}</div>
     </div>
   </div>
 
@@ -346,15 +346,16 @@
       </div>
     </div>
   </div>
+  </main>
 
   
-  <div style="background:#1a1a17; color:#8a837a;">
+  <div style="background:#1a1a17; color:#a49d92;">
     <div style="max-width:1200px; margin:0 auto; padding:34px 40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
       <div style="display:flex; align-items:center; gap:12px;">
-        <svg viewBox="0 0 100 96" width="20" height="19" fill="none" stroke="#5f5a52" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"><polyline points="8,84 34,22 60,72 86,10"></polyline><line x1="20.6" y1="54" x2="50.6" y2="54"></line></svg>
-        <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; color:#5f5a52;">© 2026 Arturo Villagomez</span>
+        <svg viewBox="0 0 100 96" width="20" height="19" fill="none" stroke="#a49d92" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"><polyline points="8,84 34,22 60,72 86,10"></polyline><line x1="20.6" y1="54" x2="50.6" y2="54"></line></svg>
+        <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; color:#a49d92;">© 2026 Arturo Villagomez</span>
       </div>
-      <div style="font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:0.06em; color:#4a463e;">{{ footerNote }}</div>
+      <div style="font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:0.06em; color:#a49d92;">{{ footerNote }}</div>
     </div>
   </div>
 
@@ -385,6 +386,7 @@ class Component extends DCLogic {
   }
   componentWillUnmount() { document.removeEventListener('keydown', this._onKey); }
   componentDidUpdate(prevProps, prevState) {
+    if (!prevState) return;
     if (prevState.lang !== this.state.lang) document.documentElement.lang = this.state.lang;
     if (prevState.caseIdx === null && this.state.caseIdx !== null) {
       this._lastFocus = document.activeElement;
@@ -474,7 +476,7 @@ class Component extends DCLogic {
       const active = this.state.route===r.key;
       return { ...r, num:'0'+(i+1), active,
         rowStyle: rowBase + (active ? "background:#dfdacf; border-left:4px solid #185e6b;" : "background:transparent; border-left:4px solid transparent;"),
-        chev: "font-family:'Martian Mono',monospace; font-size:20px; transition:transform .15s; " + (active ? "color:#185e6b; transform:rotate(90deg);" : "color:#b7b0a2;"),
+        chev: "font-family:'Martian Mono',monospace; font-size:20px; transition:transform .15s; " + (active ? "color:#185e6b; transform:rotate(90deg);" : "color:#625e56;"),
         on: () => this.setState({ route:r.key }),
       };
     });
