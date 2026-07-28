@@ -15,6 +15,10 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "size_bytes": 0
     },
+    ".image-slots.state.json": {
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "size_bytes": 3
+    },
     "404.html": {
       "sha256": "fc6216111c0d37ebfcfbdd6f2e9c08f9863bb513104b59886c1be722b73b8ca5",
       "size_bytes": 654
@@ -48,16 +52,16 @@
       "size_bytes": 64753
     },
     "index.html": {
-      "sha256": "a284a1bc81d938f6d206767552bbc54d34d357a57f485e0d3c8e230ea20132f4",
-      "size_bytes": 53072
+      "sha256": "c5008446c2d9f0d274b9e148d9fd4703006760ed2296105a67fd9629b28da374",
+      "size_bytes": 55210
     },
     "robots.txt": {
       "sha256": "a1af87158899f3ddcbe5edc911631c22c43a7473f428f80e1c89522976621056",
       "size_bytes": 74
     },
     "sitemap.xml": {
-      "sha256": "e6420d219478387affd935eef00d85a45833b5c98f995f979c3593e9254d0e25",
-      "size_bytes": 238
+      "sha256": "f09463f763e77f50654a96aa74f7a45e6ed12a6685280c0418c6111fc6ebaf66",
+      "size_bytes": 391
     },
     "support.js": {
       "sha256": "c60c49083997f51a592df118c0068475337afd20b8cfd8e1cd9d5eb0c7e254f6",
