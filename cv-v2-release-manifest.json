@@ -1,26 +1,40 @@
 {
   "release": "arturo-public-cv-v2",
-  "version": "1.1",
-  "date": "2026-07-27",
+  "version": "1.2",
+  "date": "2026-07-28",
   "issue": "FinDataMan/FinDataMan#12",
-  "branch": "release/arturo-public-cv-v2",
+  "branch": "agent/promote-av-editorial-v2",
   "phase_2_source": {
-    "package": "arturo-public-cv-v2-claude-return-v1.1",
-    "status": "AUDITED_PASS",
-    "manifest_file_count": 13
+    "package": "AV Editorial Extended v2",
+    "repository": "FinDataMan/arturo-personal-runtime",
+    "merge_commit": "69fc2213f5bc197a7a9cbdd7d9e58554cce5c8c4",
+    "status": "WINDOWS_WORD_GATE_PASS",
+    "manifest_file_count": 6
   },
   "pdf": {
     "canonical_path": "cv/arturo-villagomez-cv.pdf",
     "compatibility_alias": "cv/Arturo_Villagomez_Gomez_CV.pdf",
-    "sha256": "1ab37e81c3dc17666bcf153bdd9fd82d1252348a948763356738028e01f54cbd",
+    "sha256": "9eb01858c1d0b01030e7a35f18f25198f9bf35a116773d17130cdad757649566",
+    "source_docx_sha256": "b079a6909f57886f1d8baa654346df08d60fb98e24b71f234e95d266c97ba138",
+    "exporter": "Microsoft Word 2019",
+    "format": "A4",
     "pages": 2,
     "page_size_pt": [
-      612,
-      792
+      595.32,
+      841.92
     ],
-    "internal_title": "CV — Arturo Villagomez Gomez",
-    "clickable_links": 4,
+    "internal_title": "Arturo Villagomez Gomez — CV",
+    "clickable_links": 5,
     "selectable_text": true
+  },
+  "document_preview": {
+    "assets_modified": true,
+    "page_1": "cv/assets/cv-page-1-thumbnail.png",
+    "page_2": "cv/assets/cv-page-2-thumbnail.png",
+    "dimensions_px": [
+      816,
+      1155
+    ]
   },
   "social_preview": {
     "homepage_asset": "assets/arturo-villagomez-social-card-v1.jpg",
@@ -31,33 +45,34 @@
   "protected_surfaces": {
     "landing_modified": false,
     "dns_modified": false,
-    "social_cards_modified": false
+    "social_cards_modified": false,
+    "cv_page_modified": true
   },
   "files": [
     {
       "path": "cv/index.html",
-      "bytes": 32194,
-      "sha256": "69960337019bc92e45010999041b44a40684568d011bb8593b7b6ca7a8389286"
+      "bytes": 32166,
+      "sha256": "3cb5e4a3443a551afcc88d56376d86ea4eb8f2ef90e2e0458f907800db0a6794"
     },
     {
       "path": "cv/arturo-villagomez-cv.pdf",
-      "bytes": 421190,
-      "sha256": "1ab37e81c3dc17666bcf153bdd9fd82d1252348a948763356738028e01f54cbd"
+      "bytes": 80040,
+      "sha256": "9eb01858c1d0b01030e7a35f18f25198f9bf35a116773d17130cdad757649566"
     },
     {
       "path": "cv/Arturo_Villagomez_Gomez_CV.pdf",
-      "bytes": 421190,
-      "sha256": "1ab37e81c3dc17666bcf153bdd9fd82d1252348a948763356738028e01f54cbd"
+      "bytes": 80040,
+      "sha256": "9eb01858c1d0b01030e7a35f18f25198f9bf35a116773d17130cdad757649566"
     },
     {
       "path": "cv/assets/cv-page-1-thumbnail.png",
-      "bytes": 263762,
-      "sha256": "9b50f12c9e1b6d695723989e1508e32f7126fb6f13d022704b9ebe139e7151ab"
+      "bytes": 177483,
+      "sha256": "1f036b98bfa4a654b95703aa92921920b91de5d7a4029ca92417d86e0c713f09"
     },
     {
       "path": "cv/assets/cv-page-2-thumbnail.png",
-      "bytes": 278309,
-      "sha256": "a7faf033718244574983008d2dad545cc5d0d1378abce4defb9eece2ccb6336e"
+      "bytes": 156205,
+      "sha256": "7e92614745ccfcea3749120d096d88d4cd763319cb05d88f7a4511a91be5f463"
     },
     {
       "path": "cv/assets/favicon.svg",
