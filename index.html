@@ -33,7 +33,7 @@
   "@graph":[
     {"@type":"WebSite","@id":"https://arturovillagomez.com/#website","url":"https://arturovillagomez.com/","name":"Arturo Villagomez","inLanguage":["es-MX","en"]},
     {"@type":"ProfilePage","@id":"https://arturovillagomez.com/#webpage","url":"https://arturovillagomez.com/","name":"Arturo Villagomez — Finanzas, Operaciones e IA aplicada","description":"Arturo Villagomez convierte la complejidad de un negocio en decisiones y en los sistemas que las ejecutan.","isPartOf":{"@id":"https://arturovillagomez.com/#website"},"mainEntity":{"@id":"https://arturovillagomez.com/#person"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://arturovillagomez.com/assets/arturo-villagomez-social-card-v1.jpg","width":1200,"height":630}},
-    {"@type":"Person","@id":"https://arturovillagomez.com/#person","name":"Arturo Villagomez Gomez","alternateName":"Arturo Villagómez Gómez","url":"https://arturovillagomez.com/","image":"https://arturovillagomez.com/assets/landing-about.svg","description":"Finanzas, Operaciones e IA aplicada. Sistemas que escalan.","email":"mailto:hola@arturovillagomez.com","sameAs":["https://www.linkedin.com/in/arturo-villagomez-gomez","https://github.com/FinDataMan"]}
+    {"@type":"Person","@id":"https://arturovillagomez.com/#person","name":"Arturo Villagomez Gomez","url":"https://arturovillagomez.com/","image":"https://arturovillagomez.com/assets/landing-about.svg","description":"Finanzas, Operaciones e IA aplicada. Sistemas que escalan.","email":"mailto:hola@arturovillagomez.com","sameAs":["https://www.linkedin.com/in/arturo-villagomez-gomez","https://github.com/FinDataMan"]}
   ]
 }</script>
 <script src="./support.js"></script>
@@ -52,6 +52,7 @@
   a { color:#185e6b; text-decoration:none; }
   a:hover { color:#0f3f48; }
   img { max-width:100%; }
+  #casos, #rutas, #perfil, #metodo, #sobre, #contacto { scroll-margin-top:84px; }
   ::selection { background:#185e6b; color:#f7f5f1; }
   a:focus-visible, button:focus-visible { outline:2px solid #185e6b; outline-offset:3px; border-radius:4px; }
   @media (max-width:1020px){ [data-r="g3"]{ grid-template-columns:1fr !important; } }
@@ -63,12 +64,17 @@
     [data-r="about"]{ grid-template-columns:1fr !important; gap:40px !important; }
   }
   @media (max-width:620px){
+    #casos, #rutas, #perfil, #metodo, #sobre, #contacto { scroll-margin-top:150px; }
     [data-r="g5"]{ grid-template-columns:1fr !important; }
     [data-r="route-btn"]{ display:grid !important; grid-template-columns:28px minmax(0,1fr) auto !important; gap:12px !important; padding:22px 16px !important; align-items:center !important; }
     [data-r="route-title"]{ min-width:0 !important; font-size:25px !important; }
     [data-r="route-teaser"]{ grid-column:2 / -1; min-width:0 !important; }
     [data-r="route-panel"]{ padding:0 16px 28px 56px !important; }
     [data-r="route-panel"] > div > div{ min-width:0 !important; width:100% !important; }
+    .case-modal-overlay{ padding:14px !important; }
+    .case-modal-header{ padding:30px 28px 26px !important; }
+    .case-modal-body{ padding:28px 28px 32px !important; }
+    #case-modal-title{ font-size:27px !important; overflow-wrap:anywhere; }
   }
   @media (prefers-reduced-motion: reduce){ * { transition:none !important; animation:none !important; scroll-behavior:auto !important; } }
   @media print { [data-band] { display:none !important; } }
@@ -157,16 +163,16 @@
 
   <!-- MODAL DE CASO -->
   <sc-if value="{{ modal.open }}" hint-placeholder-val="{{ false }}">
-    <div onClick="{{ closeCase }}" style="position:fixed; inset:0; z-index:400; background:rgba(20,19,16,0.62); backdrop-filter:blur(3px); display:flex; align-items:center; justify-content:center; padding:24px;">
-      <div onClick="{{ stop }}" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="case-modal-title" style="position:relative; width:820px; max-width:100%; max-height:88vh; overflow:auto; outline:none; background:#f7f5f1; border-radius:16px; box-shadow:0 40px 100px -30px rgba(0,0,0,.6);">
-        <div style="position:relative; overflow:hidden; background:#1a1a17; color:#f7f5f1; padding:34px 40px 30px;">
+    <div class="case-modal-overlay" onClick="{{ closeCase }}" style="position:fixed; inset:0; z-index:400; background:rgba(20,19,16,0.62); backdrop-filter:blur(3px); display:flex; align-items:center; justify-content:center; padding:24px;">
+      <div onClick="{{ stop }}" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="case-modal-title" style="position:relative; width:820px; max-width:100%; max-height:88vh; overflow-y:auto; overflow-x:hidden; outline:none; background:#f7f5f1; border-radius:16px; box-shadow:0 40px 100px -30px rgba(0,0,0,.6);">
+        <div class="case-modal-header" style="position:relative; overflow:hidden; background:#1a1a17; color:#f7f5f1; padding:34px 40px 30px;">
           <div style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
             <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#8fbac0; background:rgba(143,186,192,0.12); padding:5px 12px; border-radius:100px;">{{ modal.tag }}</span>
             <button onClick="{{ closeCase }}" aria-label="{{ modal.cerrar }}" style="font-family:'Martian Mono',monospace; font-size:18px; color:#a49d92; background:transparent; border:none; cursor:pointer; line-height:1; min-height:44px; min-width:44px;" style-hover="color:#f7f5f1;">&#10005;</button>
           </div>
           <div id="case-modal-title" style="font-family:'Source Serif 4',serif; font-weight:600; font-size:32px; line-height:1.12; letter-spacing:-0.02em; margin-top:16px; max-width:22ch;">{{ modal.title }}</div>
         </div>
-        <div style="padding:30px 40px 38px;">
+        <div class="case-modal-body" style="padding:30px 40px 38px;">
           <sc-for list="{{ modal.gal }}" as="g" hint-placeholder-count="3">
             <figure style="margin:0 0 18px;">
               <span>{{ g.imgEl }}</span>
@@ -355,21 +361,22 @@ class Component extends DCLogic {
     const PP = 'assets/casos/';
     const gimg = (src, alt) => React.createElement('img', { src, alt, style: { display:'block', width:'100%', height:'auto', borderRadius:'8px', background:'#dfdacf' } });
     const cases = [
-      { tag:t('Marca personal','Personal brand'), title:'Arturo Villagómez Brand System',
-        teaser:t('Mi propio sistema de marca: identidad, 18 bloques de aplicación y las plantillas que producen el trabajo.','My own brand system: identity, 18 application blocks and the templates that produce the work.'),
-        metric:t('Sistema vigente y en uso','System live and in use'),
-        img: PP + 'slot01-identidad.png',
-        imgAlt:t('Identidad Arturo Villagómez: lockup AV sobre fondo de marca','Arturo Villagómez identity: AV lockup on brand background'),
+      { tag:t('Web · Marca personal','Web · Personal brand'), title:t('ArturoVillagomez.com · Sistema de marca y portafolio','ArturoVillagomez.com · Brand & Portfolio System'),
+        teaser:t('Posicionamiento profesional convertido en un portafolio bilingüe con rutas por audiencia, casos interactivos y un sistema de marca consistente.','Professional positioning translated into a bilingual portfolio with audience journeys, interactive cases and a consistent brand system.'),
+        metric:t('2 idiomas · 3 rutas','2 languages · 3 journeys'),
+        img: PP + 'slot01-sitio.png',
+        imgAlt:t('Página principal de ArturoVillagomez.com','ArturoVillagomez.com homepage'),
         gal: [
+          { src: PP + 'slot01-sitio.png', cap:t('Sitio público ArturoVillagomez.com — portafolio bilingüe','Public ArturoVillagomez.com website — bilingual portfolio') },
           { src: PP + 'slot01-identidad.png', cap:t('Identidad — monograma AV y wordmark (sistema vigente)','Identity — AV monogram and wordmark (live system)') },
           { src: PP + 'slot01-plantilla.png', cap:t('Aplicación — estructura canónica de la plantilla de propuesta (sin cliente, sin cifras)','Application — canonical structure of the proposal template (no client, no figures)') }
         ],
         blocks: [
-          { k:t('Problema','Problem'), v:t('Una trayectoria generalista necesitaba una identidad coherente y un sistema que la sostuviera en cada pieza: CV, decks, propuestas y sitio.','A generalist career needed a coherent identity and a system to carry it across every piece: CV, decks, proposals and site.') },
-          { k:t('Intervención y rol','Intervention & role'), v:t('Autoautoría: diseño y construcción del sistema completo.','Self-authored: design and build of the entire system.') },
-          { k:t('Entregables','Deliverables'), v:t('Identidad (logo, color, tipografía, patrones) · 18 bloques de aplicación · plantillas de propuesta, decks y CV.','Identity (logo, color, type, patterns) · 18 application blocks · proposal, deck and CV templates.') },
-          { k:t('Resultado / estado','Outcome / status'), v:t('Sistema vigente y en uso (jul-2026). Sin resultado comercial declarado.','System live and in use (Jul 2026). No commercial result claimed.') }
-        ], link:null },
+          { k:t('Problema','Problem'), v:t('Mi experiencia cruza finanzas, operaciones, producto e IA aplicada; necesitaba convertir esa amplitud en una narrativa coherente para públicos distintos.','My experience spans finance, operations, product and applied AI; I needed to turn that breadth into a coherent narrative for different audiences.') },
+          { k:t('Intervención y rol','Intervention & role'), v:t('Concebí y dirigí el portafolio, su arquitectura bilingüe y el sistema de marca que mantiene consistencia entre sitio, CV, decks y propuestas.','I conceived and led the portfolio, its bilingual architecture and the brand system that keeps the website, CV, decks and proposals consistent.') },
+          { k:t('Entregables','Deliverables'), v:t('Sitio bilingüe · rutas para empleo, consultoría y ventures · casos interactivos · identidad y plantillas reutilizables.','Bilingual website · journeys for hiring, consulting and ventures · interactive cases · identity and reusable templates.') },
+          { k:t('Resultado / estado','Outcome / status'), v:t('Sitio público activo con dos idiomas y tres rutas principales. No se atribuyen métricas de tráfico o conversión sin analítica.','Live public website with two languages and three primary journeys. No traffic or conversion metrics are claimed without analytics.') }
+        ], link:'https://arturovillagomez.com/', linkLabelEs:'Ver el portafolio', linkLabelEn:'View the portfolio' },
       { tag:t('Hospitalidad','Hospitality'), title:'Casa Artú / Tamanova',
         teaser:t('Identidad y experiencia del huésped para una casa entre Mérida y Progreso, con anuncio activo verificado.','Guest identity and experience for a home between Mérida and Progreso, with a verified live listing.'),
         metric:t('Anuncio activo verificado','Verified live listing'),
@@ -386,9 +393,9 @@ class Component extends DCLogic {
           { k:t('Entregables','Deliverables'), v:t('Sistema de marca (18 bloques) · guía física del huésped · señalética · portada editorial.','Brand system (18 blocks) · physical guest guide · signage · editorial cover.') },
           { k:t('Resultado / estado','Outcome / status'), v:t('Anuncio publicado y con una primera evaluación — verificado (ago-2026). Guía impresa: pendiente. No se afirman ocupación, ingresos ni satisfacción.','Listing live with a first review — verified (Aug 2026). Printed guide: pending. No occupancy, revenue or satisfaction claims.') }
         ], link:'https://www.airbnb.com/h/casa-artu-merida-progreso', linkLabelEs:'Ver el anuncio', linkLabelEn:'View the listing' },
-      { tag:t('Comercial · digital','Commercial · digital'), title:'Don Ventas',
-        teaser:t('Sistema de marca y presencia digital: manual, sitio público activo verificado y producto digital.','Brand system and digital presence: brand manual, verified live public site and digital product.'),
-        metric:t('Sitio público activo verificado','Verified live public site'),
+      { tag:t('Web · Comercial','Web · Commercial'), title:t('DonVentas.mx · Sistema de marca y sitio comercial','DonVentas.mx · Brand System & Commercial Website'),
+        teaser:t('Un sistema de marca convertido en oferta, precios, diagnóstico, casos y acceso a un producto digital.','A brand system translated into an offer, pricing, diagnostic journey, cases and access to a digital product.'),
+        metric:t('3 capas · 6 sistemas','3 layers · 6 systems'),
         img: PP + 'slot08-sitio.png',
         imgAlt:t('Sitio Don Ventas en vivo: "Tu marca es tu ventaja"','Don Ventas live site: "Your brand is your advantage"'),
         gal: [
@@ -398,9 +405,9 @@ class Component extends DCLogic {
         ],
         blocks: [
           { k:t('Problema','Problem'), v:t('Una marca comercial necesitaba presencia digital completa: identidad, sitio propio y materiales de venta.','A commercial brand needed a complete digital presence: identity, its own site and sales materials.') },
-          { k:t('Intervención y rol','Intervention & role'), v:t('Diseño del sistema de marca y su despliegue digital.','Brand-system design and its digital rollout.') },
+          { k:t('Intervención y rol','Intervention & role'), v:t('Diseñé el sistema de marca y dirigí el lanzamiento del sitio: arquitectura de servicios, precios, diagnóstico, trabajo aplicado y conexión con el portal digital.','I designed the brand system and led the website launch: service architecture, pricing, diagnostic journey, applied work and digital-portal handoff.') },
           { k:t('Entregables','Deliverables'), v:t('Manual de marca (18 bloques) · sitio donventas.mx · deck de clientes · portal digital (vistas cliente).','Brand manual (18 blocks) · donventas.mx site · client deck · digital portal (client views).') },
-          { k:t('Resultado / estado','Outcome / status'), v:t('Sitio público activo verificado (ago-2026). Resultados comerciales aún sin documentar — no se afirman cifras.','Verified live public site (Aug 2026). Commercial results are not yet documented — no figures claimed.') }
+          { k:t('Resultado / estado','Outcome / status'), v:t('Sitio público con tres capas de servicio, seis sistemas aplicados, 18 referencias visuales y un flujo de diagnóstico enlazado. Son métricas estructurales; no se afirman resultados comerciales sin evidencia.','Live website with three service layers, six applied systems, 18 visual references and a linked diagnostic journey. These are structural metrics; no commercial outcomes are claimed without evidence.') }
         ], link:'https://www.donventas.mx/', linkLabelEs:'Ver el sitio', linkLabelEn:'View the site' }
     ];
     const routes = [
@@ -456,10 +463,10 @@ class Component extends DCLogic {
       essence:t('Convierto la complejidad de un negocio en decisiones y en los sistemas que las ejecutan.','I turn business complexity into decisions — and the systems that execute them.'),
       heroSub:t('Criterio financiero, disciplina operativa e IA aplicada para que la información correcta llegue a la decisión correcta en el momento correcto.','Financial judgment, operational discipline and applied AI — so the right information reaches the right decision at the right moment.'),
       heroCta:t('Hablemos','Let’s talk'), heroCta2:t('Ver el trabajo','See the work'),
-      heroPhotoAlt:t('Retrato de Arturo Villagómez','Portrait of Arturo Villagómez'),
+      heroPhotoAlt:t('Retrato de Arturo Villagomez','Portrait of Arturo Villagomez'),
       casesKicker:t('La tesis, en la práctica','The thesis in practice'),
       casesTitle:t('Trabajo real, con su estado real','Real work, with its real status'),
-      casesSub:t('Tres casos con evidencia visual del sistema y su aplicación. Donde no hay un resultado cuantitativo documentado, se dice literalmente.','Three cases with visual evidence of the system and its application. Where no quantitative result is documented, it says so literally.'),
+      casesSub:t('Tres casos con evidencia visual del sistema y su aplicación, incluyendo dos sitios públicos. Donde no hay un resultado cuantitativo documentado, se dice literalmente.','Three cases with visual evidence of the system and its application, including two public websites. Where no quantitative result is documented, it says so literally.'),
       cases: cases.map((c, i) => Object.assign({}, c, { num:'0' + (i + 1), open:t('Ver caso','View case'), abrir:t('Abrir el caso ','Open case ') + c.title,
         imgEl: React.createElement('img', { src: c.img, alt: c.imgAlt, style: { display:'block', width:'100%', aspectRatio:'16/10', objectFit:'cover', background:'#dfdacf' } }),
         on: () => { this._lastFocus = document.activeElement; this.setState({ caseIdx:i }, () => { const d = document.querySelector('[role="dialog"]'); if (d) d.focus(); }); } })),
@@ -493,7 +500,7 @@ class Component extends DCLogic {
         'COO and partner at AMEZ CFO, where I lead the firm’s financial analysis, operating methodology and delivery systems. Before that, financial analyst for companies across several sectors.',
         'I also co-founded ButterBuck, where I built the financial and product architecture and led Product Operations. My edge is combining finance, operations, product and applied AI in one head.'
       ],
-      aboutPhotoAlt:t('Retrato de Arturo Villagómez','Portrait of Arturo Villagómez'),
+      aboutPhotoAlt:t('Retrato de Arturo Villagomez','Portrait of Arturo Villagomez'),
       dossierTitle:t('Perfil · resumen','Profile · summary'),
       dossier: [
         { k:t('Rol','Role'), v:t('COO y Socio · AMEZ CFO','COO & Partner · AMEZ CFO') },
