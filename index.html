@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <title>Arturo Villagomez — Finanzas, Operaciones e IA aplicada</title>
 <meta name="description" content="Arturo Villagomez convierte la complejidad de un negocio en decisiones y en los sistemas que las ejecutan: criterio financiero, disciplina operativa e IA aplicada.">
 <meta name="author" content="Arturo Villagomez">
@@ -29,14 +28,7 @@
 <meta name="twitter:description" content="Convierto la complejidad de un negocio en decisiones y en los sistemas que las ejecutan.">
 <meta name="twitter:image" content="https://arturovillagomez.com/assets/arturo-villagomez-social-card-v1.jpg">
 <meta name="twitter:image:alt" content="Arturo Villagomez — Finanzas, Operaciones e IA aplicada.">
-<script type="application/ld+json">{
-  "@context":"https://schema.org",
-  "@graph":[
-    {"@type":"WebSite","@id":"https://arturovillagomez.com/#website","url":"https://arturovillagomez.com/","name":"Arturo Villagomez","inLanguage":["es-MX","en"]},
-    {"@type":"ProfilePage","@id":"https://arturovillagomez.com/#webpage","url":"https://arturovillagomez.com/","name":"Arturo Villagomez — Finanzas, Operaciones e IA aplicada","description":"Arturo Villagomez convierte la complejidad de un negocio en decisiones y en los sistemas que las ejecutan.","isPartOf":{"@id":"https://arturovillagomez.com/#website"},"mainEntity":{"@id":"https://arturovillagomez.com/#person"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://arturovillagomez.com/assets/arturo-villagomez-social-card-v1.jpg","width":1200,"height":630}},
-    {"@type":"Person","@id":"https://arturovillagomez.com/#person","name":"Arturo Villagomez Gomez","url":"https://arturovillagomez.com/","image":"https://arturovillagomez.com/assets/landing-about.svg","description":"Finanzas, Operaciones e IA aplicada. Sistemas que escalan.","email":"mailto:hola@arturovillagomez.com","sameAs":["https://www.linkedin.com/in/arturo-villagomez-gomez","https://github.com/FinDataMan"]}
-  ]
-}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Arturo Villagomez","url":"https://arturovillagomez.com/","jobTitle":"COO & Partner, AMEZ CFO","worksFor":{"@type":"Organization","name":"AMEZ CFO"},"description":"Finanzas, Operaciones e IA aplicada. Sistemas que escalan.","email":"hola@arturovillagomez.com","sameAs":["https://www.linkedin.com/in/arturo-villagomez-gomez","https://findataman.github.io/FinDataMan/"]}</script>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -49,187 +41,289 @@
   * { box-sizing:border-box; }
   html { scroll-behavior:smooth; }
   html, body { margin:0; padding:0; background:#e7e3db; }
-  body { overflow-x:hidden; }
   a { color:#185e6b; text-decoration:none; }
   a:hover { color:#0f3f48; }
-  img { max-width:100%; }
-  #casos, #rutas, #perfil, #metodo, #sobre, #contacto { scroll-margin-top:84px; }
   ::selection { background:#185e6b; color:#f7f5f1; }
-  a:focus-visible, button:focus-visible { outline:2px solid #185e6b; outline-offset:3px; border-radius:4px; }
-  @media (max-width:1020px){ [data-r="g3"]{ grid-template-columns:1fr !important; } }
+  a:focus-visible, button:focus-visible, [role="button"]:focus-visible { outline:2px solid #f7f5f1; outline-offset:2px; box-shadow:0 0 0 4px #185e6b; border-radius:4px; }
+  .site-nav { position:sticky; top:0; z-index:100; background:rgba(26,26,23,0.94); backdrop-filter:blur(10px); border-bottom:1px solid #2c2a26; }
+  .reading-progress { position:absolute; left:0; bottom:-1px; width:100%; height:2px; z-index:2; background:#8fbac0; transform:scaleX(0); transform-origin:left center; will-change:transform; }
+  .nav-shell { max-width:1200px; margin:0 auto; padding:14px 40px; display:flex; align-items:center; justify-content:space-between; gap:16px 24px; }
+  .nav-identity, .nav-cluster, .navlinks { display:flex; align-items:center; }
+  .nav-identity { gap:12px; min-height:44px; }
+  .nav-cluster { gap:16px 28px; }
+  .navlinks { gap:16px 26px; }
+  .navlinks a, .nav-contact, .lang-switch button { min-height:44px; display:inline-flex; align-items:center; justify-content:center; }
+  .text-link { min-height:44px; display:inline-flex; align-items:center; }
+  .nav-contact { padding:0 20px !important; }
+  .hero-copy { position:relative; overflow:hidden; padding:104px 56px 96px 40px; }
+  .hero-media { position:relative; min-height:600px; overflow:hidden; background:#103f48; }
+  .hero-media img { transition:transform 1.2s cubic-bezier(.2,.7,.2,1); }
+  .hero-media:hover img { transform:scale(1.018); }
+  .hero-edge { position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg,#185e6b 0%,rgba(24,94,107,.22) 15%,transparent 42%); }
+  .hero-register { position:absolute; top:24px; right:24px; width:18px; height:18px; border-top:1px solid rgba(247,245,241,.75); border-right:1px solid rgba(247,245,241,.75); pointer-events:none; }
+  .hero-signal { position:absolute; left:28px; bottom:28px; z-index:3; display:flex; align-items:flex-end; gap:6px; pointer-events:none; }
+  .hero-signal span { width:8px; height:8px; background:#8fbac0; animation:step-rise 2.8s cubic-bezier(.2,.7,.2,1) infinite; }
+  .hero-signal span:nth-child(2) { transform:translateY(-7px); animation-delay:.12s; }
+  .hero-signal span:nth-child(3) { transform:translateY(-14px); animation-delay:.24s; }
+  .hero-trust { max-width:1280px; margin:0 auto; padding:22px 40px; display:flex; align-items:center; gap:22px 40px; flex-wrap:wrap; }
+  .section-shell { max-width:1200px; margin:0 auto; padding:88px 40px 96px; }
+  .section-head { display:flex; align-items:flex-end; justify-content:space-between; gap:30px; flex-wrap:wrap; }
+  .route-button { display:grid !important; grid-template-columns:28px minmax(190px,230px) minmax(220px,1fr) 24px; align-items:center; gap:26px; }
+  .route-name, .route-teaser { min-width:0 !important; }
+  .route-row { position:relative; overflow:hidden; }
+  .route-row::after { content:""; position:absolute; left:0; right:0; bottom:0; height:1px; background:#185e6b; transform:scaleX(0); transform-origin:left; transition:transform .5s cubic-bezier(.2,.7,.2,1); }
+  .route-row:hover::after, .route-row:focus-within::after { transform:scaleX(1); }
+  .thesis-grid { gap:10px !important; background:transparent !important; border:0 !important; }
+  .thesis-card { position:relative; overflow:hidden; min-height:230px; border:1px solid #e2ddd4; box-shadow:0 0 0 rgba(26,26,23,0); transition:transform .28s cubic-bezier(.2,.7,.2,1), background .28s ease, border-color .28s ease, box-shadow .28s ease; }
+  .thesis-card::after { content:""; position:absolute; left:0; right:0; bottom:0; height:4px; background:#8fbac0; transform:scaleX(0); transform-origin:left; transition:transform .38s cubic-bezier(.2,.7,.2,1); }
+  .thesis-card:hover, .thesis-card:focus-visible { z-index:1; outline:none; transform:translateY(-5px); background:#185e6b !important; border-color:#185e6b; box-shadow:0 22px 44px -28px rgba(26,26,23,.65); }
+  .thesis-card:hover::after, .thesis-card:focus-visible::after { transform:scaleX(1); }
+  .thesis-card:hover > div, .thesis-card:focus-visible > div { color:#f7f5f1 !important; }
+  .thesis-card:hover > div:last-child, .thesis-card:focus-visible > div:last-child { color:#d6ecee !important; }
+  .route-panel-grid { display:grid !important; grid-template-columns:minmax(0,1.15fr) minmax(250px,.85fr); gap:48px; }
+  .case-grid { grid-template-columns:repeat(3,minmax(0,1fr)) !important; gap:18px !important; background:transparent !important; border:none !important; }
+  .case-card { min-height:330px !important; border-radius:8px !important; overflow:hidden; }
+  .case-visual { position:relative; display:grid; place-items:center; width:calc(100% + 48px); margin:-26px -24px 22px; aspect-ratio:16/10; overflow:hidden; padding:12px; background:#dfdacf; border:0; border-bottom:1px solid #e2ddd4; cursor:pointer; transition:background .45s ease; }
+  .case-visual img { display:block; width:100%; height:100%; object-fit:contain; object-position:center; }
+  .case-card:hover .case-visual { background:#d4cec2; }
+  .case-card:first-child { grid-column:span 2; grid-row:span 2; min-height:518px !important; padding:42px !important; justify-content:flex-start !important; background:#1a1a17 !important; color:#f7f5f1 !important; border-color:#1a1a17 !important; }
+  .case-card:first-child .case-visual { margin:-42px -42px 30px; aspect-ratio:16/10; padding:18px; background:#292824; border-bottom-color:#3a3833; }
+  .case-card:first-child:hover .case-visual { background:#32302b; }
+  .case-card:nth-child(2) .case-visual { background:#efe5d6; }
+  .case-card:nth-child(2):hover .case-visual { background:#e8dbc8; }
+  .case-card:nth-child(3) .case-visual { background:#0e1117; }
+  .case-card:nth-child(3):hover .case-visual { background:#151b25; }
+  .case-card:first-child .case-title { max-width:19ch; font-size:38px !important; }
+  .case-title { overflow-wrap:break-word; hyphens:auto; }
+  .case-card:first-child .case-teaser { max-width:48ch; color:#c8c1b6 !important; font-size:16px !important; }
+  .case-card:first-child .case-thesis { color:#8fbac0 !important; border-left-color:#8fbac0 !important; }
+  .case-card:first-child .case-footer { border-top-color:#3a3833 !important; }
+  .case-card:first-child .case-metric { color:#f7f5f1 !important; }
+  .case-card:first-child .case-open-btn { color:#d6ecee; }
+  .case-card:first-child .case-num { color:#a49d92 !important; }
+  .case-thesis { margin:2px 0 13px; padding-left:12px; border-left:2px solid #185e6b; font-family:'Hanken Grotesk',sans-serif; font-size:13px; line-height:1.45; font-style:italic; color:#4f4a42; }
+  .case-footer { gap:16px; }
+  .case-metric { min-width:0; }
+  .case-open { flex-shrink:0; }
+  .case-filter { min-height:42px; padding:0 16px; border:1px solid #c9c2b6; border-radius:100px; background:transparent; color:#4f4a42; font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:.05em; cursor:pointer; }
+  .case-filter.is-active { background:#185e6b; border-color:#185e6b; color:#f7f5f1; }
+  .case-slide-ui { position:absolute; left:12px; right:12px; bottom:10px; display:flex; align-items:center; justify-content:space-between; gap:10px; pointer-events:none; }
+  .case-slide-count { padding:5px 8px; border-radius:100px; background:rgba(26,26,23,.78); color:#f7f5f1; font-family:'Martian Mono',monospace; font-size:9px; letter-spacing:.08em; }
+  .case-dots { display:flex; gap:5px; padding:5px 7px; border-radius:100px; background:rgba(247,245,241,.82); }
+  .case-dot { width:5px; height:5px; border-radius:50%; background:#999187; }
+  .case-dot.is-active { width:15px; border-radius:100px; background:#185e6b; }
+  .case-open-btn { min-height:44px; padding:0; border:0; background:transparent; color:#185e6b; font-family:'Martian Mono',monospace; font-size:12px; cursor:pointer; }
+  .case-modal-thesis { margin:0 0 28px; padding:18px 20px 18px 24px; border-left:3px solid #185e6b; background:#edf2f1; font-family:'Source Serif 4',serif; font-size:21px; line-height:1.4; color:#253a3e; }
+  .case-gallery { margin-bottom:28px; }
+  .case-gallery figure { margin:0; }
+  .case-gallery-stage { position:relative; display:grid; place-items:center; width:100%; aspect-ratio:16/10; overflow:hidden; padding:16px; border-radius:9px; background:#dfdacf; }
+  .case-gallery-stage img { display:block; width:100%; height:100%; object-fit:contain; }
+  .case-gallery figcaption { margin-top:9px; font-family:'Martian Mono',monospace; font-size:10px; line-height:1.45; color:#5f5a51; }
+  .gallery-arrow { position:absolute; top:50%; transform:translateY(-50%); width:44px; height:44px; border:1px solid rgba(247,245,241,.6); border-radius:50%; background:rgba(26,26,23,.78); color:#f7f5f1; cursor:pointer; }
+  .gallery-arrow.prev { left:14px; }
+  .gallery-arrow.next { right:14px; }
+  .gallery-strip { display:flex; align-items:center; justify-content:center; gap:8px; margin-top:12px; }
+  .gallery-thumb { width:42px; height:8px; padding:0; border:0; border-radius:100px; background:#c9c2b6; cursor:pointer; }
+  .gallery-thumb.is-active { background:#185e6b; }
+  .case-dossier { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 34px; }
+  .case-dossier-item { padding:20px 0 22px; border-top:1px solid #e2ddd4; }
+  .case-dossier-item:last-child { grid-column:1 / -1; }
+  .method-grid { grid-template-columns:1.2fr repeat(4,minmax(0,1fr)) !important; gap:1px !important; }
+  .method-card { min-height:218px; display:flex; flex-direction:column; justify-content:space-between; width:100%; border:0; text-align:left; cursor:pointer; transition:background .2s ease,color .2s ease; }
+  .method-card.is-active { background:#185e6b !important; color:#f7f5f1 !important; }
+  .method-card.is-active > div { color:#f7f5f1 !important; }
+  .method-card.is-active > div:last-child { color:#d6ecee !important; }
+  .about-photo { box-shadow:0 24px 60px -36px rgba(26,26,23,.55); }
+  .writing-row { display:grid !important; grid-template-columns:104px minmax(0,1fr) auto; }
+  .modal-overlay { padding:32px; }
+  .modal-panel { width:760px; max-width:100%; max-height:88vh; }
+  .motion-reveal { opacity:1; transform:none; }
+  .motion-ready .motion-reveal { opacity:0; transform:translateY(22px); transition:opacity .75s ease, transform .75s cubic-bezier(.2,.7,.2,1); }
+  .motion-ready .motion-reveal.is-visible { opacity:1; transform:none; }
+  .kinetic-pattern { transform-origin:center; animation:pattern-breathe 18s ease-in-out infinite alternate; }
+  @keyframes pattern-breathe { from { transform:translate3d(-1.2%,0,0) scale(1.01); opacity:.78; } to { transform:translate3d(1.2%,-1%,0) scale(1.035); opacity:1; } }
+  @keyframes step-rise { 0%,65%,100% { opacity:.5; } 28% { opacity:1; } }
   @media (max-width:920px){
+    .nav-shell { padding:10px 24px; }
+    .navlinks { display:none; }
+    .nav-cluster { gap:10px; }
     [data-r="hero"]{ grid-template-columns:1fr !important; }
-    [data-r="hero"] > div:first-child{ padding:76px 28px 56px !important; }
-    [data-r="hero"] > div:last-child{ min-height:360px !important; }
-    [data-r="g5"]{ grid-template-columns:1fr 1fr 1fr !important; }
+    .hero-copy { padding:82px 32px 62px !important; }
+    .hero-media { width:min(100%,680px); aspect-ratio:3/4; min-height:0 !important; margin:0 auto; }
+    .hero-media:hover image-slot { transform:none; }
+    .hero-edge { background:linear-gradient(180deg,#185e6b 0%,rgba(24,94,107,.1) 20%,transparent 44%); }
+    .section-shell { padding:76px 28px 84px !important; }
+    .route-button { grid-template-columns:28px minmax(170px,210px) minmax(180px,1fr) 24px; gap:18px !important; }
+    .route-panel-grid { gap:32px; }
+    [data-r="g3"]{ grid-template-columns:1fr 1fr !important; }
+    .case-card:first-child { grid-column:span 2; grid-row:auto; min-height:390px !important; }
+    .method-grid { grid-template-columns:repeat(2,minmax(0,1fr)) !important; }
     [data-r="about"]{ grid-template-columns:1fr !important; gap:40px !important; }
   }
   @media (max-width:620px){
-    #casos, #rutas, #perfil, #metodo, #sobre, #contacto { scroll-margin-top:150px; }
-    [data-r="g5"]{ grid-template-columns:1fr !important; }
-    [data-r="route-btn"]{ display:grid !important; grid-template-columns:28px minmax(0,1fr) auto !important; gap:12px !important; padding:22px 16px !important; align-items:center !important; }
-    [data-r="route-title"]{ min-width:0 !important; font-size:25px !important; }
-    [data-r="route-teaser"]{ grid-column:2 / -1; min-width:0 !important; }
-    [data-r="route-panel"]{ padding:0 16px 28px 56px !important; }
-    [data-r="route-panel"] > div > div{ min-width:0 !important; width:100% !important; }
-    .case-modal-overlay{ padding:14px !important; }
-    .case-modal-header{ padding:30px 28px 26px !important; }
-    .case-modal-body{ padding:28px 28px 32px !important; }
-    #case-modal-title{ font-size:27px !important; overflow-wrap:anywhere; }
+    .nav-shell { padding:8px 16px; }
+    .nav-identity { min-width:44px; justify-content:center; }
+    .nav-identity span { display:none; }
+    .nav-contact { width:44px; padding:0 !important; font-size:0 !important; border-radius:50% !important; }
+    .nav-contact::after { content:"↗"; font-family:'Martian Mono',monospace; font-size:15px; }
+    .lang-switch button { min-width:44px; min-height:44px; padding:0 12px !important; }
+    .hero-copy { padding:68px 28px 52px !important; }
+    .hero-media { width:100%; aspect-ratio:3/4; min-height:0 !important; }
+    .hero-trust { padding:22px 28px 30px !important; gap:18px 24px !important; }
+    .section-shell { padding:64px 20px 72px !important; }
+    .section-head { align-items:flex-start; }
+    [data-r="g3"], .method-grid { grid-template-columns:1fr !important; }
+    .route-button { grid-template-columns:30px minmax(0,1fr) 22px; gap:8px 12px !important; padding:22px 8px !important; }
+    .route-name { font-size:27px !important; }
+    .route-teaser { grid-column:2 / 4; font-size:14px !important; line-height:1.45; }
+    .route-panel { padding:0 8px 28px 50px !important; }
+    .route-panel-grid { grid-template-columns:1fr !important; gap:28px !important; }
+    .case-grid { grid-template-columns:1fr !important; }
+    .case-card:first-child { grid-column:auto; min-height:360px !important; padding:30px 26px !important; }
+    .case-card:first-child .case-visual { margin:-30px -26px 24px; }
+    .case-card:first-child .case-title { font-size:26px !important; line-height:1.16 !important; letter-spacing:-0.025em !important; overflow-wrap:normal; hyphens:none; }
+    .case-gallery { grid-template-columns:1fr; }
+    .case-gallery figure:first-child { grid-column:auto; }
+    .case-dossier { grid-template-columns:1fr; }
+    .case-dossier-item:last-child { grid-column:auto; }
+    .case-footer { align-items:flex-end !important; flex-wrap:wrap; }
+    .case-metric { flex:1 1 160px; }
+    .method-card { min-height:190px; }
+    .writing-row { grid-template-columns:1fr auto !important; gap:8px 18px !important; align-items:start !important; }
+    .writing-row > span:first-child { width:auto !important; grid-column:1; }
+    .writing-row > span:nth-child(2) { grid-column:1 / 3; grid-row:2; }
+    .writing-row > span:last-child { grid-column:2; grid-row:1; }
+    .modal-overlay { padding:12px !important; align-items:flex-end !important; }
+    .modal-panel { max-height:94vh !important; border-radius:12px 12px 0 0 !important; }
+    .modal-head { padding:30px 24px 26px !important; }
+    #case-modal-title { font-size:28px !important; overflow-wrap:break-word; }
+    .modal-body { padding:28px 24px 30px !important; }
+    .modal-nav { gap:10px !important; }
+    .modal-nav button { min-height:44px; padding:10px 14px !important; }
+    .contact-actions { flex-direction:column; align-items:stretch !important; }
+    .contact-actions a { width:100%; justify-content:center; display:inline-flex; }
+    .footer-shell { align-items:flex-start !important; flex-direction:column; }
   }
-  @media (prefers-reduced-motion: reduce){ * { transition:none !important; animation:none !important; scroll-behavior:auto !important; } }
-  @media print { [data-band] { display:none !important; } }
+  @media (prefers-reduced-motion:reduce){
+    html { scroll-behavior:auto; }
+    *, *::before, *::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
+    .motion-reveal { opacity:1; transform:none; }
+  }
 </style>
 </helmet>
 
-<div style="font-family:'Hanken Grotesk',sans-serif; color:#1a1a17; background:#e7e3db;">
+<div style="font-family:'Hanken Grotesk',sans-serif; color:#1a1a17; background:#e7e3db; overflow-x:hidden;">
 
-  <!-- NAV -->
-  <div style="position:sticky; top:0; z-index:100; background:rgba(26,26,23,0.94); backdrop-filter:blur(10px); border-bottom:1px solid #2c2a26;">
-    <div style="max-width:1200px; margin:0 auto; padding:15px 40px; display:flex; align-items:center; justify-content:space-between; gap:16px 24px; flex-wrap:wrap;">
-      <a href="#top" style="display:flex; align-items:center; gap:12px;">
-        <svg viewBox="0 0 100 96" width="26" height="25" fill="none" stroke="#8fbac0" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" aria-hidden="true"><polyline points="8,84 34,22 60,72 86,10"></polyline><line x1="20.6" y1="54" x2="50.6" y2="54"></line></svg>
+  <!-- ============ NAV ============ -->
+  <div class="site-nav">
+    <div class="reading-progress" ref="{{ progressRef }}" aria-hidden="true"></div>
+    <div class="nav-shell">
+      <a class="nav-identity" href="#top" aria-label="{{ homeLabel }}" style="text-decoration:none;">
+        <svg viewBox="0 0 100 96" width="26" height="25" fill="none" stroke="#8fbac0" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"><polyline points="8,84 34,22 60,72 86,10"></polyline><line x1="20.6" y1="54" x2="50.6" y2="54"></line></svg>
         <span style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#f7f5f1;">Arturo Villagomez</span>
       </a>
-      <div style="display:flex; align-items:center; gap:16px 30px; flex-wrap:wrap;">
-        <div style="display:flex; align-items:center; gap:16px 26px; flex-wrap:wrap;">
-          <sc-for list="{{ nav }}" as="n" hint-placeholder-count="4">
-            <a href="{{ n.href }}" style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:#a49d92;" style-hover="color:#f7f5f1;">{{ n.label }}</a>
+      <div class="nav-cluster">
+        <div class="navlinks" data-r="navlinks">
+          <sc-for list="{{ nav }}" as="n" hint-placeholder-count="5">
+            <a href="{{ n.href }}" style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:#a49d92; text-decoration:none;" style-hover="color:#f7f5f1;">{{ n.label }}</a>
           </sc-for>
         </div>
-        <div style="display:inline-flex; border:1px solid #3a3833; border-radius:100px; overflow:hidden;">
-          <button onClick="{{ setEs }}" aria-pressed="{{ esActive }}" style="{{ esBtn }}">ES</button>
-          <button onClick="{{ setEn }}" aria-pressed="{{ enActive }}" style="{{ enBtn }}">EN</button>
+        <div class="lang-switch" style="display:inline-flex; border:1px solid #3a3833; border-radius:100px; overflow:hidden;">
+          <button onClick="{{ setEs }}" aria-pressed="{{ esPressed }}" style="{{ esBtn }}">ES</button>
+          <button onClick="{{ setEn }}" aria-pressed="{{ enPressed }}" style="{{ enBtn }}">EN</button>
         </div>
-        <a href="#contacto" style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.05em; padding:9px 20px; border-radius:100px; background:#185e6b; color:#f7f5f1;" style-hover="background:#1f7482;">{{ navCta }}</a>
+        <a class="nav-contact" href="#contacto" aria-label="{{ navCta }}" style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.05em; border-radius:100px; background:#185e6b; color:#f7f5f1; text-decoration:none;" style-hover="background:#1f7482;">{{ navCta }}</a>
       </div>
     </div>
   </div>
 
-  <!-- HERO -->
+  <!-- ============ HERO (split · text + photo) ============ -->
   <div id="top" style="position:relative; overflow:hidden; background:#185e6b; color:#f7f5f1;">
     <div data-r="hero" style="position:relative; z-index:1; max-width:1280px; margin:0 auto; display:grid; grid-template-columns:1.12fr 0.88fr; align-items:stretch; gap:0;">
-      <div style="position:relative; overflow:hidden; padding:104px 56px 96px 40px;">
-        <svg width="100%" height="100%" preserveAspectRatio="none" shape-rendering="geometricPrecision" style="position:absolute; inset:0; z-index:0; pointer-events:none; opacity:0.55; mask-image:linear-gradient(105deg, transparent 0%, #000 78%); -webkit-mask-image:linear-gradient(105deg, transparent 0%, #000 78%);" aria-hidden="true"><defs><pattern id="lz-hero" width="150" height="98" patternUnits="userSpaceOnUse" patternTransform="rotate(-24)"><polyline points="-37,80 0,26 37,80 75,26 112,80 150,26 188,80" fill="none" stroke="#f7f5f1" stroke-opacity="0.07" stroke-width="5.5" stroke-linejoin="miter" stroke-miterlimit="12" stroke-linecap="square"></polyline></pattern></defs><rect width="100%" height="100%" fill="url(#lz-hero)"></rect></svg>
+      <div class="hero-copy">
+        <svg class="kinetic-pattern" width="100%" height="100%" preserveAspectRatio="none" shape-rendering="geometricPrecision" style="position:absolute; inset:0; z-index:0; pointer-events:none; opacity:0.55; mask-image:linear-gradient(105deg, transparent 0%, #000 78%); -webkit-mask-image:linear-gradient(105deg, transparent 0%, #000 78%);"><defs><pattern id="lz-hero" width="150" height="98" patternUnits="userSpaceOnUse" patternTransform="rotate(-24)"><polyline points="-37,80 0,26 37,80 75,26 112,80 150,26 188,80" fill="none" stroke="#f7f5f1" stroke-opacity="0.07" stroke-width="5.5" stroke-linejoin="miter" stroke-miterlimit="12" stroke-linecap="square"></polyline></pattern></defs><rect width="100%" height="100%" fill="url(#lz-hero)"></rect></svg>
         <div style="position:relative; z-index:1;">
           <div style="font-family:'Martian Mono',monospace; font-size:12.5px; letter-spacing:0.16em; text-transform:uppercase; color:#bfe0e4; margin-bottom:32px;">{{ kicker }} &nbsp;&middot;&nbsp; {{ descriptor }}</div>
           <h1 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(40px,7.5vw,64px); line-height:1.06; letter-spacing:-0.022em; margin:0; max-width:15ch;">{{ essence }}</h1>
           <div style="width:110px; height:5px; background:#f7f5f1; margin:40px 0 0;"></div>
-          <p style="font-size:19px; line-height:1.55; color:#d6ecee; margin:36px 0 0; max-width:46ch;">{{ heroSub }}</p>
+          <p style="font-family:'Hanken Grotesk',sans-serif; font-size:19px; line-height:1.55; color:#d6ecee; margin:36px 0 0; max-width:46ch;">{{ heroSub }}</p>
           <div style="margin-top:40px; display:flex; align-items:center; gap:24px; flex-wrap:wrap;">
-            <a href="#contacto" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; padding:16px 32px; border-radius:100px; background:#f7f5f1; color:#185e6b;" style-hover="background:#fff;">{{ heroCta }} &#8594;</a>
-            <a href="#casos" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; color:#d6ecee;" style-hover="color:#f7f5f1;">{{ heroCta2 }} &#8595;</a>
+            <a href="#contacto" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; padding:16px 32px; border-radius:100px; background:#f7f5f1; color:#185e6b; text-decoration:none;" style-hover="background:#fff;">{{ heroCta }} &#8594;</a>
+            <a class="text-link" href="#casos" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; color:#d6ecee; text-decoration:none;" style-hover="color:#f7f5f1;">{{ heroCta2 }} &#8595;</a>
           </div>
         </div>
       </div>
-      <div style="position:relative; min-height:560px;">
-        <img src="assets/landing-hero.svg" alt="{{ heroPhotoAlt }}" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;">
-        <div style="position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg, #185e6b 0%, rgba(24,94,107,0.35) 22%, rgba(24,94,107,0.05) 50%);"></div>
-        <div style="position:absolute; inset:0; pointer-events:none; mix-blend-mode:multiply; background:rgba(24,94,107,0.28);"></div>
+      <div class="hero-media">
+        <img id="hero-photo" src="assets/landing-hero.svg" alt="{{ heroPhotoAlt }}" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;">
+        <div class="hero-edge"></div>
+        <div class="hero-register" aria-hidden="true"></div>
+        <div class="hero-signal" aria-hidden="true"><span></span><span></span><span></span></div>
       </div>
     </div>
-  </div>
-
-  <!-- CASOS · 3 reales (evidencia inmediata tras el hero) -->
-  <div id="casos" style="background:#e7e3db; border-bottom:1px solid #d3cdc1;">
-    <div style="max-width:1200px; margin:0 auto; padding:84px 40px 92px;">
-      <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:30px; flex-wrap:wrap;">
-        <div>
-          <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ casesKicker }}</div>
-          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ casesTitle }}</h2>
-        </div>
-        <p style="font-size:15px; line-height:1.55; color:#6b665d; margin:0; max-width:44ch;">{{ casesSub }}</p>
-      </div>
-      <div data-r="g3" style="margin-top:40px; display:grid; grid-template-columns:repeat(3,1fr); gap:20px;">
-        <sc-for list="{{ cases }}" as="c" hint-placeholder-count="3">
-          <button type="button" onClick="{{ c.on }}" aria-haspopup="dialog" aria-label="{{ c.abrir }}" style="cursor:pointer; background:#f7f5f1; border:1px solid #e2ddd4; border-radius:12px; padding:0; display:flex; flex-direction:column; text-align:left; color:inherit; font:inherit; width:100%; overflow:hidden; transition:transform .15s, box-shadow .15s;" style-hover="transform:translateY(-3px); box-shadow:0 18px 40px -22px rgba(26,26,23,.4);" style-focus="outline:2.5px solid #185e6b; outline-offset:3px;">
-            <span>{{ c.imgEl }}</span>
-            <span style="display:flex; flex-direction:column; flex:1; padding:22px 24px 20px;">
-              <span style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;">
-                <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#185e6b; background:#e9f0ef; padding:4px 10px; border-radius:100px;">{{ c.tag }}</span>
-                <span style="font-family:'Martian Mono',monospace; font-size:11px; color:#c2bbad;">{{ c.num }}</span>
-              </span>
-              <span style="display:block; font-family:'Source Serif 4',serif; font-weight:600; font-size:22px; line-height:1.2; letter-spacing:-0.01em; margin-bottom:10px;">{{ c.title }}</span>
-              <span style="display:block; font-size:14.5px; line-height:1.55; color:#6b665d; flex:1;">{{ c.teaser }}</span>
-              <span style="display:flex; align-items:center; justify-content:space-between; margin-top:18px; padding-top:16px; border-top:1px solid #eee7dd; gap:10px;">
-                <span style="font-family:'Martian Mono',monospace; font-size:12px; font-weight:600; color:#1a1a17;">{{ c.metric }}</span>
-                <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#185e6b; flex-shrink:0;">{{ c.open }} &#8594;</span>
-              </span>
-            </span>
-          </button>
+    <div style="position:relative; z-index:1; border-top:1px solid rgba(247,245,241,0.16);">
+      <div class="hero-trust">
+        <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#d6ecee;">{{ trustLabel }}</span>
+        <sc-for list="{{ trust }}" as="t" hint-placeholder-count="3">
+          <span style="font-family:'Hanken Grotesk',sans-serif; font-size:14px; color:#d6ecee;">{{ t }}</span>
         </sc-for>
       </div>
     </div>
   </div>
 
-  <!-- MODAL DE CASO -->
-  <sc-if value="{{ modal.open }}" hint-placeholder-val="{{ false }}">
-    <div class="case-modal-overlay" onClick="{{ closeCase }}" style="position:fixed; inset:0; z-index:400; background:rgba(20,19,16,0.62); backdrop-filter:blur(3px); display:flex; align-items:center; justify-content:center; padding:24px;">
-      <div onClick="{{ stop }}" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="case-modal-title" style="position:relative; width:820px; max-width:100%; max-height:88vh; overflow-y:auto; overflow-x:hidden; outline:none; background:#f7f5f1; border-radius:16px; box-shadow:0 40px 100px -30px rgba(0,0,0,.6);">
-        <div class="case-modal-header" style="position:relative; overflow:hidden; background:#1a1a17; color:#f7f5f1; padding:34px 40px 30px;">
-          <div style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
-            <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#8fbac0; background:rgba(143,186,192,0.12); padding:5px 12px; border-radius:100px;">{{ modal.tag }}</span>
-            <button onClick="{{ closeCase }}" aria-label="{{ modal.cerrar }}" style="font-family:'Martian Mono',monospace; font-size:18px; color:#a49d92; background:transparent; border:none; cursor:pointer; line-height:1; min-height:44px; min-width:44px;" style-hover="color:#f7f5f1;">&#10005;</button>
+  <!-- ============ POSITIONING ============ -->
+  <div id="perfil" style="background:#f7f5f1; border-bottom:1px solid #e2ddd4;">
+    <div class="section-shell motion-reveal">
+      <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:18px;">{{ posKicker }}</div>
+      <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(30px,5vw,44px); line-height:1.12; letter-spacing:-0.02em; margin:0; max-width:20ch;">{{ posTitle }}</h2>
+      <p style="font-family:'Hanken Grotesk',sans-serif; font-size:19px; line-height:1.6; color:#4a463e; margin:26px 0 0; max-width:64ch;">{{ posBody }}</p>
+      <div class="thesis-grid" data-r="g3" style="margin-top:56px; display:grid; grid-template-columns:repeat(3,1fr); gap:2px; background:#e2ddd4; border:1px solid #e2ddd4;">
+        <sc-for list="{{ pillars }}" as="p" hint-placeholder-count="3">
+          <div class="thesis-card" tabindex="0" style="background:#f7f5f1; padding:34px 30px;">
+            <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.08em; color:#185e6b; margin-bottom:16px;">{{ p.no }}</div>
+            <div style="font-family:'Source Serif 4',serif; font-weight:600; font-size:24px; line-height:1.15; letter-spacing:-0.01em; margin-bottom:12px;">{{ p.title }}</div>
+            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:15px; line-height:1.55; color:#6b665d;">{{ p.body }}</div>
           </div>
-          <div id="case-modal-title" style="font-family:'Source Serif 4',serif; font-weight:600; font-size:32px; line-height:1.12; letter-spacing:-0.02em; margin-top:16px; max-width:22ch;">{{ modal.title }}</div>
-        </div>
-        <div class="case-modal-body" style="padding:30px 40px 38px;">
-          <sc-for list="{{ modal.gal }}" as="g" hint-placeholder-count="3">
-            <figure style="margin:0 0 18px;">
-              <span>{{ g.imgEl }}</span>
-              <figcaption style="font-size:12px; color:#8a837a; line-height:1.5; margin-top:6px;">{{ g.cap }}</figcaption>
-            </figure>
-          </sc-for>
-          <sc-for list="{{ modal.blocks }}" as="b" hint-placeholder-count="4">
-            <div style="margin-bottom:22px;">
-              <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#185e6b; margin-bottom:8px;">{{ b.k }}</div>
-              <div style="font-size:16px; line-height:1.6; color:#3a3730;">{{ b.v }}</div>
-            </div>
-          </sc-for>
-          <sc-if value="{{ modal.link }}" hint-placeholder-val="{{ false }}">
-            <a href="{{ modal.link }}" target="_blank" rel="noopener" style="display:inline-block; font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; padding:13px 26px; border-radius:100px; border:1px solid #1a1a17; color:#1a1a17;" style-hover="background:#1a1a17; color:#f7f5f1;">{{ modal.linkLabel }} &#8599;</a>
-          </sc-if>
-        </div>
+        </sc-for>
       </div>
     </div>
-  </sc-if>
+  </div>
 
-  <!-- RUTAS -->
-  <div id="rutas" style="background:#efece5; border-bottom:1px solid #d3cdc1;">
-    <div style="max-width:1200px; margin:0 auto; padding:84px 40px 88px;">
-      <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:30px; flex-wrap:wrap; margin-bottom:8px;">
+  <!-- ============ ROUTER (1c) ============ -->
+  <div id="rutas" style="background:#e7e3db; border-bottom:1px solid #d3cdc1;">
+    <div class="section-shell motion-reveal">
+      <div class="section-head" style="margin-bottom:8px;">
         <div>
           <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ routerKicker }}</div>
           <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ routerTitle }}</h2>
         </div>
-        <p style="font-size:16px; line-height:1.55; color:#6b665d; margin:0; max-width:40ch;">{{ routerSub }}</p>
+        <p style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#5f5a51; margin:0; max-width:40ch;">{{ routerSub }}</p>
       </div>
       <div style="margin-top:36px; border-top:1px solid #d3cdc1;">
-        <sc-for list="{{ routes }}" as="r" hint-placeholder-count="3">
-          <div style="{{ r.rowStyle }}">
-            <button data-r="route-btn" type="button" onClick="{{ r.on }}" aria-expanded="{{ r.active }}" style="display:flex; align-items:center; gap:26px; padding:26px 24px; width:100%; text-align:left; background:transparent; border:none; cursor:pointer; color:inherit; font:inherit;">
-              <span style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.06em; color:#a49d92; width:28px; flex-shrink:0;">{{ r.num }}</span>
-              <span data-r="route-title" style="font-family:'Source Serif 4',serif; font-weight:600; font-size:30px; letter-spacing:-0.015em; min-width:210px;">{{ r.tab }}</span>
-              <span data-r="route-teaser" style="font-size:16px; color:#6b665d; flex:1; min-width:200px;">{{ r.teaser }}</span>
-              <span style="{{ r.chev }}">&#8594;</span>
+        <sc-for list="{{ routes }}" as="r" hint-placeholder-count="4">
+          <div class="route-row" style="{{ r.rowStyle }}">
+            <button class="route-button" type="button" onClick="{{ r.on }}" aria-expanded="{{ r.active }}" aria-controls="route-panel-{{ r.key }}" style="padding:26px 24px; width:100%; text-align:left; background:transparent; border:none; cursor:pointer; color:inherit; font:inherit;">
+              <span class="route-num" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.06em; color:#5f5a51; width:28px; flex-shrink:0;">{{ r.num }}</span>
+              <span class="route-name" style="font-family:'Source Serif 4',serif; font-weight:600; font-size:30px; letter-spacing:-0.015em;">{{ r.tab }}</span>
+              <span class="route-teaser" style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; color:#5f5a51; flex:1;">{{ r.teaser }}</span>
+              <span class="route-chev" style="{{ r.chev }}">&#8594;</span>
             </button>
             <sc-if value="{{ r.active }}" hint-placeholder-val="{{ false }}">
-              <div data-r="route-panel" style="padding:0 24px 34px 82px;">
-                <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:48px; flex-wrap:wrap;">
+              <div class="route-panel" id="route-panel-{{ r.key }}" style="padding:0 24px 34px 82px;">
+                <div class="route-panel-grid" style="align-items:flex-start;">
                   <div style="max-width:50ch;">
                     <div style="font-family:'Source Serif 4',serif; font-weight:500; font-style:italic; font-size:24px; line-height:1.3; color:#1a1a17;">{{ r.thesis }}</div>
-                    <div style="font-size:16px; line-height:1.55; color:#6b665d; margin-top:12px;">{{ r.sub }}</div>
+                    <div style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#5f5a51; margin-top:12px;">{{ r.sub }}</div>
                   </div>
                   <div style="min-width:250px; flex:1;">
                     <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ r.formLabel }}</div>
                     <div style="display:flex; flex-direction:column; gap:11px;">
                       <sc-for list="{{ r.forms }}" as="fm" hint-placeholder-count="3">
-                        <div style="display:flex; align-items:flex-start; gap:10px; font-size:15px; line-height:1.45; color:#3a3730;"><span style="color:#185e6b; flex-shrink:0;">&#8594;</span><span>{{ fm }}</span></div>
+                        <div style="display:flex; align-items:flex-start; gap:10px; font-family:'Hanken Grotesk',sans-serif; font-size:15px; line-height:1.45; color:#3a3730;"><span style="color:#185e6b; flex-shrink:0;">&#8594;</span><span>{{ fm }}</span></div>
                       </sc-for>
                     </div>
                   </div>
                 </div>
-                <a href="#contacto" style="display:inline-block; margin-top:26px; font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; padding:14px 28px; border-radius:100px; background:#185e6b; color:#f7f5f1;" style-hover="background:#0f3f48;">{{ r.cta }} &#8594;</a>
+                <a href="#contacto" style="display:inline-block; margin-top:26px; font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; padding:14px 28px; border-radius:100px; background:#185e6b; color:#f7f5f1; text-decoration:none;" style-hover="background:#0f3f48;">{{ r.cta }} &#8594;</a>
               </div>
             </sc-if>
           </div>
@@ -238,61 +332,156 @@
     </div>
   </div>
 
-  <!-- TESIS -->
-  <div id="perfil" style="background:#f7f5f1; border-bottom:1px solid #e2ddd4;">
-    <div style="max-width:1200px; margin:0 auto; padding:84px 40px 88px;">
-      <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ posKicker }}</div>
-      <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0; max-width:24ch;">{{ posTitle }}</h2>
-      <p style="font-size:17px; line-height:1.65; color:#4a463e; margin:26px 0 0; max-width:66ch;">{{ posBody }}</p>
+  <!-- ============ CASES / PORTFOLIO ============ -->
+  <div id="casos" style="background:#e7e3db; border-bottom:1px solid #d3cdc1;">
+    <div class="section-shell motion-reveal">
+      <div class="section-head">
+        <div>
+          <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ casesKicker }}</div>
+          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ casesTitle }}</h2>
+          <p style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.6; color:#5f5a51; margin:18px 0 0; max-width:62ch;">{{ casesSub }}</p>
+        </div>
+        <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; color:#5f5a51; background:#f3ead4; border:1px solid #e4d5ad; padding:8px 14px; border-radius:6px; max-width:38ch;">{{ casesFlag }}</div>
+      </div>
+      <div style="margin-top:30px; display:flex; align-items:center; gap:9px; flex-wrap:wrap;" role="group" aria-label="{{ filtersLabel }}">
+        <sc-for list="{{ filters }}" as="f" hint-placeholder-count="6">
+          <button class="case-filter {{ f.activeClass }}" type="button" onClick="{{ f.on }}" aria-pressed="{{ f.pressed }}">{{ f.label }}</button>
+        </sc-for>
+      </div>
+      <div class="case-grid" data-r="g3" style="margin-top:40px; display:grid;">
+        <sc-for list="{{ cases }}" as="c" hint-placeholder-count="8">
+          <article class="case-card" style="position:relative; background:#f7f5f1; border:1px solid #e2ddd4; padding:26px 24px 22px; display:flex; flex-direction:column; text-align:left; color:inherit; width:100%; transition:transform .15s, box-shadow .15s;" style-hover="transform:translateY(-3px); box-shadow:0 18px 40px -22px rgba(26,26,23,.4);">
+            <button class="case-visual" type="button" onClick="{{ c.nextSlide }}" aria-label="{{ c.slideAria }}">
+              {{ c.imgEl }}
+              <span class="case-slide-ui">
+                <span class="case-slide-count">{{ c.slideCounter }}</span>
+                <span class="case-dots" aria-hidden="true"><sc-for list="{{ c.dots }}" as="d" hint-placeholder-count="3"><span class="case-dot {{ d.activeClass }}"></span></sc-for></span>
+              </span>
+            </button>
+            <div class="case-meta" style="display:flex; align-items:center; justify-content:space-between; margin-bottom:18px;">
+              <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#185e6b; background:#e9f0ef; padding:4px 10px; border-radius:100px;">{{ c.tag }}</span>
+              <span class="case-num" style="font-family:'Martian Mono',monospace; font-size:11px; color:#5f5a51;">{{ c.num }}</span>
+            </div>
+            <div class="case-title" style="font-family:'Source Serif 4',serif; font-weight:600; font-size:22px; line-height:1.2; letter-spacing:-0.01em; margin-bottom:10px;">{{ c.title }}</div>
+            <div class="case-thesis">{{ c.brandThesis }}</div>
+            <div class="case-teaser" style="font-family:'Hanken Grotesk',sans-serif; font-size:14.5px; line-height:1.5; color:#5f5a51; flex:1;">{{ c.teaser }}</div>
+            <div class="case-footer" style="margin-top:18px; padding-top:16px; border-top:1px solid #eee7dd; display:flex; align-items:center; justify-content:space-between;">
+              <span class="case-metric" style="font-family:'Martian Mono',monospace; font-size:12px; font-weight:600; color:#1a1a17;">{{ c.metric }}</span>
+              <button class="case-open-btn" type="button" onClick="{{ c.on }}" aria-haspopup="dialog" aria-label="{{ c.ariaLabel }}">{{ c.open }} &#8594;</button>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+      <div style="margin-top:28px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+        <a href="https://github.com/FinDataMan" target="_blank" rel="noopener noreferrer" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; padding:13px 26px; border-radius:100px; border:1px solid #1a1a17; color:#1a1a17; text-decoration:none;" style-hover="background:#1a1a17; color:#f7f5f1;">{{ casesSource1 }} &#8599;</a>
+        <span style="font-family:'Hanken Grotesk',sans-serif; font-size:14px; color:#5f5a51;">{{ casesSource2 }}</span>
+      </div>
     </div>
   </div>
 
-  <!-- MÉTODO -->
-  <div id="metodo" style="background:#efece5; border-bottom:1px solid #d3cdc1;">
-    <div style="max-width:1200px; margin:0 auto; padding:84px 40px 88px;">
-      <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:30px; flex-wrap:wrap; margin-bottom:8px;">
+  <!-- ============ CASE MODAL ============ -->
+  <sc-if value="{{ modal.open }}" hint-placeholder-val="{{ false }}">
+    <div class="modal-overlay" onClick="{{ closeCase }}" style="position:fixed; inset:0; z-index:200; background:rgba(20,19,16,0.62); backdrop-filter:blur(3px); display:flex; align-items:center; justify-content:center;">
+      <div class="modal-panel" onClick="{{ stop }}" ref="{{ dialogRef }}" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="case-modal-title" style="position:relative; overflow:auto; outline:none; background:#f7f5f1; border-radius:16px; box-shadow:0 40px 100px -30px rgba(0,0,0,.6);">
+        <div class="modal-head" style="position:relative; overflow:hidden; background:#1a1a17; color:#f7f5f1; padding:40px 44px 34px;">
+          <svg width="100%" height="100%" preserveAspectRatio="none" style="position:absolute; inset:0; z-index:0; pointer-events:none;"><defs><pattern id="lz-modal" width="120" height="78" patternUnits="userSpaceOnUse" patternTransform="rotate(-24)"><polyline points="-30,64 0,20 30,64 60,20 90,64 120,20 150,64" fill="none" stroke="#8fbac0" stroke-opacity="0.12" stroke-width="6" stroke-linejoin="miter" stroke-miterlimit="12"></polyline></pattern></defs><rect width="100%" height="100%" fill="url(#lz-modal)"></rect></svg>
+          <div style="position:relative; z-index:1;">
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
+              <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#8fbac0; background:rgba(143,186,192,0.12); padding:5px 12px; border-radius:100px;">{{ modal.tag }}</span>
+              <button onClick="{{ closeCase }}" aria-label="{{ modal.close }}" style="min-width:44px; min-height:44px; font-family:'Martian Mono',monospace; font-size:18px; color:#a49d92; background:transparent; border:none; cursor:pointer; line-height:1;" style-hover="color:#f7f5f1;">&#10005;</button>
+            </div>
+            <div id="case-modal-title" style="font-family:'Source Serif 4',serif; font-weight:600; font-size:34px; line-height:1.12; letter-spacing:-0.02em; margin-top:20px; max-width:22ch;">{{ modal.title }}</div>
+          </div>
+        </div>
+        <div class="modal-body" style="padding:34px 44px 40px;">
+          <div class="case-modal-thesis">{{ modal.brandThesis }}</div>
+          <div class="case-gallery">
+            <figure>
+              <div class="case-gallery-stage">
+                {{ modal.slide.imgEl }}
+                <button class="gallery-arrow prev" type="button" onClick="{{ prevSlide }}" aria-label="{{ modal.prevImage }}">&#8592;</button>
+                <button class="gallery-arrow next" type="button" onClick="{{ nextSlide }}" aria-label="{{ modal.nextImage }}">&#8594;</button>
+              </div>
+              <figcaption>{{ modal.slide.cap }}</figcaption>
+            </figure>
+            <div class="gallery-strip" role="group" aria-label="{{ modal.galleryLabel }}">
+              <sc-for list="{{ modal.thumbs }}" as="th" hint-placeholder-count="3">
+                <button class="gallery-thumb {{ th.activeClass }}" type="button" onClick="{{ th.on }}" aria-label="{{ th.aria }}" aria-pressed="{{ th.pressed }}"></button>
+              </sc-for>
+            </div>
+          </div>
+          <div style="display:inline-block; font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; color:#5f5a51; background:#f3ead4; border:1px solid #e4d5ad; padding:7px 13px; border-radius:6px; margin-bottom:26px;">{{ modal.flag }}</div>
+          <div class="case-dossier">
+            <sc-for list="{{ modal.blocks }}" as="b" hint-placeholder-count="5">
+              <div class="case-dossier-item">
+                <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#185e6b; margin-bottom:8px;">{{ b.k }}</div>
+                <div style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.6; color:#3a3730;">{{ b.v }}</div>
+              </div>
+            </sc-for>
+          </div>
+          <sc-if value="{{ modal.link }}" hint-placeholder-val="{{ false }}">
+            <a href="{{ modal.link }}" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; min-height:44px; margin-top:4px; padding:0 24px; border-radius:100px; background:#185e6b; color:#f7f5f1; font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.04em;">{{ modal.linkLabel }} &#8599;</a>
+          </sc-if>
+          <div class="modal-nav" style="display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:32px; padding-top:24px; border-top:1px solid #e2ddd4;">
+            <button onClick="{{ prevCase }}" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#1a1a17; background:transparent; border:1px solid #d3cdc1; padding:11px 22px; border-radius:100px; cursor:pointer;" style-hover="border-color:#1a1a17;">&#8592; {{ modal.prev }}</button>
+            <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#5f5a51;">{{ modal.counter }}</span>
+            <button onClick="{{ nextCase }}" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#1a1a17; background:transparent; border:1px solid #d3cdc1; padding:11px 22px; border-radius:100px; cursor:pointer;" style-hover="border-color:#1a1a17;">{{ modal.next }} &#8594;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ============ CÓMO TRABAJO (reemplaza Stack) ============ -->
+  <div id="metodo" style="background:#f7f5f1; border-bottom:1px solid #e2ddd4;">
+    <div class="section-shell motion-reveal">
+      <div class="section-head" style="margin-bottom:8px;">
         <div>
           <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ methodKicker }}</div>
           <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ methodTitle }}</h2>
         </div>
-        <p style="font-size:16px; line-height:1.55; color:#6b665d; margin:0; max-width:42ch;">{{ methodSub }}</p>
+        <p style="font-family:'Hanken Grotesk',sans-serif; font-size:16px; line-height:1.55; color:#5f5a51; margin:0; max-width:42ch;">{{ methodSub }}</p>
       </div>
-      <div data-r="g5" style="margin-top:40px; display:grid; grid-template-columns:repeat(5,1fr); gap:2px; background:#e2ddd4; border:1px solid #e2ddd4;">
+      <div class="method-grid" data-r="g5" style="margin-top:40px; display:grid; background:#e2ddd4; border:1px solid #e2ddd4;">
         <sc-for list="{{ method }}" as="m" hint-placeholder-count="5">
-          <div style="background:#f7f5f1; padding:26px 22px;">
+          <button class="method-card {{ m.activeClass }}" type="button" onMouseEnter="{{ m.enter }}" onMouseLeave="{{ m.leave }}" onFocus="{{ m.enter }}" onBlur="{{ m.leave }}" onClick="{{ m.pin }}" aria-pressed="{{ m.pressed }}" style="background:#f7f5f1; padding:26px 22px;">
             <div style="font-family:'Martian Mono',monospace; font-size:11px; color:#185e6b; margin-bottom:14px;">{{ m.no }}</div>
-            <div style="font-family:'Source Serif 4',serif; font-weight:600; font-size:19px; line-height:1.2; margin-bottom:9px;">{{ m.title }}</div>
-            <div style="font-size:13.5px; line-height:1.5; color:#6b665d;">{{ m.body }}</div>
-          </div>
+            <div style="font-family:'Source Serif 4',serif; font-weight:600; font-size:19px; line-height:1.2; letter-spacing:-0.01em; margin-bottom:9px;">{{ m.title }}</div>
+            <div style="font-family:'Hanken Grotesk',sans-serif; font-size:13.5px; line-height:1.5; color:#5f5a51;">{{ m.body }}</div>
+          </button>
         </sc-for>
       </div>
-      <div style="margin-top:22px; font-size:14px; line-height:1.55; color:#8a837a;">{{ methodTools }}</div>
+      <div style="margin-top:22px; font-family:'Hanken Grotesk',sans-serif; font-size:14px; line-height:1.55; color:#5f5a51;">{{ methodTools }}</div>
     </div>
   </div>
 
-  <!-- ABOUT -->
+  <!-- ============ ABOUT (1b dossier ficha) ============ -->
   <div id="sobre" style="background:#e7e3db; border-bottom:1px solid #d3cdc1;">
-    <div data-r="about" style="max-width:1200px; margin:0 auto; padding:88px 40px 92px; display:grid; grid-template-columns:1.4fr 1fr; gap:56px; align-items:start;">
+    <div class="section-shell motion-reveal" data-r="about" style="display:grid; grid-template-columns:1.4fr 1fr; gap:56px; align-items:start;">
       <div>
         <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:16px;">{{ aboutKicker }}</div>
         <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:40px; line-height:1.12; letter-spacing:-0.02em; margin:0 0 26px; max-width:18ch;">{{ aboutTitle }}</h2>
-        <sc-for list="{{ aboutBody }}" as="para" hint-placeholder-count="2">
-          <p style="font-size:17px; line-height:1.65; color:#4a463e; margin:0 0 18px; max-width:56ch;">{{ para }}</p>
+        <sc-for list="{{ aboutBody }}" as="para" hint-placeholder-count="3">
+          <p style="font-family:'Hanken Grotesk',sans-serif; font-size:17px; line-height:1.65; color:#4a463e; margin:0 0 18px; max-width:56ch;">{{ para }}</p>
         </sc-for>
         <div style="margin-top:22px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
-          <a href="https://www.linkedin.com/in/arturo-villagomez-gomez" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#185e6b;" style-hover="color:#0f3f48;">LinkedIn &#8599;</a>
-          <a href="https://findataman.github.io/FinDataMan/" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#185e6b;" style-hover="color:#0f3f48;">FinDataMan &#8599;</a>
+          <a class="text-link" href="https://www.linkedin.com/in/arturo-villagomez-gomez" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#185e6b;" style-hover="color:#0f3f48;">LinkedIn &#8599;</a>
+          <a class="text-link" href="https://findataman.github.io/FinDataMan/" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#185e6b;" style-hover="color:#0f3f48;">FinDataMan &#8599;</a>
         </div>
       </div>
       <div>
-        <img src="assets/landing-about.svg" alt="{{ aboutPhotoAlt }}" style="display:block; width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:12px; margin-bottom:20px;">
+        <img class="about-photo" id="about-photo" src="assets/landing-about.svg" alt="{{ aboutPhotoAlt }}" style="display:block; width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:8px; margin-bottom:20px;">
         <div style="position:relative; background:#f7f5f1; border:1px solid #e2ddd4; border-radius:10px; padding:24px 24px 26px;">
-          <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#8a837a; padding-bottom:15px; border-bottom:1px solid #eee7dd; margin-bottom:15px;">{{ dossierTitle }}</div>
+          <span style="position:absolute; top:9px; left:9px; width:13px; height:13px; border-top:2px solid #185e6b; border-left:2px solid #185e6b;"></span>
+          <span style="position:absolute; top:9px; right:9px; width:13px; height:13px; border-top:2px solid #185e6b; border-right:2px solid #185e6b;"></span>
+          <span style="position:absolute; bottom:9px; left:9px; width:13px; height:13px; border-bottom:2px solid #185e6b; border-left:2px solid #185e6b;"></span>
+          <span style="position:absolute; bottom:9px; right:9px; width:13px; height:13px; border-bottom:2px solid #185e6b; border-right:2px solid #185e6b;"></span>
+          <div style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#5f5a51; padding-bottom:15px; border-bottom:1px solid #eee7dd; margin-bottom:15px;">{{ dossierTitle }}</div>
           <div style="display:flex; flex-direction:column; gap:13px;">
             <sc-for list="{{ dossier }}" as="d" hint-placeholder-count="5">
               <div style="display:flex; justify-content:space-between; gap:16px; align-items:baseline;">
-                <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a837a; flex-shrink:0;">{{ d.k }}</span>
-                <span style="font-weight:600; font-size:14px; color:#1a1a17; text-align:right;">{{ d.v }}</span>
+                <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#5f5a51; flex-shrink:0;">{{ d.k }}</span>
+                <span style="font-family:'Hanken Grotesk',sans-serif; font-weight:600; font-size:14px; color:#1a1a17; text-align:right;">{{ d.v }}</span>
               </div>
             </sc-for>
           </div>
@@ -301,224 +490,488 @@
     </div>
   </div>
 
-  <!-- CONTACTO -->
+  <!-- ============ WRITING ============ -->
+  <div id="escritura" style="background:#f7f5f1; border-bottom:1px solid #e2ddd4;">
+    <div class="section-shell motion-reveal">
+      <div class="section-head" style="margin-bottom:38px;">
+        <div>
+          <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#185e6b; margin-bottom:14px;">{{ writeKicker }}</div>
+          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); line-height:1.1; letter-spacing:-0.02em; margin:0;">{{ writeTitle }}</h2>
+        </div>
+        <a class="text-link" href="https://findataman.github.io/FinDataMan/" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:13px; letter-spacing:0.04em; color:#185e6b;" style-hover="color:#0f3f48;">{{ writeAll }} &#8599;</a>
+      </div>
+      <div style="border-top:1px solid #e2ddd4;">
+        <sc-for list="{{ themes }}" as="th" hint-placeholder-count="4">
+          <div class="writing-row" style="align-items:center; gap:30px; padding:22px 8px; border-bottom:1px solid #e2ddd4;">
+            <span style="font-family:'Martian Mono',monospace; font-size:12px; color:#5f5a51; width:104px; flex-shrink:0;">{{ th.tag }}</span>
+            <span style="font-family:'Source Serif 4',serif; font-weight:600; font-size:21px; letter-spacing:-0.01em; color:#1a1a17; flex:1;">{{ th.title }}</span>
+            <span style="font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; color:#5f5a51; flex-shrink:0;">{{ soonLabel }}</span>
+          </div>
+        </sc-for>
+      </div>
+      <div style="margin-top:22px; font-family:'Hanken Grotesk',sans-serif; font-size:14px; line-height:1.55; color:#5f5a51; max-width:60ch;">{{ writeNote }}</div>
+    </div>
+  </div>
+
+  <!-- ============ CONTACT ============ -->
   <div id="contacto" style="position:relative; overflow:hidden; background:#185e6b; color:#f7f5f1;">
-    <div style="position:relative; z-index:1; max-width:1200px; margin:0 auto; padding:96px 40px 100px; text-align:center;">
+    <svg class="kinetic-pattern" width="100%" height="100%" preserveAspectRatio="none" shape-rendering="geometricPrecision" style="position:absolute; inset:0; z-index:0; pointer-events:none;"><defs><pattern id="lz-cta" width="132" height="86" patternUnits="userSpaceOnUse" patternTransform="rotate(-24)"><polyline points="-33,70 0,23 33,70 66,23 99,70 132,23 165,70" fill="none" stroke="#f7f5f1" stroke-opacity="0.06" stroke-width="5.5" stroke-linejoin="miter" stroke-miterlimit="12"></polyline></pattern></defs><rect width="100%" height="100%" fill="url(#lz-cta)"></rect></svg>
+    <div class="motion-reveal" style="position:relative; z-index:1; max-width:1200px; margin:0 auto; padding:96px 40px 100px; text-align:center;">
       <div style="font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#bfe0e4; margin-bottom:22px;">{{ ctaKicker }}</div>
       <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:clamp(32px,6vw,52px); line-height:1.1; letter-spacing:-0.02em; margin:0 auto; max-width:20ch;">{{ ctaTitle }}</h2>
-      <p style="font-size:19px; line-height:1.55; color:#d6ecee; margin:24px auto 0; max-width:52ch;">{{ ctaBody }}</p>
-      <div style="margin-top:40px; display:flex; align-items:center; justify-content:center; gap:18px; flex-wrap:wrap;">
-        <a href="mailto:hola@arturovillagomez.com" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; padding:17px 34px; border-radius:100px; background:#f7f5f1; color:#185e6b;" style-hover="background:#fff;">{{ ctaEmail }} &#8594;</a>
-        <a href="https://www.linkedin.com/in/arturo-villagomez-gomez" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; padding:17px 34px; border-radius:100px; border:1px solid rgba(247,245,241,0.4); color:#f7f5f1;" style-hover="border-color:#f7f5f1;">LinkedIn &#8599;</a>
+      <p style="font-family:'Hanken Grotesk',sans-serif; font-size:19px; line-height:1.55; color:#d6ecee; margin:24px auto 0; max-width:52ch;">{{ ctaBody }}</p>
+      <div class="contact-actions" style="margin-top:40px; display:flex; align-items:center; justify-content:center; gap:18px; flex-wrap:wrap;">
+        <a href="mailto:hola@arturovillagomez.com" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; padding:17px 34px; border-radius:100px; background:#f7f5f1; color:#185e6b; text-decoration:none;" style-hover="background:#fff;">{{ ctaEmail }} &#8594;</a>
+        <a href="https://www.linkedin.com/in/arturo-villagomez-gomez" target="_blank" rel="noopener" style="font-family:'Martian Mono',monospace; font-size:14px; letter-spacing:0.04em; padding:17px 34px; border-radius:100px; border:1px solid rgba(247,245,241,0.4); color:#f7f5f1; text-decoration:none;" style-hover="border-color:#f7f5f1;">LinkedIn &#8599;</a>
       </div>
     </div>
   </div>
 
-  <!-- FOOTER -->
+  <!-- ============ FOOTER ============ -->
   <div style="background:#1a1a17; color:#8a837a;">
-    <div style="max-width:1200px; margin:0 auto; padding:34px 40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+    <div class="footer-shell" style="max-width:1200px; margin:0 auto; padding:34px 40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
       <div style="display:flex; align-items:center; gap:12px;">
-        <svg viewBox="0 0 100 96" width="20" height="19" fill="none" stroke="#5f5a52" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" aria-hidden="true"><polyline points="8,84 34,22 60,72 86,10"></polyline><line x1="20.6" y1="54" x2="50.6" y2="54"></line></svg>
-        <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; color:#5f5a52;">© 2026 Arturo Villagomez</span>
+        <svg viewBox="0 0 100 96" width="20" height="19" fill="none" stroke="#5f5a52" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"><polyline points="8,84 34,22 60,72 86,10"></polyline><line x1="20.6" y1="54" x2="50.6" y2="54"></line></svg>
+        <span style="font-family:'Martian Mono',monospace; font-size:11px; letter-spacing:0.08em; color:#a49d92;">© 2026 Arturo Villagomez</span>
       </div>
-      <div style="font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:0.06em; color:#4a463e;">{{ footerNote }}</div>
+      <div style="font-family:'Martian Mono',monospace; font-size:10.5px; letter-spacing:0.06em; color:#a49d92;">{{ footerNote }}</div>
     </div>
   </div>
 
 </div>
-
+<template id="__bundler_thumbnail" data-bg-color="#185e6b"><svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg"><rect width="1200" height="800" fill="#185e6b"/><polyline points="470,520 545,320 620,470 720,290" fill="none" stroke="#f7f5f1" stroke-width="34" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="12"/><line x1="505" y1="440" x2="620" y2="440" stroke="#f7f5f1" stroke-width="34" stroke-linecap="butt"/></svg></template>
 </x-dc>
 <script type="text/x-dc" data-dc-script>
 class Component extends DCLogic {
-  state = { lang:'es', route:'empleo', caseIdx:null };
+  state = { lang:'es', route:'proyectos', caseIdx:null, caseFilter:'all', caseSlides:[0,0,0,0,0,0,0,0], methodActive:0, methodPinned:0 };
   dialogRef = React.createRef();
+  progressRef = React.createRef();
   _lastFocus = null;
+
   componentDidMount() {
     this._onKey = (e) => {
       if (this.state.caseIdx === null) return;
-      if (e.key === 'Escape') { e.preventDefault(); this.setState({ caseIdx:null }, () => { if (this._lastFocus && this._lastFocus.focus) this._lastFocus.focus(); }); return; }
+      if (e.key === 'Escape') { e.preventDefault(); this.setState({ caseIdx:null }, () => { if(this._lastFocus && this._lastFocus.focus) this._lastFocus.focus(); }); return; }
       if (e.key === 'Tab') {
-        const d = document.querySelector('[role="dialog"]'); if (!d) return;
-        const f = d.querySelectorAll('button, [href], [tabindex]:not([tabindex="-1"])');
+        const d = this.dialogRef.current; if (!d) return;
+        const f = d.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
         if (!f.length) return;
-        const first = f[0], last = f[f.length - 1];
+        const first = f[0], last = f[f.length-1];
         if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
         else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
       }
     };
     document.addEventListener('keydown', this._onKey);
     document.documentElement.lang = this.state.lang;
+    this._onScroll = () => {
+      if (this._scrollTick) return;
+      this._scrollTick = requestAnimationFrame(() => {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+        if (this.progressRef.current) this.progressRef.current.style.transform = `scaleX(${progress})`;
+        this._scrollTick = null;
+      });
+    };
+    window.addEventListener('scroll', this._onScroll, { passive:true });
+    this._onScroll();
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const reveal = () => document.querySelectorAll('.motion-reveal').forEach((el) => el.classList.add('is-visible'));
+    if (!reduced && 'IntersectionObserver' in window) {
+      document.documentElement.classList.add('motion-ready');
+      this._revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            this._revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold:.12, rootMargin:'0px 0px -8% 0px' });
+      document.querySelectorAll('.motion-reveal').forEach((el) => this._revealObserver.observe(el));
+    } else reveal();
   }
-  componentWillUnmount() { document.removeEventListener('keydown', this._onKey); }
-  componentDidUpdate(pp, ps) {
-    ps = ps || {};
-    if (ps.lang !== this.state.lang) document.documentElement.lang = this.state.lang;
-    if (ps.caseIdx === null && this.state.caseIdx !== null) { const d = document.querySelector('[role="dialog"]'); if (d) d.focus(); }
-    else if (ps.caseIdx !== null && this.state.caseIdx === null) { if (this._lastFocus && this._lastFocus.focus) this._lastFocus.focus(); }
+  componentWillUnmount() {
+    document.removeEventListener('keydown', this._onKey);
+    window.removeEventListener('scroll', this._onScroll);
+    if (this._scrollTick) cancelAnimationFrame(this._scrollTick);
+    if (this._revealObserver) this._revealObserver.disconnect();
+    document.documentElement.classList.remove('motion-ready');
   }
-  renderVals() {
+  componentDidUpdate(prevProps, prevState) {
+    const previous = prevState || {};
+    if (previous.lang !== this.state.lang) document.documentElement.lang = this.state.lang;
+    if (previous.caseIdx === null && this.state.caseIdx !== null) {
+      this._lastFocus = document.activeElement;
+      const d = this.dialogRef.current; if (d) d.focus();
+    } else if (previous.caseIdx !== null && this.state.caseIdx === null) {
+      if (this._lastFocus && this._lastFocus.focus) this._lastFocus.focus();
+    }
+  }
+
+  data() {
     const es = this.state.lang !== 'en';
-    const t = (a, b) => es ? a : b;
-    const PP = 'assets/casos/';
-    const gimg = (src, alt) => React.createElement('img', { src, alt, style: { display:'block', width:'100%', height:'auto', borderRadius:'8px', background:'#dfdacf' } });
-    const cases = [
-      { tag:t('Web · Marca personal','Web · Personal brand'), title:t('ArturoVillagomez.com · Sistema de marca y portafolio','ArturoVillagomez.com · Brand & Portfolio System'),
-        teaser:t('Posicionamiento profesional convertido en un portafolio bilingüe con rutas por audiencia, casos interactivos y un sistema de marca consistente.','Professional positioning translated into a bilingual portfolio with audience journeys, interactive cases and a consistent brand system.'),
-        metric:t('2 idiomas · 3 rutas','2 languages · 3 journeys'),
-        img: PP + 'slot01-sitio.png',
-        imgAlt:t('Página principal de ArturoVillagomez.com','ArturoVillagomez.com homepage'),
-        gal: [
-          { src: PP + 'slot01-sitio.png', cap:t('Sitio público ArturoVillagomez.com — portafolio bilingüe','Public ArturoVillagomez.com website — bilingual portfolio') },
-          { src: PP + 'slot01-identidad.png', cap:t('Identidad — monograma AV y wordmark (sistema vigente)','Identity — AV monogram and wordmark (live system)') },
-          { src: PP + 'slot01-plantilla.png', cap:t('Aplicación — estructura canónica de la plantilla de propuesta (sin cliente, sin cifras)','Application — canonical structure of the proposal template (no client, no figures)') }
-        ],
-        blocks: [
-          { k:t('Problema','Problem'), v:t('Mi experiencia cruza finanzas, operaciones, producto e IA aplicada; necesitaba convertir esa amplitud en una narrativa coherente para públicos distintos.','My experience spans finance, operations, product and applied AI; I needed to turn that breadth into a coherent narrative for different audiences.') },
-          { k:t('Intervención y rol','Intervention & role'), v:t('Concebí y dirigí el portafolio, su arquitectura bilingüe y el sistema de marca que mantiene consistencia entre sitio, CV, decks y propuestas.','I conceived and led the portfolio, its bilingual architecture and the brand system that keeps the website, CV, decks and proposals consistent.') },
-          { k:t('Entregables','Deliverables'), v:t('Sitio bilingüe · rutas para empleo, consultoría y ventures · casos interactivos · identidad y plantillas reutilizables.','Bilingual website · journeys for hiring, consulting and ventures · interactive cases · identity and reusable templates.') },
-          { k:t('Resultado / estado','Outcome / status'), v:t('Sitio público activo con dos idiomas y tres rutas principales. No se atribuyen métricas de tráfico o conversión sin analítica.','Live public website with two languages and three primary journeys. No traffic or conversion metrics are claimed without analytics.') }
-        ], link:'https://arturovillagomez.com/', linkLabelEs:'Ver el portafolio', linkLabelEn:'View the portfolio' },
-      { tag:t('Hospitalidad','Hospitality'), title:'Casa Artú / Tamanova',
-        teaser:t('Identidad y experiencia del huésped para una casa entre Mérida y Progreso, con anuncio activo verificado.','Guest identity and experience for a home between Mérida and Progreso, with a verified live listing.'),
-        metric:t('Anuncio activo verificado','Verified live listing'),
-        img: PP + 'slot05-detalle.png',
-        imgAlt:t('Casa Artú: portada editorial candidata y página interior de la guía del huésped','Casa Artú: candidate editorial cover and inner guest-guide page'),
-        gal: [
-          { src: PP + 'slot05-detalle.png', cap:t('Detalle — portada editorial candidata + página interior de la guía','Detail — candidate editorial cover + inner guide page') },
-          { src: PP + 'slot05-guia.png', cap:t('Aplicación — guía física del huésped (impresión pendiente)','Application — physical guest guide (print pending)') },
-          { src: PP + 'slot05-sistema.png', cap:t('Sistema — HUB de marca Tamanova (18/18)','System — Tamanova brand HUB (18/18)') }
-        ],
-        blocks: [
-          { k:t('Problema','Problem'), v:t('Una casa de hospitalidad necesitaba identidad propia y una experiencia del huésped cuidada de punta a punta.','A hospitality property needed its own identity and a guest experience designed end to end.') },
-          { k:t('Intervención y rol','Intervention & role'), v:t('Diseño de identidad y experiencia: sistema de marca Tamanova y guía física del huésped.','Identity and experience design: the Tamanova brand system and the physical guest guide.') },
-          { k:t('Entregables','Deliverables'), v:t('Sistema de marca (18 bloques) · guía física del huésped · señalética · portada editorial.','Brand system (18 blocks) · physical guest guide · signage · editorial cover.') },
-          { k:t('Resultado / estado','Outcome / status'), v:t('Anuncio publicado y con una primera evaluación — verificado (ago-2026). Guía impresa: pendiente. No se afirman ocupación, ingresos ni satisfacción.','Listing live with a first review — verified (Aug 2026). Printed guide: pending. No occupancy, revenue or satisfaction claims.') }
-        ], link:'https://www.airbnb.com/h/casa-artu-merida-progreso', linkLabelEs:'Ver el anuncio', linkLabelEn:'View the listing' },
-      { tag:t('Web · Comercial','Web · Commercial'), title:t('DonVentas.mx · Sistema de marca y sitio comercial','DonVentas.mx · Brand System & Commercial Website'),
-        teaser:t('Un sistema de marca convertido en oferta, precios, diagnóstico, casos y acceso a un producto digital.','A brand system translated into an offer, pricing, diagnostic journey, cases and access to a digital product.'),
-        metric:t('3 capas · 6 sistemas','3 layers · 6 systems'),
-        img: PP + 'slot08-sitio.png',
-        imgAlt:t('Sitio Don Ventas en vivo: "Tu marca es tu ventaja"','Don Ventas live site: "Your brand is your advantage"'),
-        gal: [
-          { src: PP + 'slot08-sitio.png', cap:t('Sitio público donventas.mx (verificado ago-2026)','Public site donventas.mx (verified Aug 2026)') },
-          { src: PP + 'slot08-manual.png', cap:t('Sistema — manual de marca (18/18)','System — brand manual (18/18)') },
-          { src: PP + 'slot08-deck.png', cap:t('Aplicación — deck de clientes (sin cifras)','Application — client deck (no figures)') }
-        ],
-        blocks: [
-          { k:t('Problema','Problem'), v:t('Una marca comercial necesitaba presencia digital completa: identidad, sitio propio y materiales de venta.','A commercial brand needed a complete digital presence: identity, its own site and sales materials.') },
-          { k:t('Intervención y rol','Intervention & role'), v:t('Diseñé el sistema de marca y dirigí el lanzamiento del sitio: arquitectura de servicios, precios, diagnóstico, trabajo aplicado y conexión con el portal digital.','I designed the brand system and led the website launch: service architecture, pricing, diagnostic journey, applied work and digital-portal handoff.') },
-          { k:t('Entregables','Deliverables'), v:t('Manual de marca (18 bloques) · sitio donventas.mx · deck de clientes · portal digital (vistas cliente).','Brand manual (18 blocks) · donventas.mx site · client deck · digital portal (client views).') },
-          { k:t('Resultado / estado','Outcome / status'), v:t('Sitio público con tres capas de servicio, seis sistemas aplicados, 18 referencias visuales y un flujo de diagnóstico enlazado. Son métricas estructurales; no se afirman resultados comerciales sin evidencia.','Live website with three service layers, six applied systems, 18 visual references and a linked diagnostic journey. These are structural metrics; no commercial outcomes are claimed without evidence.') }
-        ], link:'https://www.donventas.mx/', linkLabelEs:'Ver el sitio', linkLabelEn:'View the site' }
-    ];
+    const t = (a,b) => es ? a : b;
+
+    const AV_THESIS = {
+      heroShort: t('Convierto la complejidad de un negocio en decisiones y en los sistemas que las ejecutan.','I turn business complexity into decisions — and the systems that execute them.'),
+      heroSupport: t('Criterio financiero, disciplina operativa e IA aplicada para que la información correcta llegue a la decisión correcta en el momento correcto.','Financial judgment, operational discipline and applied AI — so the right information reaches the right decision at the right moment.'),
+    };
+
     const routes = [
-      { key:'empleo', tab:t('Empleo','Hiring'), teaser:t('Chief of Staff · Strategy & Ops · Finanzas + IA','Chief of Staff · Strategy & Ops · Finance + AI'),
-        thesis:t('La tesis dentro de tu equipo: decisiones y sistemas, con columna financiera.','The thesis inside your team: decisions and systems, with a financial backbone.'),
-        sub:t('Me sumo como operador cross-functional que cruza finanzas, operación e IA — con criterio para decidir y disciplina para ejecutar desde el primer día.','I join as a cross-functional operator across finance, operations and AI — with judgment to decide and discipline to execute from day one.'),
-        formLabel:t('En concreto','In concrete terms'),
-        forms: es ? ['Rol cross-functional: finanzas + operación + IA','Sistemas de decisión y control que quedan montados','Handoff documentado para facilitar la continuidad'] : ['Cross-functional role: finance + operations + AI','Decision and control systems left in place','Documented handoff to make continuity easier'],
-        cta:t('Hablemos','Let’s talk') },
-      { key:'consultoria', tab:t('Consultoría','Consulting'), teaser:t('Fractional CFO & constructor de sistemas de negocio','Fractional CFO & business-systems builder'),
-        thesis:t('La tesis para tu negocio: criterio que decide y un sistema que lo ejecuta — no otro dashboard.','The thesis for your business: judgment that decides and a system that runs it — not another dashboard.'),
-        sub:t('Convierto números en decisiones y monto el sistema que corre el negocio, con IA donde suma. Por entregables, vía Don Ventas.','I turn numbers into decisions and build the system that runs the business, with AI where it helps. By deliverables, via Don Ventas.'),
-        formLabel:t('En concreto','In concrete terms'),
-        forms: es ? ['Diagnóstico financiero y de operación','Modelos, presupuesto y automatización con IA','Trabajo por entregables, no por horas'] : ['Financial and operational diagnosis','Models, budgeting and AI automation','Work by deliverables, not by the hour'],
-        cta:t('Agendar diagnóstico','Book a diagnosis') },
-      { key:'ventures', tab:t('Ventures','Ventures'), teaser:t('Founder-operator · el operador tras el producto','Founder-operator · the operator behind the product'),
-        thesis:t('La tesis detrás del producto: el operador que la sostiene con números y ejecución.','The thesis behind the product: the operator who backs it with numbers and execution.'),
-        sub:t('Del discovery de mercado al producto y el handoff — con gobernanza y disciplina financiera.','From market discovery to product and handoff — with governance and financial discipline.'),
-        formLabel:t('En concreto','In concrete terms'),
-        forms: es ? ['Investigación y validación de mercado','Estados pro forma, producto y MVP','Gobernanza y handoff documentado'] : ['Market research and validation','Pro forma statements, product and MVP','Governance and documented handoff'],
-        cta:t('Conversemos','Let’s talk') }
+      { key:'proyectos', tab:t('Proyectos con equipos','Team projects'),
+        teaser:t('Operador embedded · reto definido · handoff','Embedded operator · defined challenge · handoff'),
+        thesis:t('Me integro temporalmente a un reto complejo y dejo el sistema listo para que el equipo lo continúe.','I embed temporarily in a complex challenge and leave the system ready for the team to continue.'),
+        sub:t('Conecto finanzas, operación e IA aplicada para diagnosticar, construir con el equipo y transferir decisiones, herramientas y procesos utilizables.','I connect finance, operations and applied AI to diagnose, build with the team, and transfer usable decisions, tools and processes.'),
+        formLabel:t('Forma de trabajo','Working model'),
+        forms: es ? ['Diagnóstico y definición del foco','Construcción junto al equipo','Documentación y handoff'] : ['Diagnosis and focus definition','Building alongside the team','Documentation and handoff'],
+        cta:t('Plantear un proyecto','Discuss a project') },
+      { key:'fraccional', tab:t('Acompañamiento fraccional','Fractional support'),
+        teaser:t('Finanzas · operación · sistemas de decisión','Finance · operations · decision systems'),
+        thesis:t('Una cadencia de criterio y ejecución sin incorporar una posición permanente.','A cadence of judgment and execution without adding a permanent position.'),
+        sub:t('Acompaño ciclos de decisión recurrentes, fortalezco el control financiero y operativo y automatizo donde la IA realmente aporta.','I support recurring decision cycles, strengthen financial and operational control, and automate where AI genuinely adds value.'),
+        formLabel:t('Puede incluir','May include'),
+        forms: es ? ['Control, modelación y escenarios','Cadencia operativa y seguimiento','Automatización aplicada con IA'] : ['Control, modeling and scenarios','Operating cadence and follow-through','Applied AI automation'],
+        cta:t('Explorar acompañamiento','Explore fractional support') },
+      { key:'ventures', tab:t('Venture building','Venture building'),
+        teaser:t('Modelo · producto · go-to-market','Model · product · go-to-market'),
+        thesis:t('Construir una oportunidad desde la hipótesis hasta un sistema operable.','Building an opportunity from hypothesis to an operable system.'),
+        sub:t('Colaboro selectivamente en discovery, arquitectura financiera, producto y operación para convertir una idea en evidencia y capacidad de ejecución.','I collaborate selectively across discovery, financial architecture, product and operations to turn an idea into evidence and execution capacity.'),
+        formLabel:t('Puede tomar forma de','Possible formats'),
+        forms: es ? ['Discovery y validación','Pro forma, producto y MVP','Gobernanza y handoff'] : ['Discovery and validation','Pro forma, product and MVP','Governance and handoff'],
+        cta:t('Compartir una oportunidad','Share an opportunity') },
+      { key:'ideas', tab:t('Ideas e investigación','Ideas & research'),
+        teaser:t('Ensayos · marcos · investigación aplicada','Essays · frameworks · applied research'),
+        thesis:t('Pensar en público para hacer visible el criterio detrás del trabajo.','Thinking in public to make the judgment behind the work visible.'),
+        sub:t('Desarrollo ideas sobre finanzas, operación, producto e IA aplicada y las convierto en marcos que otros pueden cuestionar, adaptar y usar.','I develop ideas across finance, operations, product and applied AI and turn them into frameworks others can question, adapt and use.'),
+        formLabel:t('Territorios','Territories'),
+        forms: es ? ['Cómo leer un negocio por sus números','Sistemas y procesos que la gente usa','IA aplicada sin perder el criterio'] : ['Reading a business through its numbers','Systems and processes people use','Applied AI without losing judgment'],
+        cta:t('Explorar ideas','Explore ideas') },
     ];
-    const routeVals = routes.map((r, i) => {
-      const active = this.state.route === r.key;
-      return Object.assign({}, r, { num:'0' + (i + 1), active,
-        rowStyle: 'transition:background .15s; border-bottom:1px solid #d3cdc1;' + (active ? 'background:#dfdacf; border-left:4px solid #185e6b;' : 'background:transparent; border-left:4px solid transparent;'),
-        chev: "font-family:'Martian Mono',monospace; font-size:20px; transition:transform .15s; " + (active ? 'color:#185e6b; transform:rotate(90deg);' : 'color:#b7b0a2;'),
-        on: () => this.setState({ route:r.key }) });
+
+    const PP = 'assets/casos/';
+    const cases = [
+      { cat:'identidad', tag:t('Web · Marca personal','Web · Personal brand'), title:t('Arturo Villagomez · Sistema de marca y portafolio','Arturo Villagomez · Brand & Portfolio System'),
+        brandThesis:t('Hacer legible una trayectoria no lineal sin volverla genérica.','Making a nonlinear career legible without making it generic.'),
+        teaser:t('Una experiencia bilingüe que convierte posicionamiento, evidencia y formas de colaboración en un sistema profesional vivo.','A bilingual experience that turns positioning, evidence and collaboration paths into a living professional system.'),
+        metric:t('Sitio público · 2 idiomas','Public site · 2 languages'),
+        flag:t('Evidencia pública · sitio activo','Public evidence · live site'),
+        img:PP + 'arturo/arturo-editorial-01-tesis.png', imgAlt:t('Retrato canónico de Arturo integrado en la gramática editorial de su sistema de marca','Canonical portrait of Arturo integrated into his brand system editorial grammar'),
+        gal:[
+          { src:PP + 'arturo/arturo-editorial-01-tesis.png', cap:t('Tesis — retrato canónico y gramática editorial del sistema','Thesis — canonical portrait and the system’s editorial grammar') },
+          { src:PP + 'arturo/arturo-editorial-02-sistema.png', cap:t('Sistema — el HUB de marca como centro operativo','System — the brand HUB as an operating center') },
+          { src:PP + 'arturo/arturo-editorial-03-ecosistema.png', cap:t('Evidencia — landing, presentaciones y sistema social conectados','Evidence — connected landing, presentation and social systems') }
+        ],
+        blocks:[
+          { k:t('Narrativa','Narrative'), v:t('La amplitud deja de presentarse como una lista de funciones y se convierte en una tesis: conectar finanzas, operaciones, producto e IA aplicada para construir sistemas que otros puedan continuar usando.','Breadth stops being presented as a list of functions and becomes a thesis: connecting finance, operations, product and applied AI to build systems others can continue using.') },
+          { k:t('Sistema de marca','Brand system'), v:t('Lenguaje editorial propio: papel, tinta y petróleo; contraste serif–sans–mono; monograma AV; patrón zigzag y una jerarquía bilingüe gobernada por 18 bloques.','A proprietary editorial language: paper, ink and petrol; serif–sans–mono contrast; AV monogram; zigzag pattern and a bilingual hierarchy governed by 18 blocks.') },
+          { k:t('Enfoque de construcción','Build approach'), v:t('El portafolio funciona como interfaz operativa: tesis → formas de colaborar → evidencia → conversación. No como un CV ampliado ni como una galería decorativa.','The portfolio works as an operating interface: thesis → ways to collaborate → evidence → conversation. Not as an expanded résumé or a decorative gallery.') },
+          { k:t('Mi rol','My role'), v:t('Concebí y dirigí la arquitectura bilingüe, el sistema de marca, los recorridos, la selección de evidencia y sus plantillas reutilizables.','I conceived and led the bilingual architecture, brand system, journeys, evidence selection and reusable templates.') },
+          { k:t('Evidencia y estado','Evidence & status'), v:t('Sitio público activo y sistema de marca vigente. Esta evolución permanece en revisión local; no se atribuyen métricas de tráfico o conversión sin analítica.','Live public website and current brand system. This evolution remains under local review; no traffic or conversion metrics are claimed without analytics.') }
+        ], link:'https://arturovillagomez.com/', linkLabelEs:'Explorar el portafolio', linkLabelEn:'Explore the portfolio' },
+      { cat:'hospitalidad', tag:t('Hospitalidad','Hospitality'), title:'Casa Artú / Tamanova',
+        brandThesis:t('Una nueva forma de hospedar: te mostramos los números y te recibimos con gusto.','A new way to host: we show you the numbers and welcome you warmly.'),
+        teaser:t('Tamanova conecta marca, operación y hospitalidad; Casa Artú es su primera prueba aplicada entre Mérida y Progreso.','Tamanova connects brand, operations and hospitality; Casa Artú is its first applied proof between Mérida and Progreso.'),
+        metric:t('Anuncio activo verificado','Verified live listing'),
+        flag:t('Evidencia pública · anuncio verificado','Public evidence · verified listing'),
+        img:PP + 'tamanova/tamanova-editorial-01-hospitalidad.png', imgAlt:t('Casa Artú y Tamanova: fotografía real de la propiedad con la promesa de hospitalidad','Casa Artú and Tamanova: real property photography with the hospitality promise'),
+        gal:[
+          { src:PP + 'tamanova/tamanova-editorial-01-hospitalidad.png', cap:t('Hospitalidad — Tamanova dirige la promesa; Casa Artú la vuelve experiencia','Hospitality — Tamanova leads the promise; Casa Artú turns it into an experience') },
+          { src:PP + 'tamanova/tamanova-editorial-02-experiencia.png', cap:t('Experiencia — espacio real, manual de la casa y kit de bienvenida','Experience — real space, house manual and welcome kit') },
+          { src:PP + 'tamanova/tamanova-editorial-03-sistema.png', cap:t('Sistema — 18 bloques y una gramática propia para operar hospitalidad','System — 18 blocks and a proprietary grammar for operating hospitality') }
+        ],
+        blocks:[
+          { k:t('Narrativa','Narrative'), v:t('La hospitalidad se plantea como una relación de confianza entre propietarios, operación y huéspedes: claridad en los números hacia un lado y calidez en la experiencia hacia el otro.','Hospitality is framed as a relationship of trust among owners, operations and guests: clarity in the numbers on one side and warmth in the experience on the other.') },
+          { k:t('Sistema de marca','Brand system'), v:t('Un sistema independiente de 18 bloques, con voz, identidad y aplicaciones propias para hospitalidad. Su expresión es territorial, cálida y útil; no hereda recursos distintivos de la marca Arturo.','An independent 18-block system with its own voice, identity and hospitality applications. Its expression is territorial, warm and useful; it does not inherit Arturo brand’s distinctive devices.') },
+          { k:t('Enfoque de construcción','Build approach'), v:t('Unir promesa y operación: identidad, anuncio, experiencia del huésped, guía local y señalética se diseñan como partes de un mismo recorrido, no como piezas aisladas.','Connecting promise and operations: identity, listing, guest experience, local guide and signage are designed as one journey, not as isolated pieces.') },
+          { k:t('Mi rol','My role'), v:t('Diseñé el sistema de identidad y experiencia, y llevé la dirección de marca a entregables concretos para Casa Artú.','I designed the identity and experience system and translated the brand direction into concrete deliverables for Casa Artú.') },
+          { k:t('Evidencia y estado','Evidence & status'), v:t('Anuncio publicado con una primera evaluación. El paquete editorial permanece en revisión privada; guía impresa pendiente y sin afirmaciones de ocupación, ingresos o satisfacción sin evidencia.','Live listing with a first review. The editorial package remains under private review; printed guide pending and no occupancy, revenue or satisfaction claims are made without evidence.') }
+        ], link:'https://www.airbnb.com/h/casa-artu-merida-progreso', linkLabelEs:'Conocer Casa Artú', linkLabelEn:'Discover Casa Artú' },
+      { cat:'comercial', tag:t('Web · Comercial','Web · Commercial'), title:t('Don Ventas · Sistema de marca y sitio comercial','Don Ventas · Brand System & Commercial Website'),
+        brandThesis:t('Tu marca es tu ventaja.','Your brand is your advantage.'),
+        teaser:t('Una identidad comercial convertida en oferta, diagnóstico, capas de servicio y acceso a un producto digital.','A commercial identity translated into an offer, diagnostic journey, service layers and access to a digital product.'),
+        metric:t('3 capas · 6 sistemas','3 layers · 6 systems'),
+        flag:t('Evidencia pública · sitio verificado','Public evidence · verified site'),
+        img:PP + 'don-ventas-01-tesis.png', imgAlt:t('Composición editorial de Don Ventas: Tu marca es tu ventaja','Don Ventas editorial composition: Your brand is your advantage'),
+        gal:[
+          { src:PP + 'don-ventas-01-tesis.png', cap:t('Tesis — sitio público y pase Diagnóstico → Sistema → Operación','Thesis — public site and Diagnostic → System → Operations pass') },
+          { src:PP + 'don-ventas-02-sistema.png', cap:t('Sistema — tres capas de oferta y ruta Don Ventas F0–F4, sin precios','System — three offer layers and the Don Ventas F0–F4 route, without prices') },
+          { src:PP + 'don-ventas-03-ecosistema.png', cap:t('Ecosistema — sitio, manual de marca y deck de clientes','Ecosystem — website, brand manual and client deck') }
+        ],
+        blocks:[
+          { k:t('Narrativa','Narrative'), v:t('La marca no se trata como decoración: se presenta como una ventaja comercial que ayuda a ordenar la oferta, vender con mayor claridad y operar con consistencia.','Brand is not treated as decoration: it is presented as a commercial advantage that helps structure the offer, sell with greater clarity and operate consistently.') },
+          { k:t('Sistema de marca','Brand system'), v:t('Sistema propio de 18 bloques con base oscura, azul eléctrico, Schibsted Grotesk y Space Mono. Su gramática es digital, directa y comercial; permanece separada de Arturo y Tamanova.','A proprietary 18-block system with a dark base, electric blue, Schibsted Grotesk and Space Mono. Its grammar is digital, direct and commercial; it remains separate from Arturo and Tamanova.') },
+          { k:t('Enfoque de construcción','Build approach'), v:t('Convertir identidad en una interfaz de negocio: arquitectura de servicios, diagnóstico, capas de oferta, trabajo aplicado y conexión con el portal digital.','Turning identity into a business interface: service architecture, diagnostic journey, offer layers, applied work and connection to the digital portal.') },
+          { k:t('Mi rol','My role'), v:t('Diseñé el sistema de marca y dirigí el lanzamiento del sitio, desde la arquitectura comercial hasta sus materiales y puntos de conversión.','I designed the brand system and led the website launch, from commercial architecture to its materials and conversion points.') },
+          { k:t('Evidencia y estado','Evidence & status'), v:t('Sitio público con tres capas de servicio, seis sistemas aplicados, 18 referencias visuales y un diagnóstico enlazado. Son métricas estructurales; no se afirman resultados comerciales sin evidencia.','Live website with three service layers, six applied systems, 18 visual references and a linked diagnostic journey. These are structural metrics; no commercial outcomes are claimed without evidence.') }
+        ], link:'https://www.donventas.mx/', linkLabelEs:'Conocer Don Ventas', linkLabelEn:'Discover Don Ventas' },
+      { cat:'finanzas', tag:t('Finanzas · Operación','Finance · Operations'), title:'AMEZ CFO',
+        brandThesis:t('La claridad financiera se vuelve valiosa cuando cambia la siguiente decisión.','Financial clarity becomes valuable when it changes the next decision.'),
+        teaser:t('Una práctica de CFO fraccional articulada como metodología, operación y sistema de entrega para acompañar decisiones empresariales.','A fractional CFO practice articulated as methodology, operations and a delivery system for business decisions.'),
+        metric:t('Sistema institucional · sin datos de clientes','Institutional system · no client data'),
+        flag:t('Vista privada · paquete aprobado','Private view · package approved'),
+        img:PP + 'amez-cfo/amez-editorial-01-tesis.png', imgAlt:t('Composición editorial de AMEZ CFO: una ruta clara entre información y decisión','AMEZ CFO editorial composition: a clear route between information and decision'),
+        gal:[
+          { src:PP + 'amez-cfo/amez-editorial-01-tesis.png', cap:t('Tesis — convertir complejidad financiera en una decisión legible','Thesis — turning financial complexity into a legible decision') },
+          { src:PP + 'amez-cfo/amez-editorial-02-sistema.png', cap:t('Sistema — continuidad operativa sin exponer información de clientes','System — operating continuity without exposing client information') },
+          { src:PP + 'amez-cfo/amez-editorial-03-evidencia.png', cap:t('Evidencia — trazabilidad y disciplina, no cifras ni resultados simulados','Evidence — traceability and discipline, not simulated figures or outcomes') }
+        ],
+        blocks:[
+          { k:t('Narrativa','Narrative'), v:t('La función financiera se presenta como una disciplina de decisión y ejecución, no solo como reporte retrospectivo.','The finance function is framed as a discipline of decision and execution, not merely retrospective reporting.') },
+          { k:t('Sistema de marca','Brand system'), v:t('Identidad corporativa independiente, con azul profundo, acentos de desempeño y una expresión sobria orientada a confianza.','Independent corporate identity with deep blue, performance accents and a restrained, trust-oriented expression.') },
+          { k:t('Enfoque de construcción','Build approach'), v:t('Conectar metodología financiera, expedientes, entregables y seguimiento en un sistema operativo trazable.','Connecting financial methodology, records, deliverables and follow-through in a traceable operating system.') },
+          { k:t('Mi rol','My role'), v:t('Como COO y socio, dirijo análisis financiero, metodología operativa y sistemas de entrega de la firma.','As COO and partner, I lead the firm’s financial analysis, operating methodology and delivery systems.') },
+          { k:t('Evidencia y estado','Evidence & status'), v:t('Identidad institucional autorizada y paquete G1 aprobado por el owner. La vista permanece privada: no consume expedientes, datos de clientes, cifras financieras reales ni resultados no verificables.','Authorized institutional identity and owner-approved G1 package. The view remains private: it uses no records, client data, real financial figures or unverifiable outcomes.') }
+        ], link:null, linkLabelEs:'Explorar el sistema', linkLabelEn:'Explore the system' },
+      { cat:'finanzas', tag:t('Producto · Finanzas','Product · Finance'), title:'QuickFinance',
+        brandThesis:t('Un reporte financiero debe terminar en lectura y acción.','A financial report should end in insight and action.'),
+        teaser:t('Producto operativo que convierte información financiera en reportes, lectura ejecutiva y un ecosistema reutilizable de generadores.','An operating product that turns financial information into reports, executive interpretation and a reusable generator ecosystem.'),
+        metric:t('Producto · reporte · ecosistema','Product · report · ecosystem'),
+        flag:t('Vista privada autorizada · datos de ejemplo','Authorized private view · sample data'),
+        img:PP + 'quickfinance/quickfinance-editorial-01-tesis.png', imgAlt:t('Composición editorial de QuickFinance: reporte CFO convertido en decisión con fecha','QuickFinance editorial composition: CFO report turned into a dated decision'),
+        gal:[
+          { src:PP + 'quickfinance/quickfinance-editorial-01-tesis.png', cap:t('Tesis — reporte CFO, tendencia, lectura y siguiente acción','Thesis — CFO report, trend, interpretation and next action') },
+          { src:PP + 'quickfinance/quickfinance-editorial-02-decision.png', cap:t('Decisión — plan priorizado completo con datos de ejemplo','Decision — complete prioritized plan with sample data') },
+          { src:PP + 'quickfinance/quickfinance-editorial-03-ecosistema.png', cap:t('Ecosistema — HUB, reporte CFO y situación financiera','Ecosystem — HUB, CFO report and financial position') }
+        ],
+        blocks:[
+          { k:t('Narrativa','Narrative'), v:t('Reducir la distancia entre el dato y la decisión mediante reportes que explican qué pasó, qué significa y qué conviene hacer.','Reducing the distance between data and decision through reports that explain what happened, what it means and what to do next.') },
+          { k:t('Sistema de marca','Brand system'), v:t('Lenguaje financiero digital en navy y naranja, diseñado para jerarquía, lectura rápida y continuidad entre producto y output.','A digital financial language in navy and orange, designed for hierarchy, rapid reading and continuity between product and output.') },
+          { k:t('Enfoque de construcción','Build approach'), v:t('Diseñar primero el flujo de decisión y después convertirlo en generadores, plantillas y reportes repetibles.','Designing the decision flow first, then turning it into repeatable generators, templates and reports.') },
+          { k:t('Mi rol','My role'), v:t('Arquitectura de producto, sistema financiero, experiencia de reporte y dirección de la integración con el portafolio comercial.','Product architecture, financial system, reporting experience and direction of the commercial portfolio integration.') },
+          { k:t('Evidencia y estado','Evidence & status'), v:t('Activos auténticos del producto con datos de ejemplo. Candidato de preview, no publicado y sin claims de impacto comercial.','Authentic product assets with sample data. Preview candidate, not published, with no commercial impact claims.') }
+        ], link:null, linkLabelEs:'Explorar QuickFinance', linkLabelEn:'Explore QuickFinance' },
+      { cat:'comercial', tag:t('Desarrollo · Inversión','Development · Investment'), title:'Stone Oak & Evans',
+        brandThesis:t('La confianza se diseña cuando la visión, la evidencia y los límites hablan el mismo idioma.','Trust is designed when vision, evidence and boundaries speak the same language.'),
+        teaser:t('Sistema de marca y estudio preliminar para comunicar una oportunidad inmobiliaria con lenguaje heritage y trazabilidad explícita.','Brand system and preliminary study for communicating a real-estate opportunity with a heritage language and explicit traceability.'),
+        metric:t('Estudio v0.2 · validación pendiente','Study v0.2 · validation pending'),
+        flag:t('Vista privada autorizada · no distribuible','Authorized private view · not distributable'),
+        img:PP + 'stone-oak/stone-oak-editorial-01-tesis.png', imgAlt:t('Composición editorial del estudio preliminar Stone Oak & Evans con el plan maestro completo','Editorial composition of the Stone Oak & Evans preliminary study with the complete master plan'),
+        gal:[
+          { src:PP + 'stone-oak/stone-oak-editorial-01-tesis.png', cap:t('Tesis — territorio y plan maestro preliminar, preservados completos','Thesis — territory and preliminary master plan, preserved in full') },
+          { src:PP + 'stone-oak/stone-oak-editorial-02-experiencia.png', cap:t('Experiencia — render autorizado dentro de una lectura espacial editorial','Experience — authorized render within an editorial spatial reading') },
+          { src:PP + 'stone-oak/stone-oak-editorial-03-evidencia.png', cap:t('Evidencia — dossier derivado de los dos renders autorizados; validación pendiente','Evidence — dossier derived from the two authorized renders; validation pending') }
+        ],
+        blocks:[
+          { k:t('Narrativa','Narrative'), v:t('Un proyecto de desarrollo se hace legible mediante una secuencia de visión, contexto, propuesta y evidencia, con estados operativos claros.','A development project becomes legible through a sequence of vision, context, proposition and evidence, with clear operating states.') },
+          { k:t('Sistema de marca','Brand system'), v:t('Expresión heritage propia: Ledger Mark, paleta sobria, tipografía editorial y patrones que remiten a parcela, fachada y registro.','A proprietary heritage expression: Ledger Mark, restrained palette, editorial typography and patterns referencing parcel, façade and record.') },
+          { k:t('Enfoque de construcción','Build approach'), v:t('Separar con rigor concepto, evidencia disponible y aprobación pendiente; el diseño organiza la conversación sin simular certeza.','Rigorously separating concept, available evidence and pending approval; design organizes the conversation without simulating certainty.') },
+          { k:t('Mi rol','My role'), v:t('Dirección del sistema de marca, arquitectura del estudio preliminar y gobernanza de sus entregables y estados.','Direction of the brand system, preliminary-study architecture and governance of its deliverables and states.') },
+          { k:t('Evidencia y estado','Evidence & status'), v:t('Estudio preliminar v0.2 vigente para revisión. Recepción y validación pendientes; distribución a socios y publicación no autorizadas.','Preliminary study v0.2 current for review. Receipt and validation pending; partner distribution and publication not authorized.') }
+        ], link:null, linkLabelEs:'Explorar el estudio', linkLabelEn:'Explore the study' },
+      { cat:'producto', tag:t('Producto · Joyería','Product · Jewelry'), title:'Sicarú',
+        brandThesis:t('Convertir memoria y materia en un sistema de objetos con significado.','Turning memory and material into a system of meaningful objects.'),
+        teaser:t('Sistema de marca y prototipo conceptual para una propuesta de joyería; el estado conceptual se mantiene visible y separado de cualquier producto fabricado.','Brand system and conceptual prototype for a jewelry proposition; the conceptual status remains visible and separate from any manufactured product.'),
+        metric:t('Prototipo conceptual · no fabricado','Concept prototype · not manufactured'),
+        flag:t('Vista privada autorizada · prototipo conceptual','Authorized private view · conceptual prototype'),
+        img:PP + 'sicaru/sicaru-editorial-01-tesis.png', imgAlt:t('Composición editorial Sicarú con la visualización conceptual del objeto preservada completa','Sicarú editorial composition with the conceptual object visualization preserved in full'),
+        gal:[
+          { src:PP + 'sicaru/sicaru-editorial-01-tesis.png', cap:t('Tesis — objeto conceptual dentro de su universo de memoria y materia','Thesis — conceptual object within its world of memory and material') },
+          { src:PP + 'sicaru/sicaru-editorial-02-sistema.png', cap:t('Sistema — empaque conceptual y códigos de sello, color y ritmo','System — conceptual packaging and its seal, color and rhythm codes') },
+          { src:PP + 'sicaru/sicaru-editorial-03-mundo.png', cap:t('Mundo — expediente de visualizaciones conceptuales; ninguna pieza fue fabricada','World — dossier of conceptual visualizations; no piece was manufactured') }
+        ],
+        blocks:[
+          { k:t('Narrativa','Narrative'), v:t('La propuesta construye significado alrededor de origen, memoria y materialidad, antes de convertirlo en una línea física.','The proposition builds meaning around origin, memory and materiality before turning it into a physical line.') },
+          { k:t('Sistema de marca','Brand system'), v:t('Identidad propia con códigos artesanales, sello, materialidad cálida y una dirección visual enfocada en detalle y tactilidad.','A proprietary identity with craft codes, seal, warm materiality and visual direction focused on detail and tactility.') },
+          { k:t('Enfoque de construcción','Build approach'), v:t('Explorar primero narrativa, códigos y prototipos visuales, manteniendo una frontera explícita entre concepto y producción.','Exploring narrative, codes and visual prototypes first, while keeping an explicit boundary between concept and production.') },
+          { k:t('Mi rol','My role'), v:t('Dirección estratégica del sistema, selección de aplicaciones y gobernanza del portafolio conceptual.','Strategic direction of the system, application selection and governance of the conceptual portfolio.') },
+          { k:t('Evidencia y estado','Evidence & status'), v:t('Todas las imágenes son visualizaciones conceptuales vigentes. No representan joyería fabricada, inventario ni ventas.','All images are current conceptual visualizations. They do not represent manufactured jewelry, inventory or sales.') }
+        ], link:null, linkLabelEs:'Explorar Sicarú', linkLabelEn:'Explore Sicarú' },
+      { cat:'identidad', tag:t('Contenido · Viajes','Content · Travel'), title:'Pafi Above and Beyond',
+        brandThesis:t('Viajar se vuelve más humano cuando la guía tiene una voz, un contexto y más de una lengua.','Travel becomes more human when the guide has a voice, context and more than one language.'),
+        teaser:t('Sistema completo para un producto editorial de viajes: voz, fotografía, arquitectura multilingüe, portal de autoría y herramientas de publicación.','A complete system for a travel editorial product: voice, photography, multilingual architecture, authoring portal and publishing tools.'),
+        metric:t('18 bloques · 5 idiomas','18 blocks · 5 languages'),
+        flag:t('Vista privada autorizada · producto en desarrollo','Authorized private view · product in development'),
+        img:PP + 'pafi-01-system.png', imgAlt:t('Master editorial de Pafi Above and Beyond','Pafi Above and Beyond editorial master'),
+        gal:[
+          { src:PP + 'pafi-01-system.png', cap:t('Sistema — master editorial para comunidad','System — community editorial master') },
+          { src:PP + 'pafi-02-photo.png', cap:t('Fotografía — mirada editorial de viaje','Photography — editorial travel perspective') },
+          { src:PP + 'pafi-03-merida.png', cap:t('Territorio — registro fotográfico de Mérida','Place — photographic record of Mérida') }
+        ],
+        blocks:[
+          { k:t('Narrativa','Narrative'), v:t('Una voz personal y plural convierte el viaje en relato útil, sensible al contexto y abierto a distintas comunidades lingüísticas.','A personal, plural voice turns travel into a useful narrative, sensitive to context and open to multiple language communities.') },
+          { k:t('Sistema de marca','Brand system'), v:t('Sistema de 18 bloques con identidad editorial cálida, cinco idiomas, fotografía propia y recursos diseñados para lectura y descubrimiento.','An 18-block system with a warm editorial identity, five languages, original photography and resources designed for reading and discovery.') },
+          { k:t('Enfoque de construcción','Build approach'), v:t('Unir marca, modelo de negocio y producto: desde voz y taxonomía hasta PRD, datos, portal y auditoría de copy.','Connecting brand, business model and product: from voice and taxonomy to PRD, data, portal and copy auditing.') },
+          { k:t('Mi rol','My role'), v:t('Arquitectura del sistema de marca y producto, dirección editorial y diseño de sus herramientas operativas.','Brand and product system architecture, editorial direction and design of its operating tools.') },
+          { k:t('Evidencia y estado','Evidence & status'), v:t('Sistema completo y producto de portal en desarrollo. No se afirma audiencia, monetización ni publicación multilingüe activa.','Complete system and portal product in development. No claims are made about audience, monetization or active multilingual publishing.') }
+        ], link:null, linkLabelEs:'Explorar Pafi', linkLabelEn:'Explore Pafi' }
+    ];
+
+    return { es, t, routes, cases, AV_THESIS };
+  }
+
+  renderVals() {
+    const { es, t, routes, cases, AV_THESIS } = this.data();
+    const gimg = (src, alt) => React.createElement('img', { src, alt, loading:'lazy' });
+
+    const rowBase = "transition:background .15s; border-bottom:1px solid #d3cdc1;";
+    const routeVals = routes.map((r,i) => {
+      const active = this.state.route===r.key;
+      return { ...r, num:'0'+(i+1), active,
+        rowStyle: rowBase + (active ? "background:#dfdacf; border-left:4px solid #185e6b;" : "background:transparent; border-left:4px solid transparent;"),
+        chev: "font-family:'Martian Mono',monospace; font-size:20px; transition:transform .15s; " + (active ? "color:#185e6b; transform:rotate(90deg);" : "color:#5f5a51;"),
+        on: () => this.setState({ route:r.key }),
+      };
     });
+
+    const setCaseSlide = (i,n) => this.setState((s) => { const a=s.caseSlides.slice(); a[i]=((n%cases[i].gal.length)+cases[i].gal.length)%cases[i].gal.length; return { caseSlides:a }; });
+    const caseVals = cases.map((c,i) => {
+      const slide = this.state.caseSlides[i] || 0;
+      const g = c.gal[slide] || c.gal[0];
+      return { ...c, num:String(i+1).padStart(2,'0'), open:t('Explorar el caso','Explore the case'), ariaLabel:t('Abrir el caso ','Open case ') + c.title,
+        imgEl:gimg(g.src,c.title + ' — ' + g.cap), slideCounter:String(slide+1).padStart(2,'0')+' / '+String(c.gal.length).padStart(2,'0'),
+        slideAria:t('Mostrar la siguiente imagen de ','Show the next image for ') + c.title,
+        dots:c.gal.map((_,di)=>({activeClass:di===slide?'is-active':''})),
+        nextSlide:() => setCaseSlide(i,slide+1),
+        on: () => { this._lastFocus = document.activeElement; this.setState({ caseIdx:i }, () => { const d=this.dialogRef.current; if(d) d.focus(); }); }
+      };
+    }).filter((c)=>this.state.caseFilter==='all'||c.cat===this.state.caseFilter);
+
+    const filterDefs = [
+      ['all',t('Todos','All')],['finanzas',t('Finanzas','Finance')],['comercial',t('Comercial','Commercial')],
+      ['hospitalidad',t('Hospitalidad','Hospitality')],['producto',t('Producto','Product')],['identidad',t('Identidad','Identity')]
+    ];
+    const filters = filterDefs.map(([key,label]) => ({ key,label, activeClass:this.state.caseFilter===key?'is-active':'', pressed:this.state.caseFilter===key?'true':'false', on:()=>this.setState({caseFilter:key}) }));
+
     const idx = this.state.caseIdx;
     let modal = { open:false };
     if (idx !== null && cases[idx]) {
       const c = cases[idx];
-      modal = { open:true, tag:c.tag, title:c.title, cerrar:t('Cerrar','Close'),
-        gal: c.gal.map(g => ({ imgEl: gimg(g.src, c.title + ' — ' + g.cap), cap: g.cap })),
-        blocks: c.blocks, link: c.link, linkLabel: c.link ? t(c.linkLabelEs, c.linkLabelEn) : '' };
+      const si = this.state.caseSlides[idx] || 0;
+      const sg = c.gal[si] || c.gal[0];
+      modal = { open:true, tag:c.tag, title:c.title,
+        flag:c.flag, brandThesis:c.brandThesis,
+        slide:{ imgEl:gimg(sg.src,c.title + ' — ' + sg.cap), cap:sg.cap },
+        thumbs:c.gal.map((g,gi)=>({activeClass:gi===si?'is-active':'',pressed:gi===si?'true':'false',aria:t('Mostrar imagen ','Show image ')+(gi+1),on:()=>setCaseSlide(idx,gi)})),
+        prevImage:t('Imagen anterior','Previous image'), nextImage:t('Imagen siguiente','Next image'), galleryLabel:t('Navegación de la galería','Gallery navigation'),
+        blocks:c.blocks,
+        link:c.link,
+        linkLabel:t(c.linkLabelEs,c.linkLabelEn),
+        prev:t('Anterior','Prev'), next:t('Siguiente','Next'),
+        counter:(idx+1)+' / '+cases.length,
+      };
     }
-    const langBtn = a => "font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.08em; padding:9px 16px; border:none; cursor:pointer; min-height:40px; " + (a ? 'background:#f7f5f1; color:#1a1a17;' : 'background:transparent; color:#a49d92;');
+
     return {
-      esActive: es, enActive: !es,
-      setEs: () => { document.documentElement.lang = 'es'; this.setState({ lang:'es' }); },
-      setEn: () => { document.documentElement.lang = 'en'; this.setState({ lang:'en' }); },
-      esBtn: langBtn(es), enBtn: langBtn(!es),
+      // lang
+      dialogRef: this.dialogRef,
+      progressRef: this.progressRef,
+      setEs: () => { document.documentElement.lang='es'; this.setState({ lang:'es' }); },
+      setEn: () => { document.documentElement.lang='en'; this.setState({ lang:'en' }); },
+      esPressed: es ? 'true' : 'false',
+      enPressed: es ? 'false' : 'true',
+      esBtn: this.langBtn(es),
+      enBtn: this.langBtn(!es),
+      // nav
       nav: [
-        { label:t('Casos','Cases'), href:'#casos' },
-        { label:t('Rutas','Routes'), href:'#rutas' },
         { label:t('Tesis','Thesis'), href:'#perfil' },
-        { label:t('Sobre mí','About'), href:'#sobre' }
+        { label:t('Formas de trabajar','Ways to work'), href:'#rutas' },
+        { label:t('Proyectos','Projects'), href:'#casos' },
+        { label:t('Ideas','Ideas'), href:'#escritura' },
       ],
+      homeLabel: t('Arturo Villagomez · Inicio','Arturo Villagomez · Home'),
       navCta:t('Contacto','Contact'),
+      // hero
       kicker:'Finanzas · Operaciones · IA aplicada',
-      descriptor:t('Sistemas que escalan','Systems that scale'),
-      essence:t('Convierto la complejidad de un negocio en decisiones y en los sistemas que las ejecutan.','I turn business complexity into decisions — and the systems that execute them.'),
-      heroSub:t('Criterio financiero, disciplina operativa e IA aplicada para que la información correcta llegue a la decisión correcta en el momento correcto.','Financial judgment, operational discipline and applied AI — so the right information reaches the right decision at the right moment.'),
-      heroCta:t('Hablemos','Let’s talk'), heroCta2:t('Ver el trabajo','See the work'),
-      heroPhotoAlt:t('Retrato de Arturo Villagomez','Portrait of Arturo Villagomez'),
-      casesKicker:t('La tesis, en la práctica','The thesis in practice'),
-      casesTitle:t('Trabajo real, con su estado real','Real work, with its real status'),
-      casesSub:t('Tres casos con evidencia visual del sistema y su aplicación, incluyendo dos sitios públicos. Donde no hay un resultado cuantitativo documentado, se dice literalmente.','Three cases with visual evidence of the system and its application, including two public websites. Where no quantitative result is documented, it says so literally.'),
-      cases: cases.map((c, i) => Object.assign({}, c, { num:'0' + (i + 1), open:t('Ver caso','View case'), abrir:t('Abrir el caso ','Open case ') + c.title,
-        imgEl: React.createElement('img', { src: c.img, alt: c.imgAlt, style: { display:'block', width:'100%', aspectRatio:'16/10', objectFit:'cover', background:'#dfdacf' } }),
-        on: () => { this._lastFocus = document.activeElement; this.setState({ caseIdx:i }, () => { const d = document.querySelector('[role="dialog"]'); if (d) d.focus(); }); } })),
-      modal,
-      closeCase: () => this.setState({ caseIdx:null }, () => { if (this._lastFocus && this._lastFocus.focus) this._lastFocus.focus(); }),
-      stop: e => e.stopPropagation(),
-      routerKicker:t('Aplícala a tu caso','Apply it to your case'),
-      routerTitle:t('Una tesis. Tres formas de aplicarla.','One thesis. Three ways to apply it.'),
-      routerSub:t('La misma tesis, según desde dónde llegas: empleo, consultoría o ventures.','The same thesis, depending on where you come from: hiring, consulting or ventures.'),
+      descriptor: t('Sistemas que escalan','Systems that scale'),
+      essence: AV_THESIS.heroShort,
+      heroSub: t('Trabajo por proyectos en la intersección de finanzas, operaciones e IA aplicada: diagnostico, construyo y dejo capacidad instalada.','I work through projects at the intersection of finance, operations and applied AI: I diagnose, build and leave lasting capability.'),
+      heroPhotoAlt: t('Retrato de Arturo Villagomez','Portrait of Arturo Villagomez'),
+      heroCta: t('Cuéntame el reto','Tell me the challenge'),
+      heroCta2: t('Ver proyectos','See projects'),
+      trustLabel: t('Disponible para','Available for'),
+      trust: es ? ['Proyectos estratégicos','Sistemas financieros y operativos','IA aplicada','Venture building'] : ['Strategic projects','Financial and operating systems','Applied AI','Venture building'],
+      // router
+      routerKicker: t('02 · Formas de trabajar','02 · Ways to work'),
+      routerTitle: t('Cuatro maneras de construir juntos.','Four ways to build together.'),
+      routerSub: t('El alcance, la duración y el nivel de involucramiento cambian; el criterio y el handoff permanecen.','Scope, duration and level of involvement change; judgment and handoff remain.'),
       routes: routeVals,
-      posKicker:t('La tesis','The thesis'),
-      posTitle:t('No un especialista más: un operador que conecta las piezas.','Not one more specialist: an operator who connects the pieces.'),
-      posBody:t('Casi ningún problema de negocio vive en un solo silo: es finanzas, operación y datos al mismo tiempo. Por eso convierto la complejidad en decisiones y en los sistemas que las ejecutan — criterio financiero para decidir, disciplina operativa para ejecutar e IA aplicada para escalar lo repetitivo. Una sola creencia lo ordena todo: la información correcta, en la decisión correcta, en el momento correcto.','Almost no business problem lives in a single silo: it’s finance, operations and data at once. That’s why I turn complexity into decisions — and the systems that execute them — with financial judgment to decide, operational discipline to execute and applied AI to scale the repetitive. One belief orders it all: the right information, in the right decision, at the right time.'),
-      methodKicker:t('Método','Method'),
-      methodTitle:t('Cómo trabajo','How I work'),
-      methodSub:t('Un mismo sistema de trabajo, sin importar la ruta: del criterio a la ejecución.','One working system, whatever the route: from judgment to execution.'),
+      // positioning
+      posKicker: t('01 · La tesis','01 · The thesis'),
+      posTitle: t('El valor está en conectar las piezas.','The value lies in connecting the pieces.'),
+      posBody: t('Los problemas más difíciles rara vez viven en un solo silo. Cruzan finanzas, operación, producto y datos. Trabajo por proyectos para convertir esa complejidad en decisiones, herramientas y procesos que el equipo puede continuar usando cuando mi intervención termina.','The hardest problems rarely live in a single silo. They cross finance, operations, product and data. I work through projects to turn that complexity into decisions, tools and processes the team can keep using after my engagement ends.'),
+      pillars: [
+        { no:'01', title:t('Criterio financiero','Financial judgment'), body:t('Leer el negocio por sus números y decidir dónde poner el foco y el capital.','Reading the business through its numbers and deciding where focus and capital go.') },
+        { no:'02', title:t('Disciplina operativa','Operational discipline'), body:t('Convertir la estrategia en procesos, SOPs y sistemas que otros pueden operar.','Turning strategy into processes, SOPs and systems others can run.') },
+        { no:'03', title:t('IA aplicada','Applied AI'), body:t('Automatizar lo repetitivo y amplificar el criterio, no reemplazarlo.','Automating the repetitive and amplifying judgment, not replacing it.') },
+      ],
+      // cases
+      casesKicker: t('03 · La tesis, en la práctica','03 · The thesis in practice'),
+      casesTitle: t('Trabajo real, con su estado real','Real work, with its real status'),
+      casesSub: t('Ocho proyectos con evidencia visual del sistema y su aplicación. Cada uno conserva una narrativa, una identidad y un enfoque propios; donde no existe un resultado cuantitativo documentado, se declara literalmente.','Eight projects with visual evidence of the system and its application. Each keeps its own narrative, identity and approach; where no quantitative outcome is documented, it is stated literally.'),
+      casesFlag: t('3 casos públicos · 5 vistas privadas autorizadas. Cada estado permanece visible.','3 public cases · 5 authorized private views. Every status remains visible.'),
+      filtersLabel:t('Filtrar proyectos','Filter projects'),
+      filters,
+      cases: caseVals,
+      casesSource1: t('Código y proyectos en GitHub','Code and projects on GitHub'),
+      casesSource2: t('Cada caso conserva su estado de evidencia y sus límites de atribución.','Each case preserves its evidence status and attribution boundaries.'),
+      // modal
+      modal: { ...modal, close:t('Cerrar caso','Close case') },
+      closeCase: () => this.setState({ caseIdx:null }, () => { if(this._lastFocus && this._lastFocus.focus) this._lastFocus.focus(); }),
+      stop: (e) => e.stopPropagation(),
+      prevCase: () => this.setState(s => ({ caseIdx:(s.caseIdx+cases.length-1)%cases.length })),
+      nextCase: () => this.setState(s => ({ caseIdx:(s.caseIdx+1)%cases.length })),
+      prevSlide: () => { const i=this.state.caseIdx; if(i!==null) setCaseSlide(i,(this.state.caseSlides[i]||0)-1); },
+      nextSlide: () => { const i=this.state.caseIdx; if(i!==null) setCaseSlide(i,(this.state.caseSlides[i]||0)+1); },
+      // método (reemplaza Stack)
+      methodKicker: t('04 · Método','04 · Method'),
+      methodTitle: t('Cómo trabajo','How I work'),
+      methodSub: t('Un sistema de trabajo adaptable al reto: del diagnóstico a la capacidad instalada.','A working system adapted to the challenge: from diagnosis to lasting capability.'),
       method: [
         { no:'01', title:t('Criterio financiero','Financial judgment'), body:t('Leer el negocio por sus números para decidir dónde poner foco y capital.','Reading the business by its numbers to decide where focus and capital go.') },
         { no:'02', title:t('Disciplina operativa','Operational discipline'), body:t('Convertir decisiones en procesos y SOPs que otros pueden operar.','Turning decisions into processes and SOPs others can run.') },
         { no:'03', title:t('Pensamiento de producto','Product thinking'), body:t('Definir el problema, priorizar y validar antes de construir.','Framing the problem, prioritizing and validating before building.') },
         { no:'04', title:t('Procesos estructurados','Structured processes'), body:t('Documentar y estandarizar para que el sistema no dependa de una sola persona.','Documenting and standardizing so the system doesn’t depend on one person.') },
-        { no:'05', title:t('Datos e IA aplicada','Data & applied AI'), body:t('Automatizar lo repetitivo y amplificar el criterio, no reemplazarlo.','Automating the repetitive and amplifying judgment, not replacing it.') }
-      ],
-      methodTools:t('Herramientas al servicio del criterio: R y visualización, hojas de cálculo avanzadas, IA/LLMs y prototipado rápido — nunca al revés.','Tools in service of judgment: R and visualization, advanced spreadsheets, AI/LLMs and rapid prototyping — never the other way around.'),
-      aboutKicker:t('Sobre mí','About'),
-      aboutTitle:t('Un operador que piensa en sistemas','An operator who thinks in systems'),
+        { no:'05', title:t('Datos e IA aplicada','Data & applied AI'), body:t('Automatizar lo repetitivo y amplificar el criterio, no reemplazarlo.','Automating the repetitive and amplifying judgment, not replacing it.') },
+      ].map((m,i)=>({ ...m, activeClass:this.state.methodActive===i?'is-active':'', pressed:this.state.methodPinned===i?'true':'false',
+        enter:()=>this.setState({methodActive:i}), leave:()=>this.setState({methodActive:this.state.methodPinned}),
+        pin:()=>this.setState({methodPinned:i,methodActive:i}) })),
+      methodTools: t('Herramientas al servicio del criterio: R y visualización, hojas de cálculo avanzadas, IA/LLMs y prototipado rápido — nunca al revés.','Tools in service of judgment: R and visualization, advanced spreadsheets, AI/LLMs and rapid prototyping — never the other way around.'),
+            // about
+      aboutKicker: t('05 · Sobre mí','05 · About'),
+      aboutTitle: t('Un operador que piensa en sistemas','An operator who thinks in systems'),
       aboutBody: es ? [
         'COO y socio en AMEZ CFO, donde dirijo el análisis financiero, la metodología operativa y los sistemas de entrega de la firma. Antes, analista financiero para empresas de varios sectores.',
-        'También cofundé ButterBuck, donde construí la arquitectura financiera y de producto y dirigí Product Operations. Mi ventaja está en combinar finanzas, operación, producto e IA aplicada en una sola cabeza.'
+        'También cofundé ButterBuck, donde construí la arquitectura financiera y de producto y dirigí Product Operations. Mi ventaja está en combinar finanzas, operación, producto e IA aplicada en una sola cabeza.',
       ] : [
         'COO and partner at AMEZ CFO, where I lead the firm’s financial analysis, operating methodology and delivery systems. Before that, financial analyst for companies across several sectors.',
-        'I also co-founded ButterBuck, where I built the financial and product architecture and led Product Operations. My edge is combining finance, operations, product and applied AI in one head.'
+        'I also co-founded ButterBuck, where I built the financial and product architecture and led Product Operations. My edge is combining finance, operations, product and applied AI in one head.',
       ],
-      aboutPhotoAlt:t('Retrato de Arturo Villagomez','Portrait of Arturo Villagomez'),
-      dossierTitle:t('Perfil · resumen','Profile · summary'),
+      photoPlaceholder: t('Foto dirigida · pendiente','Directed photo · pending'),
+      aboutPhotoAlt: t('Arturo Villagomez en retrato editorial','Editorial portrait of Arturo Villagomez'),
+      dossierTitle: t('Perfil · resumen','Profile · summary'),
       dossier: [
         { k:t('Rol','Role'), v:t('COO y Socio · AMEZ CFO','COO & Partner · AMEZ CFO') },
         { k:'Base', v:t('Ciudad de México','Mexico City') },
         { k:t('Formación','Education'), v:t('Economía y Finanzas · Tecnológico de Monterrey','Economics & Finance · Tecnológico de Monterrey') },
         { k:t('Idiomas','Languages'), v:t('Español · Inglés','Spanish · English') },
-        { k:t('Estado','Status'), v:t('Abierto a conversaciones','Open to conversations') }
+        { k:t('Estado','Status'), v:t('Abierto a conversaciones','Open to conversations') },
       ],
-      ctaKicker:t('Contacto','Contact'),
-      ctaTitle:t('¿Trabajamos juntos?','Shall we work together?'),
-      ctaBody:t('¿Tienes complejidad que convertir en decisiones y en sistemas que las ejecuten? Empleo, consultoría o una idea de venture — escríbeme. Respondo directo.','Have complexity to turn into decisions and systems that execute them? A role, consulting or a venture idea — write me. I reply directly.'),
-      ctaEmail:t('Escríbeme','Email me'),
-      footerNote:t('Finanzas · Operaciones · IA aplicada','Finance · Operations · Applied AI')
+      // writing
+      writeKicker: t('06 · Escritura','06 · Writing'),
+      writeTitle: t('Ideas que convierto en sistemas','Ideas I turn into systems'),
+      writeAll: t('Proyectos anteriores · GitHub','Past projects · GitHub'),
+      themes: [
+        { tag:t('Finanzas','Finance'), title:t('Cómo leer un negocio por sus números','How to read a business through its numbers') },
+        { tag:t('Operación','Ops'), title:t('Sistemas y SOPs que la gente sí usa','Systems and SOPs people actually use') },
+        { tag:t('IA aplicada','Applied AI'), title:t('Automatizar sin perder el criterio','Automating without losing judgment') },
+        { tag:t('Perspectiva','Perspective'), title:t('Finanzas, operación y producto como un solo oficio','Finance, operations and product as one craft') },
+      ],
+      soonLabel: t('Próximamente','Coming soon'),
+      writeNote: t('Temas sobre los que escribiré. Aún no hay artículos publicados; los enlazaré aquí cuando existan.','Themes I’ll write on. No articles published yet; I’ll link them here once they exist.'),
+            // contact
+      ctaKicker: t('07 · Contacto','07 · Contact'),
+      ctaTitle: t('¿Qué quieres construir o destrabar?','What do you want to build or unblock?'),
+      ctaBody: t('Si tienes un proyecto complejo, necesitas acompañamiento fraccional o estás construyendo una oportunidad, cuéntame el contexto. Respondo directo.','If you have a complex project, need fractional support or are building an opportunity, tell me the context. I reply directly.'),
+      ctaEmail: t('Cuéntame el reto','Tell me the challenge'),
+      // footer
+      footerNote: t('Finanzas · Operaciones · IA aplicada','Finance · Operations · Applied AI'),
     };
   }
-}
 
+  langBtn(active) {
+    return "font-family:'Martian Mono',monospace; font-size:12px; letter-spacing:0.08em; padding:9px 16px; border:none; cursor:pointer; " +
+      (active ? "background:#f7f5f1; color:#1a1a17;" : "background:transparent; color:#a49d92;");
+  }
+}
 </script>
 </body>
 </html>

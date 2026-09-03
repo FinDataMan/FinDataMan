@@ -1,71 +1,171 @@
 {
-  "release": "Arturo Landing v1",
+  "release": "Arturo Landing / Portafolio B10 v2.8",
   "domain": "arturovillagomez.com",
-  "development_source": "FinDataMan/arturo-personal-runtime",
-  "source_component": "arturo-villagomez/bloques/bloque-10-landing.dc.html",
+  "production_url": "https://arturovillagomez.com/",
+  "hosting": {
+    "provider": "GitHub Pages",
+    "source_branch": "main",
+    "source_path": "/",
+    "https_enforced": true
+  },
+  "approved_source": {
+    "repository": "FinDataMan/arturo-personal-runtime",
+    "pull_request": 24,
+    "head_commit": "08b995ccb2fbd03dc7e3c74dbf6381efa0e680b5",
+    "merge_commit": "b3c91a55aeb02f82ff9459f4df3885f89c240f71",
+    "component": "arturo-villagomez/bloques/bloque-10-landing.dc.html",
+    "packet": "DEPLOYMENT-RELEASE-PACKET-B10-v2.8"
+  },
   "release_target": "FinDataMan/FinDataMan",
-  "branch": "release/arturo-landing-v1",
-  "release_status": "USER_APPROVED_PREVIEW",
-  "approved_at": "2026-07-27",
-  "private_hub_link_removed": true,
-  "professional_email_only": true,
-  "personal_gmail_or_whatsapp_present": false,
-  "files": {
-    ".nojekyll": {
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "size_bytes": 0
+  "branch": "release/b10-public-v2.8",
+  "release_status": "PUBLIC_DEPLOYMENT_PENDING",
+  "approved_at": "2026-09-02",
+  "acceptance_record": "RELEASE-ACCEPTANCE-B10-v2.8.md",
+  "public_boundary": {
+    "private_hub_link_removed": true,
+    "professional_email_only": true,
+    "personal_gmail_or_whatsapp_present": false,
+    "governance_or_private_evidence_present": false
+  },
+  "portfolio": {
+    "case_count": 8,
+    "case_asset_count": 24,
+    "pafi_current_package_preserved": true,
+    "pafi_brand_system_upgrade_deferred": true
+  },
+  "local_gates": {
+    "privacy": "PASS",
+    "source_integrity": "PASS",
+    "responsive_320_390_768_1440": "PASS",
+    "mobile_hero": "PASS",
+    "interaction": "PASS",
+    "keyboard_accessibility": "PASS",
+    "contrast": "PASS",
+    "reduced_motion": "PASS",
+    "broken_images": 0,
+    "console_errors": 0,
+    "failed_requests": 0
+  },
+  "limitations": [
+    "Voice DNA remains pending.",
+    "Pafi remains on its current package; its brand-system update is deferred.",
+    "Tamanova canonical repository remains unresolved in AVOS; no technical provenance is inferred.",
+    "AMEZ CFO figures are synthetic and anonymous.",
+    "Stone Oak & Evans remains a study in validation.",
+    "Sicarú remains a conceptual, non-manufactured prototype."
+  ],
+  "release_files": {
+    "assets/casos/amez-cfo/amez-editorial-01-tesis.png": {
+      "sha256": "d35a43068ac75c8e893c6ba7c64a97fc81e2aef7dc3479950dadc76f06c5ea9c",
+      "size_bytes": 277681
     },
-    ".image-slots.state.json": {
-      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
-      "size_bytes": 3
+    "assets/casos/amez-cfo/amez-editorial-02-sistema.png": {
+      "sha256": "7561618059713c0d646b6f33b626ff94ff572d50f417622606c01023858b66da",
+      "size_bytes": 366129
     },
-    "404.html": {
-      "sha256": "fc6216111c0d37ebfcfbdd6f2e9c08f9863bb513104b59886c1be722b73b8ca5",
-      "size_bytes": 654
+    "assets/casos/amez-cfo/amez-editorial-03-evidencia.png": {
+      "sha256": "1b33f7e240f652b35e3424edbf436bf1ad1562bdefd84f3f0cba3b08ccf83241",
+      "size_bytes": 591346
     },
-    "CNAME": {
-      "sha256": "8f4edc46c8f71ce74b9b690014c10129485e02194cfbe00f28654bbbaa01e616",
-      "size_bytes": 21
+    "assets/casos/arturo/arturo-editorial-01-tesis.png": {
+      "sha256": "f18555af0da0d18b7a852c248f9572a365fcb64e5893d86cddaf1776cc71e42a",
+      "size_bytes": 86996
     },
-    "ROLLBACK.md": {
-      "sha256": "d5ec5dd3181d7e1e75384cfcb85e5f4d5a0624bf5d3b2762232b17aa263d4b20",
-      "size_bytes": 504
+    "assets/casos/arturo/arturo-editorial-02-sistema.png": {
+      "sha256": "cd6b54e277bba6c39631cd68b852201ea7ca97b1a1229bbf9151b2916863c515",
+      "size_bytes": 104057
     },
-    "assets/favicon.svg": {
-      "sha256": "e224a4a6c7cd9fc5dea8b4d328c114ff817b9f9e7fbc9dd7955c65e5450da569",
-      "size_bytes": 379
+    "assets/casos/arturo/arturo-editorial-03-ecosistema.png": {
+      "sha256": "299742709decbf8528b0baf1726f2b2574f3ceeb1f41d2fc02d734022293b8ea",
+      "size_bytes": 112473
     },
-    "assets/landing-about.svg": {
-      "sha256": "b8bc451aa883750874b8d21350e71bbc28f9c6e7c6795f75b8a61c3de5b35eb0",
-      "size_bytes": 139992
+    "assets/casos/don-ventas-01-tesis.png": {
+      "sha256": "3455a7e5700c0ff393ebac2d1745304f39b9db8d961cc6b5a8d30b26dc0fa985",
+      "size_bytes": 612230
     },
-    "assets/landing-hero.svg": {
-      "sha256": "7918bf529fd43bf66449b5147b9fd78050419fd4b2ab5a6a86ac448cbe1fd080",
-      "size_bytes": 126160
+    "assets/casos/don-ventas-02-sistema.png": {
+      "sha256": "202172d5e8faf72421903668855feed2fba953a89c4cfdc2172c4986e706bfd7",
+      "size_bytes": 381852
     },
-    "assets/og-image.jpg": {
-      "sha256": "eeaad1cbeec1c82b66d103b890800bf633cdab112be8b44c22fae3b066940052",
-      "size_bytes": 90746
+    "assets/casos/don-ventas-03-ecosistema.png": {
+      "sha256": "36baebe8b662abf19fb59e3d698a69dec15e33ff4beca789695565370f17a376",
+      "size_bytes": 321350
     },
-    "image-slot.js": {
-      "sha256": "1aa09553ed246a78119b5156cf29b0f11bf1e48df259e38536e4a3d71e283667",
-      "size_bytes": 64753
+    "assets/casos/pafi-01-system.png": {
+      "sha256": "d75f010b4a3d19f72aacc3c3ed8e517badb08cefdf05d6ce00d11f1b57341db1",
+      "size_bytes": 159011
+    },
+    "assets/casos/pafi-02-photo.png": {
+      "sha256": "b63e64c828f00bc5564d6e5aedca89d2d8af77aedd77717fe3b8153f9dd562d2",
+      "size_bytes": 78894
+    },
+    "assets/casos/pafi-03-merida.png": {
+      "sha256": "6f13528309cd17948ea563172a37b8a27e4963aaf3c168bb570e97407e12fdce",
+      "size_bytes": 127599
+    },
+    "assets/casos/quickfinance/quickfinance-editorial-01-tesis.png": {
+      "sha256": "4359b69c557df82c582caa9b434f4356bb3262b56f5b245c22f6e112703dd1e9",
+      "size_bytes": 1025996
+    },
+    "assets/casos/quickfinance/quickfinance-editorial-02-decision.png": {
+      "sha256": "6ea51c3cf53b48540be0084aac472d72da2ec39440bac9113ae7331b100a4b98",
+      "size_bytes": 1080475
+    },
+    "assets/casos/quickfinance/quickfinance-editorial-03-ecosistema.png": {
+      "sha256": "909550eb7f28a3ae4aa367e765b9cab559ac92228737ec616c78b515049423e6",
+      "size_bytes": 1113616
+    },
+    "assets/casos/sicaru/sicaru-editorial-01-tesis.png": {
+      "sha256": "987fd6085c76fb6a47beb2ea123f34a5640f1ba6e7db9c19f80b244404e90236",
+      "size_bytes": 2362350
+    },
+    "assets/casos/sicaru/sicaru-editorial-02-sistema.png": {
+      "sha256": "672c49600b45acc9f46e19438d1dcc5a098239e8fa31a4f7568818a0ad274589",
+      "size_bytes": 636982
+    },
+    "assets/casos/sicaru/sicaru-editorial-03-mundo.png": {
+      "sha256": "e05aa3f1c46cb1053f80a3999edfda58a884d558b6b8e48b02d5341115f98c44",
+      "size_bytes": 1721338
+    },
+    "assets/casos/stone-oak/stone-oak-editorial-01-tesis.png": {
+      "sha256": "a4f21b71971bc8eff25276f14dda0e5efbbb3282c2a41fd4630dd18d3a86814a",
+      "size_bytes": 2568317
+    },
+    "assets/casos/stone-oak/stone-oak-editorial-02-experiencia.png": {
+      "sha256": "ba7392727b06761f3bef75b6d1f2fcd32bb28f4fe784a4c0bc377c03b4db710c",
+      "size_bytes": 853870
+    },
+    "assets/casos/stone-oak/stone-oak-editorial-03-evidencia.png": {
+      "sha256": "4ac89886fb01184874dd55253efd24cd6bce5d6b889a9b26b5016d7b94e70248",
+      "size_bytes": 2401170
+    },
+    "assets/casos/tamanova/tamanova-editorial-01-hospitalidad.png": {
+      "sha256": "106d784feb4d29ca071e08716d7d065de50baef52fec116eac088e384916419d",
+      "size_bytes": 1963709
+    },
+    "assets/casos/tamanova/tamanova-editorial-02-experiencia.png": {
+      "sha256": "2897e0000c0c2128bb46dba94747f26ff65ed15264fa481f0eb91ce5d923a65a",
+      "size_bytes": 1013220
+    },
+    "assets/casos/tamanova/tamanova-editorial-03-sistema.png": {
+      "sha256": "656cce4ed43449db72dca3d47d3f9e5601e1168b49f1a55ac4ec50a74880d71a",
+      "size_bytes": 492266
     },
     "index.html": {
-      "sha256": "c5008446c2d9f0d274b9e148d9fd4703006760ed2296105a67fd9629b28da374",
-      "size_bytes": 55210
+      "sha256": "e536450b683a033cd159be55b20610c83041014630cc6a78173d95766833c462",
+      "size_bytes": 100595
     },
-    "robots.txt": {
-      "sha256": "a1af87158899f3ddcbe5edc911631c22c43a7473f428f80e1c89522976621056",
-      "size_bytes": 74
+    "RELEASE-ACCEPTANCE-B10-v2.8.md": {
+      "sha256": "0becf6b4342ae2d4905f21c74f91fe7baa1e3c05fc08d442ead58ba89a27cc4d",
+      "size_bytes": 4888
+    },
+    "ROLLBACK.md": {
+      "sha256": "2952b558fb660c9de51b9096d027d8365537f5b138825bbaf83566b5fd32f0e5",
+      "size_bytes": 633
     },
     "sitemap.xml": {
-      "sha256": "f09463f763e77f50654a96aa74f7a45e6ed12a6685280c0418c6111fc6ebaf66",
-      "size_bytes": 391
-    },
-    "support.js": {
-      "sha256": "c60c49083997f51a592df118c0068475337afd20b8cfd8e1cd9d5eb0c7e254f6",
-      "size_bytes": 66404
+      "sha256": "5c22746064dde6162f736d10d45d8816861b185bfe6a60b10b6371dbf29c072e",
+      "size_bytes": 395
     }
   }
 }
