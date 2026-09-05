@@ -1,0 +1,24 @@
+# Arturo Villagomez
+
+> Sitio personal: finanzas, operaciones, producto e IA aplicada. Colaboración por proyectos y sistemas que escalan.
+
+Este es el sitio personal de Arturo Villagomez. Arturo es su propietario y responsable editorial. AMEZ CFO es una afiliación profesional: Arturo trabaja ahí y es socio; la firma no es propietaria ni editora de este sitio.
+
+Use las fuentes siguientes para evaluar experiencia y colaboraciones; el sitio no proporciona una API de ejecución.
+
+## When to use this site
+
+- [Cuándo usar este sitio y cómo proceder](https://arturovillagomez.com/agent-instructions.md): Perfil, proyectos, acompañamiento fraccional, límites de evidencia y contacto con autorización humana.
+
+## Información principal
+
+- [Perfil, método y portafolio](https://arturovillagomez.com/index.md): Contenido derivado de la misma fuente que la página interactiva.
+- [Índice de proyectos](https://arturovillagomez.com/projects/index.md): Ocho casos con páginas canónicas y estados de evidencia.
+- [Sobre Arturo](https://arturovillagomez.com/about/index.md): Trayectoria, base profesional y propiedad del sitio.
+- [Contacto](https://arturovillagomez.com/contact/index.md): Canal personal y contexto para una consulta.
+- [Privacidad](https://arturovillagomez.com/privacy/index.md): Proveedores técnicos, correo y alcance de la información.
+
+## Optional
+
+- [CV público](https://arturovillagomez.com/cv/): Documento profesional complementario; conserve sus fechas y alcance.
+- [Mapa del sitio](https://arturovillagomez.com/sitemap.xml): URLs canónicas públicas.

@@ -1,0 +1,14 @@
+{
+  "name": "arturo-site-agent-readiness",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-agent-content.mjs",
+    "check": "node scripts/build-agent-content.mjs --check",
+    "test": "node --test tests/*.test.mjs",
+    "preview": "node scripts/agent-server.mjs",
+    "audit:public": "node scripts/audit-endpoints.mjs https://arturovillagomez.com"
+  },
+  "dependencies": {"negotiator": "1.0.0"},
+  "engines": {"node": ">=22"}
+}
