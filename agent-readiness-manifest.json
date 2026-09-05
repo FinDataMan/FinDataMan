@@ -1,0 +1,172 @@
+{
+  "revision": "agent-readiness-R1",
+  "base_commit": "819a4439829e02fc105207d0c503e018101daa20",
+  "state": "LOCAL_PREPARATION_NOT_DEPLOYED",
+  "owner": "Arturo Villagomez",
+  "artifacts": {
+    "assets/landing.css": {
+      "sha256": "39707b0c2ee6312e6cd3bc5cc8195995c42563e75560a40b38719c1eb1251f92",
+      "bytes": 17850
+    },
+    "index.md": {
+      "sha256": "1d4e32eb82c595b9d01ac3d26a0c51c1b6e6193f8614c61fa4196d74153da695",
+      "bytes": 13687
+    },
+    "index.html": {
+      "sha256": "d3abf427065c8b95ba0fe0115e94a11e303e74d60fdf2b30c7c63e82b7d03cf0",
+      "bytes": 103190
+    },
+    "projects/arturo-villagomez/index.html": {
+      "sha256": "665041296812651231f1efb171fcfb6b45d85649aa9c810719acd6a18d3b2d1d",
+      "bytes": 5238
+    },
+    "projects/arturo-villagomez/index.md": {
+      "sha256": "8039797a6674e79cc9998017614433e975bacb2a85d721e989bf8dd4c1dd6185",
+      "bytes": 2063
+    },
+    "projects/casa-artu-tamanova/index.html": {
+      "sha256": "ac2b017742bd8d352f13481b7baf4524e6a162d99752bb24805377207356576b",
+      "bytes": 5029
+    },
+    "projects/casa-artu-tamanova/index.md": {
+      "sha256": "3fc200d5be3c41076081b896b09ee892d69c073e2a86befeb7efe6861f47bb53",
+      "bytes": 1905
+    },
+    "projects/don-ventas/index.html": {
+      "sha256": "03839ea7ead56f1d6793c4dd43f7220003dd9cbda551039cf7d270d507dd259f",
+      "bytes": 4669
+    },
+    "projects/don-ventas/index.md": {
+      "sha256": "8fc1b7ace3fa8c25cf1b5caadcae4cffbdce1d22c7847ce0300204b0f1935dc3",
+      "bytes": 1733
+    },
+    "projects/amez-cfo/index.html": {
+      "sha256": "8edf77711ff66aa5ca1b41301d9dd8b78ded67a6e0fe979fa291e4a289ce351f",
+      "bytes": 4640
+    },
+    "projects/amez-cfo/index.md": {
+      "sha256": "6c95b3dc9db92ff5a59b80afd82d6d4772d5698f7c30028b37ed8ba744b6219f",
+      "bytes": 1600
+    },
+    "projects/quickfinance/index.html": {
+      "sha256": "b89186b76377a2c34a28b9af957fad954c266c8d83080167ce573eb3379ab407",
+      "bytes": 4642
+    },
+    "projects/quickfinance/index.md": {
+      "sha256": "02195a6df8800712ea6b6cf842385c43b74b472655f9de0254beb807062d2ef0",
+      "bytes": 1555
+    },
+    "projects/stone-oak-evans/index.html": {
+      "sha256": "2dc672660ebaa3d202a8bbf15f8e9b257f29e062fcb6dca0769da5e6ffae7041",
+      "bytes": 4828
+    },
+    "projects/stone-oak-evans/index.md": {
+      "sha256": "7785dfc150f10dfc73665ebc9abf3f8269d19871833218feaa5d8d88dad1a896",
+      "bytes": 1661
+    },
+    "projects/sicaru/index.html": {
+      "sha256": "839486760675032aaf06ec140f597f23483d808a6e7904532250c9c34428ffcf",
+      "bytes": 4653
+    },
+    "projects/sicaru/index.md": {
+      "sha256": "70b3b1acb9da3f0d42651b5cfce6c60dd95f08734230d72d2cd5d95ea00bde9a",
+      "bytes": 1555
+    },
+    "projects/pafi-above-and-beyond/index.html": {
+      "sha256": "c711c66d400317cb2f9df39654036c809c0c4ca4625caf2495e1469e7ee4fc8e",
+      "bytes": 4931
+    },
+    "projects/pafi-above-and-beyond/index.md": {
+      "sha256": "0e8ca0429d7c4f4e0957a23ed6af12bd4964cee3b0ca216f5cf259be036e9265",
+      "bytes": 1733
+    },
+    "projects/index.html": {
+      "sha256": "94c58bbc94a1a6e44ff3501690554518767876286cf76d8e541f5ef17f225dfb",
+      "bytes": 4053
+    },
+    "projects/index.md": {
+      "sha256": "594f8244109c2850152bb99072ea6a47572463bb604864e14d8a1622486d7b27",
+      "bytes": 1661
+    },
+    "about/index.html": {
+      "sha256": "af9542531697a979ed36c163f8530dc9b6bdb2249dc034049bb48cfc3c3e5121",
+      "bytes": 3218
+    },
+    "about/index.md": {
+      "sha256": "e5d0959c6a365c4a990337de223e8a5082d82cbb5b30ff8f2cdb490ca1ec4625",
+      "bytes": 1221
+    },
+    "contact/index.html": {
+      "sha256": "1e65665849a6901b78dea70efcc2d2b18c6b591e8032fdd09838babb0186e504",
+      "bytes": 3234
+    },
+    "contact/index.md": {
+      "sha256": "dda5731bbaff99877e7992c5649c4d7f09a9ad99c30427eaa4506097ceb4053c",
+      "bytes": 1245
+    },
+    "privacy/index.html": {
+      "sha256": "84910acb0ce2be0b34ab85185cec1266891cf1dc6cdd226ae190e57f786f9cef",
+      "bytes": 4141
+    },
+    "privacy/index.md": {
+      "sha256": "6c39ef74b5e4b87432c53f155a8f5ec4757a0989998231af091669f64bddf6be",
+      "bytes": 2102
+    },
+    "agent-instructions.md": {
+      "sha256": "e03a7c52efcaf6d6fcb8ab3d63d02b1664da8a740d5121410f0722acaa044cb1",
+      "bytes": 1767
+    },
+    "llms.txt": {
+      "sha256": "8104d7190423079467060be58ef980a6b0440384e7ab661c2bf4ea2f95daef1b",
+      "bytes": 1580
+    },
+    "404.md": {
+      "sha256": "37cc39cf6a451d8ac12f0782cab684b577ab44ac9679827fe35f01ae2a2a8e6a",
+      "bytes": 317
+    },
+    "404.html": {
+      "sha256": "f72a2544a501bc9d2c066b561bc9bf7c7a1c2702bc41fd7dfa73d8f9ecb16063",
+      "bytes": 1228
+    },
+    "sitemap.xml": {
+      "sha256": "9e0b55b1616f3549959ac1fe1664b27d072aa20d873dbefeb670f24f3938e537",
+      "bytes": 1257
+    },
+    "agent-public-files.json": {
+      "sha256": "d1d6479df9e2b50aefbbb3e57fbbc82676102ff296976cd41c1b0d6494942121",
+      "bytes": 1922
+    },
+    "assets/agent-pages.css": {
+      "sha256": "fbce3634b0d053c145155dcdc5ace50deb5c5b0a9be292e891eadfde8bc5f4de",
+      "bytes": 2288
+    },
+    "content/site-information.mjs": {
+      "sha256": "0955bfec7346897bb784a231cccd6113f30ffb6f608607ed7c9d54236b400b8c",
+      "bytes": 4018
+    },
+    "scripts/build-agent-content.mjs": {
+      "sha256": "cefbc0636e69e02451cc14070448beb7ce6c3ec4c84549815b43810e694899a0",
+      "bytes": 15495
+    },
+    "scripts/agent-server.mjs": {
+      "sha256": "5a1362c41d7158d195b62655b0c0e5633fddb646079152b2a7e85dfeebd12698",
+      "bytes": 5164
+    },
+    "scripts/audit-endpoints.mjs": {
+      "sha256": "32cf224cb55dfad96c6d2cd564e31415041aeba53201cc4560784c8389bb1125",
+      "bytes": 1629
+    },
+    "tests/agent-readiness.test.mjs": {
+      "sha256": "8bbcffd5aa72a020002d897003c575076d69a63ea75e763866c2cf53be57ce84",
+      "bytes": 11360
+    },
+    "package.json": {
+      "sha256": "c905393770120acc320de72bb0e21524278ad32dbe2f4d4283db1c81f657d8c1",
+      "bytes": 467
+    },
+    "pnpm-lock.yaml": {
+      "sha256": "dd8fa8e2c2f1530d809e70b569775d35df2baa7e29f85b2e7397506ae7c73c1a",
+      "bytes": 418
+    }
+  }
+}

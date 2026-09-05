@@ -1,0 +1,92 @@
+{
+  "version": "0.2.0",
+  "updated": "2026-09-05",
+  "consumer": "B10_PUBLIC_SITE_LOCAL_REVIEW",
+  "publicationStatus": "NOT_PUBLISHED_THIS_ROUND",
+  "projects": {
+    "arturo-villagomez": {
+      "authority": "FinDataMan/arturo-personal-runtime",
+      "sourceState": "B13-B17 closed; B18 in final local review",
+      "convergence": "ALIGNED_LOCAL_REVIEW",
+      "assets": [
+        {
+          "role": "thesis",
+          "publicPath": "assets/casos/arturo/arturo-editorial-01-tesis.png",
+          "source": "arturo-villagomez/_governance/returns/arturo/editorial-v0.1/arturo-editorial-01-tesis.png",
+          "lifecycle": "HCA_APPROVED"
+        },
+        {
+          "role": "physical-system",
+          "publicPath": "assets/casos/arturo/arturo-portfolio-02-sistema-fisico.png",
+          "source": "arturo-villagomez/bloques/stand-referencias/07-stand-maestro/mockup-master-locked-r8-6.png",
+          "sha256": "046db57b9ca26164189ad6eb9a4016c6e3cff86305abe5ed1855783c3e80c615",
+          "dimensions": "1402x1122",
+          "lifecycle": "B13_APPROVED_LOCKED"
+        },
+        {
+          "role": "motion-identity",
+          "publicPath": "assets/casos/arturo/arturo-portfolio-03-identidad-movimiento.gif",
+          "source": "arturo-villagomez/bloques/logo-movimiento/exports/av-logo-intro-petrol-2x.gif",
+          "sha256": "7c3d553e1bd211258d76827a04898f023ff9b98bde9483392e3fe375e9c280ba",
+          "dimensions": "800x520",
+          "frames": 31,
+          "lifecycle": "B14_APPROVED_LOCKED"
+        }
+      ],
+      "limitations": [
+        "B18 is not represented as closed",
+        "This portfolio revision remains local until separately authorized for publication"
+      ]
+    },
+    "pafi-above-and-beyond": {
+      "authority": "Claude Design project 1959e0d2-c8b7-4d1a-8971-a67d0e56a32a",
+      "sourceCarrier": "pafi-bsb-hub/output/pdf/tmp/brandbook-inline.html",
+      "sourceState": "18/18 closed; HTML approved 2026-09-05; native print PDF pending",
+      "convergence": "ALIGNED_TO_APPROVED_HTML_PENDING_AUTHORITY_REPOSITORY",
+      "assets": [
+        {
+          "role": "brand-book-and-authorship",
+          "publicPath": "assets/casos/pafi/pafi-portfolio-01-brand-book.png",
+          "sourcePages": [
+            "s01 · Portada",
+            "s08 · Autoría visual: tesis"
+          ],
+          "sha256": "941b10ef2975d18e306daf1d526a706379c5985f18d33ebf3b6c7003819b3905",
+          "dimensions": "1600x1000",
+          "transformation": "Two complete 794x1123 page captures fitted proportionally on a brand-governed horizontal field; no crop or page distortion",
+          "lifecycle": "CANONICAL_DERIVED_LOCAL_REVIEW"
+        },
+        {
+          "role": "visual-language",
+          "publicPath": "assets/casos/pafi/pafi-portfolio-02-lenguaje-visual.png",
+          "sourcePages": [
+            "s22 · Showcase fase A",
+            "s17 · Marcos y patrones"
+          ],
+          "sha256": "6d269cc3b53f52f6d782b0c970d8e0c28a94b57ca8f0fe9d710090fc5b08d6d3",
+          "dimensions": "1600x1000",
+          "transformation": "Two complete 794x1123 page captures fitted proportionally on a brand-governed horizontal field; no crop or page distortion",
+          "lifecycle": "CANONICAL_DERIVED_LOCAL_REVIEW"
+        },
+        {
+          "role": "applied-system",
+          "publicPath": "assets/casos/pafi/pafi-portfolio-03-sistema-aplicado.png",
+          "sourcePages": [
+            "s24 · Presentaciones",
+            "s42 · Cierre"
+          ],
+          "sha256": "c16444bdaea08042c169d0923f69f30c95f67b812b40e766aa43a8a94ab82754",
+          "dimensions": "1600x1000",
+          "transformation": "Two complete 794x1123 page captures fitted proportionally on a brand-governed horizontal field; no crop or page distortion",
+          "lifecycle": "CANONICAL_DERIVED_LOCAL_REVIEW"
+        }
+      ],
+      "limitations": [
+        "The Pafi authority repository remains unresolved in the AVOS registry",
+        "The approved Brand Book HTML pages are consumed through a self-contained local HTML capture carrier, not by rasterizing the PDF",
+        "These three horizontal compositions are local-review derivatives and do not replace their source pages",
+        "No audience, monetization or active multilingual publication is claimed"
+      ]
+    }
+  }
+}
