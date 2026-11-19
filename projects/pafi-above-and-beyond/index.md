@@ -1,5 +1,7 @@
 # Pafi Above and Beyond
 
+> Archivo de proyectos · muestra histórica conservada. Los estados y las aplicaciones de esta ficha corresponden a su publicación anterior; no describen la versión actual del sistema de marca.
+
 > Viajar se vuelve más humano cuando la guía tiene una voz, un contexto y más de una lengua.
 
 Sistema completo para un producto editorial de viajes: voz, fotografía, arquitectura multilingüe, portal de autoría y herramientas de publicación.

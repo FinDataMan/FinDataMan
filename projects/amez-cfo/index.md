@@ -1,35 +1,29 @@
 # AMEZ CFO
 
-> La claridad financiera se vuelve valiosa cuando cambia la siguiente decisión.
+> Hacer comprensible el análisis financiero
 
-Una práctica de CFO fraccional articulada como metodología, operación y sistema de entrega para acompañar decisiones empresariales.
+Identidad, lenguaje y recursos para dar continuidad al análisis
 
-Estado: Sistema institucional · datos sintéticos
+Dirección · Comunicación financiera · Sistema de marca
 
-## Galería
+Se muestran piezas de comunicación de la firma. No se incluyen expedientes ni resultados de clientes.
 
-1. [Tesis — convertir complejidad financiera en una decisión legible](https://arturovillagomez.com/assets/casos/amez-cfo/amez-editorial-01-tesis.png)
-2. [Sistema — continuidad operativa sin exponer información de clientes](https://arturovillagomez.com/assets/casos/amez-cfo/amez-editorial-02-sistema.png)
-3. [Evidencia — trazabilidad y disciplina, no cifras ni resultados simulados](https://arturovillagomez.com/assets/casos/amez-cfo/amez-editorial-03-evidencia.png)
+## El problema
 
-## Narrativa
+El análisis necesita una audiencia que comprenda sus implicaciones y un equipo que pueda continuarlo. El reto era trasladar la metodología de la firma a materiales claros para presentar servicios, incorporar clientes y revisar resultados.
 
-La función financiera se presenta como una disciplina de decisión y ejecución, no solo como reporte retrospectivo.
+## Mi aportación
 
-## Sistema de marca
+Dirigí un sistema de marca y comunicación que conecta identidad, lenguaje, visualización de datos y aplicaciones de trabajo. Incluye presentaciones comerciales y de revisión financiera, documentos reutilizables, contenido educativo y propuestas para medios digitales.
 
-Identidad corporativa independiente, con azul profundo, acentos de desempeño y una expresión sobria orientada a confianza.
+## Resultado y alcance
 
-## Enfoque de construcción
+Construimos un repertorio de recursos y plantillas con criterios compartidos de uso. Mi aportación fue vincular el diseño con la lectura financiera: ordenar la información, hacer visibles los supuestos y facilitar que el análisis conduzca a una conversación sobre decisiones.
 
-Conectar metodología financiera, expedientes, entregables y seguimiento en un sistema operativo trazable.
+## Límites
 
-## Mi rol
+Se muestran piezas de comunicación de la firma. No se incluyen expedientes ni resultados de clientes.
 
-Como COO y socio, dirijo análisis financiero, metodología operativa y sistemas de entrega de la firma.
+[Leer documento aprobado](https://arturovillagomez.com/amez-cfo.html)
 
-## Evidencia y estado
-
-Identidad institucional autorizada y paquete G1 aprobado por el owner. La vista permanece privada: no consume expedientes, datos de clientes, cifras financieras reales ni resultados no verificables.
-
-[Volver a todos los proyectos](https://arturovillagomez.com/projects/)
+[Visitar sitio](https://amezcfo.com/)

@@ -1,172 +1,206 @@
 {
-  "revision": "agent-readiness-R1",
-  "base_commit": "819a4439829e02fc105207d0c503e018101daa20",
-  "state": "LOCAL_PREPARATION_NOT_DEPLOYED",
+  "revision": "B10-PUBLIC-20261119",
   "owner": "Arturo Villagomez",
   "artifacts": {
-    "assets/landing.css": {
-      "sha256": "39707b0c2ee6312e6cd3bc5cc8195995c42563e75560a40b38719c1eb1251f92",
-      "bytes": 17850
-    },
     "index.md": {
-      "sha256": "1d4e32eb82c595b9d01ac3d26a0c51c1b6e6193f8614c61fa4196d74153da695",
-      "bytes": 13687
+      "sha256": "60a520330cac52a010cac4db45fcad3b91a3e951cfcbf86143f29a4914f4dfdb",
+      "bytes": 10231
     },
     "index.html": {
-      "sha256": "d3abf427065c8b95ba0fe0115e94a11e303e74d60fdf2b30c7c63e82b7d03cf0",
-      "bytes": 103190
+      "sha256": "585877508497eaf3b8d94aa87596567506327a5ceb456e62b5319896c8025d0a",
+      "bytes": 78277
     },
-    "projects/arturo-villagomez/index.html": {
-      "sha256": "665041296812651231f1efb171fcfb6b45d85649aa9c810719acd6a18d3b2d1d",
-      "bytes": 5238
+    "index-en.md": {
+      "sha256": "b5fc283658be943565566f80636b0c1eb67ac19f4623ec5bb82dee237a783b1b",
+      "bytes": 9718
     },
-    "projects/arturo-villagomez/index.md": {
-      "sha256": "8039797a6674e79cc9998017614433e975bacb2a85d721e989bf8dd4c1dd6185",
-      "bytes": 2063
-    },
-    "projects/casa-artu-tamanova/index.html": {
-      "sha256": "ac2b017742bd8d352f13481b7baf4524e6a162d99752bb24805377207356576b",
-      "bytes": 5029
-    },
-    "projects/casa-artu-tamanova/index.md": {
-      "sha256": "3fc200d5be3c41076081b896b09ee892d69c073e2a86befeb7efe6861f47bb53",
-      "bytes": 1905
-    },
-    "projects/don-ventas/index.html": {
-      "sha256": "03839ea7ead56f1d6793c4dd43f7220003dd9cbda551039cf7d270d507dd259f",
-      "bytes": 4669
-    },
-    "projects/don-ventas/index.md": {
-      "sha256": "8fc1b7ace3fa8c25cf1b5caadcae4cffbdce1d22c7847ce0300204b0f1935dc3",
-      "bytes": 1733
-    },
-    "projects/amez-cfo/index.html": {
-      "sha256": "8edf77711ff66aa5ca1b41301d9dd8b78ded67a6e0fe979fa291e4a289ce351f",
-      "bytes": 4640
+    "index-en.html": {
+      "sha256": "becc5af57708b05f3322e45cac22da9184300d03d257de774f58521c8dca9692",
+      "bytes": 77744
     },
     "projects/amez-cfo/index.md": {
-      "sha256": "6c95b3dc9db92ff5a59b80afd82d6d4772d5698f7c30028b37ed8ba744b6219f",
-      "bytes": 1600
+      "sha256": "442ef886bcb9d7af1d35c172d01419c9dd5ca21f2b75cb837d8f38fe14e91f9b",
+      "bytes": 1370
     },
-    "projects/quickfinance/index.html": {
-      "sha256": "b89186b76377a2c34a28b9af957fad954c266c8d83080167ce573eb3379ab407",
-      "bytes": 4642
+    "projects/amez-cfo/index-en.md": {
+      "sha256": "4e2051915df591f9775222961ee60b314ce72e06ff97cf4cf05a12774a561d84",
+      "bytes": 1306
     },
-    "projects/quickfinance/index.md": {
-      "sha256": "02195a6df8800712ea6b6cf842385c43b74b472655f9de0254beb807062d2ef0",
-      "bytes": 1555
+    "projects/sistema-financiero/index.md": {
+      "sha256": "2260259ac1ac939013053e255d58be45a26b8dfdfe864ed1a57c488abce812f1",
+      "bytes": 1670
     },
-    "projects/stone-oak-evans/index.html": {
-      "sha256": "2dc672660ebaa3d202a8bbf15f8e9b257f29e062fcb6dca0769da5e6ffae7041",
-      "bytes": 4828
+    "projects/sistema-financiero/index-en.md": {
+      "sha256": "a1120c12236b99da9e8f35421a5d52f192aa5ba695e441e8f0e69d525d749dc1",
+      "bytes": 1615
+    },
+    "projects/sistema-financiero/index.html": {
+      "sha256": "5c3dc22c9646d668e139eb00a5e59c24f7d5102972613ba3cf6286cdb86304e7",
+      "bytes": 6536
+    },
+    "projects/butter/index.md": {
+      "sha256": "9691dbb031113efed9adceb4da2a1c88ecc464ea6f44c5743fdadb273b5a0ee9",
+      "bytes": 1387
+    },
+    "projects/butter/index-en.md": {
+      "sha256": "1840ec3e755bdcd918228e09b65ef6242350c4e9a73e5964b28eee37bbeced99",
+      "bytes": 1308
+    },
+    "projects/butter/index.html": {
+      "sha256": "14a1722bda5b96595c619cad5a46a9404a99f66c94f405c8f3ffd95eab5a4200",
+      "bytes": 5934
     },
     "projects/stone-oak-evans/index.md": {
-      "sha256": "7785dfc150f10dfc73665ebc9abf3f8269d19871833218feaa5d8d88dad1a896",
-      "bytes": 1661
+      "sha256": "0d9982cb138c4f927e80c0fef2d63c9f38e91bc75b73865674bab23e913ef526",
+      "bytes": 1477
+    },
+    "projects/stone-oak-evans/index-en.md": {
+      "sha256": "20366606b78b92fed99ec60c89037db43d6dde6c342c82dbe8aeb17f2a949b2b",
+      "bytes": 1433
+    },
+    "projects/stone-oak-evans/index.html": {
+      "sha256": "535cefb04e4864d2c3e794f3fe9ecdb8042d3158e3319de9bf2b0ea105c09e18",
+      "bytes": 6359
+    },
+    "projects/don-ventas/index.md": {
+      "sha256": "faeb86f4a3cf67656e787a2f52e4da79274da04c147cb1f7eef5db0ec03aa908",
+      "bytes": 1498
+    },
+    "projects/don-ventas/index-en.md": {
+      "sha256": "4c8b5c9f88ad8617063ff55c855142e9128ff97d216c3ee8ef08dfea457dfd01",
+      "bytes": 1463
+    },
+    "projects/don-ventas/index.html": {
+      "sha256": "07fc29fdbed75382fe7b3c2439608a418dde41d4f8819ba32e2518c0cd1be600",
+      "bytes": 6254
+    },
+    "projects/arturo-villagomez/index.html": {
+      "sha256": "7212fd07c36e02f86425d9f5aac90743788dacff6fb68dd8c8c799186e11cc3f",
+      "bytes": 6402
+    },
+    "projects/arturo-villagomez/index.md": {
+      "sha256": "3cac01c1d8ff58ee497b01e913372ad3c47a52af834b035b629672a5b27e4754",
+      "bytes": 2261
+    },
+    "projects/casa-artu-tamanova/index.html": {
+      "sha256": "addc7df83e84376f70e5d31a9827bbcae9ef05d4ffa6e739d7b000ef1718fffa",
+      "bytes": 6136
+    },
+    "projects/casa-artu-tamanova/index.md": {
+      "sha256": "65e081883188a6a047f03776d8f6051e3ba711768e9c972caf1440812f024313",
+      "bytes": 2103
     },
     "projects/sicaru/index.html": {
-      "sha256": "839486760675032aaf06ec140f597f23483d808a6e7904532250c9c34428ffcf",
-      "bytes": 4653
+      "sha256": "8b769d183b84203a56aeba876e4079b8432007c4f596c6699867810bff8a1621",
+      "bytes": 5833
     },
     "projects/sicaru/index.md": {
-      "sha256": "70b3b1acb9da3f0d42651b5cfce6c60dd95f08734230d72d2cd5d95ea00bde9a",
-      "bytes": 1555
+      "sha256": "65345df21a18de36c576093c0e3a872b8aa74437edca840f66db24775f4d4d25",
+      "bytes": 1753
     },
     "projects/pafi-above-and-beyond/index.html": {
-      "sha256": "c711c66d400317cb2f9df39654036c809c0c4ca4625caf2495e1469e7ee4fc8e",
-      "bytes": 4931
+      "sha256": "462f40e8572b46a156b908c9a3df4753fd6396f82ec77d275a03b546f834fef0",
+      "bytes": 6068
     },
     "projects/pafi-above-and-beyond/index.md": {
-      "sha256": "0e8ca0429d7c4f4e0957a23ed6af12bd4964cee3b0ca216f5cf259be036e9265",
-      "bytes": 1733
+      "sha256": "50b70dbc3f318a5a732269de50c6c3c94982e38c725bdfb2584671b0479160d1",
+      "bytes": 1931
     },
     "projects/index.html": {
-      "sha256": "94c58bbc94a1a6e44ff3501690554518767876286cf76d8e541f5ef17f225dfb",
-      "bytes": 4053
+      "sha256": "c27abe543910ff12ee03b9ee9330d70d6fa6ca5667910b93d3ec70223fb544de",
+      "bytes": 5935
     },
     "projects/index.md": {
-      "sha256": "594f8244109c2850152bb99072ea6a47572463bb604864e14d8a1622486d7b27",
-      "bytes": 1661
+      "sha256": "76c8d8bf41e6158c06f69295955f03bb862297a33822967985e078446f8f38cf",
+      "bytes": 1961
     },
     "about/index.html": {
-      "sha256": "af9542531697a979ed36c163f8530dc9b6bdb2249dc034049bb48cfc3c3e5121",
-      "bytes": 3218
+      "sha256": "b0a4f41b01ff3950de1296e31f165db027ad659120c003b816f20d5127c9c0da",
+      "bytes": 4059
     },
     "about/index.md": {
-      "sha256": "e5d0959c6a365c4a990337de223e8a5082d82cbb5b30ff8f2cdb490ca1ec4625",
-      "bytes": 1221
+      "sha256": "00194187d7c251da76fe30d26e8199e2571cce0bc5a5ea4f806165b45c2786b4",
+      "bytes": 790
     },
     "contact/index.html": {
-      "sha256": "1e65665849a6901b78dea70efcc2d2b18c6b591e8032fdd09838babb0186e504",
-      "bytes": 3234
+      "sha256": "f1a2219834d0dc98f7d415ea08ddba7ef14804c8de5d51c45c73e9bf7a7d547a",
+      "bytes": 4023
     },
     "contact/index.md": {
-      "sha256": "dda5731bbaff99877e7992c5649c4d7f09a9ad99c30427eaa4506097ceb4053c",
-      "bytes": 1245
+      "sha256": "44190d27fe0e9fec375cf224e3b64bdd3e9911813e9cd512c308820c8ce1dbf2",
+      "bytes": 787
     },
     "privacy/index.html": {
-      "sha256": "84910acb0ce2be0b34ab85185cec1266891cf1dc6cdd226ae190e57f786f9cef",
-      "bytes": 4141
+      "sha256": "98f4fe9dacf76bda341f6b6adf7edae58b8264ba5d246639d6475617659906d1",
+      "bytes": 5357
     },
     "privacy/index.md": {
-      "sha256": "6c39ef74b5e4b87432c53f155a8f5ec4757a0989998231af091669f64bddf6be",
-      "bytes": 2102
+      "sha256": "e0c550f17e978ce724993e40aad3ed53a856fc4b72284a304e4ce7dcff672070",
+      "bytes": 1966
     },
-    "agent-instructions.md": {
-      "sha256": "e03a7c52efcaf6d6fcb8ab3d63d02b1664da8a740d5121410f0722acaa044cb1",
-      "bytes": 1767
+    "projects/amez-cfo/index.html": {
+      "sha256": "b6828861fe4452c28597e4cc796be6deae91180cb623808ae42350e19c1711b1",
+      "bytes": 3377
     },
-    "llms.txt": {
-      "sha256": "8104d7190423079467060be58ef980a6b0440384e7ab661c2bf4ea2f95daef1b",
-      "bytes": 1580
+    "projects/quickfinance/index.html": {
+      "sha256": "61c30fedb9f331081217e3f50dd47cdeddd287c4d89a8dbb8e066645852509b0",
+      "bytes": 3633
+    },
+    "projects/quickfinance/index.md": {
+      "sha256": "4fcfdd52f60b778815925f9c727375b7385674656ddcad22f011129514e4d18c",
+      "bytes": 127
+    },
+    "cv/index.html": {
+      "sha256": "aa90bee6f4e43ea059ef6c557316e645a7ba979b122c5e8c9f658d06ce8fb9f0",
+      "bytes": 3444
+    },
+    "cv/index.md": {
+      "sha256": "84a41df0d26c095df84f8833a54c1d9119449c32454cde6f23cf726ed0aa3407",
+      "bytes": 102
     },
     "404.md": {
-      "sha256": "37cc39cf6a451d8ac12f0782cab684b577ab44ac9679827fe35f01ae2a2a8e6a",
-      "bytes": 317
+      "sha256": "da4905676bc8dbf3c843e377a3e963e5a5414f9410b10683da3f6982174355c7",
+      "bytes": 222
     },
     "404.html": {
-      "sha256": "f72a2544a501bc9d2c066b561bc9bf7c7a1c2702bc41fd7dfa73d8f9ecb16063",
-      "bytes": 1228
+      "sha256": "33b8be34934b927d5e12f10ea8e40fddab620a149fcaf85c5f62a1adb9ea87e6",
+      "bytes": 3292
+    },
+    "agent-instructions.md": {
+      "sha256": "71321c3b54641a99378bad6fa02c1923ccc3ada28bffbe7b53d87da39cd659ed",
+      "bytes": 1581
+    },
+    "llms.txt": {
+      "sha256": "c9965a6b825bcc020ca31b2a0ff78bf007eef33045a86e1653950bad27b0292b",
+      "bytes": 1057
+    },
+    "amez-cfo.html": {
+      "sha256": "7164897e7965bcdeea91c0563c9d3d90d820082d1f41a7052de46efa78235302",
+      "bytes": 8389
+    },
+    "amez-cfo-en.html": {
+      "sha256": "c34dfaefadec1bf3ec810a93e289b1cb83513ba09489db3864484747c17ac22b",
+      "bytes": 8229
+    },
+    "trayectoria.html": {
+      "sha256": "aee14ef875703b1b4f4762a09cc1b0329c1cc4f87f894ef258cce070a37f6638",
+      "bytes": 8043
+    },
+    "trayectoria-en.html": {
+      "sha256": "5a45785ed9b790992f70495407f78cb1d1094f7596239aaae35fab6110e70ccd",
+      "bytes": 7942
     },
     "sitemap.xml": {
-      "sha256": "9e0b55b1616f3549959ac1fe1664b27d072aa20d873dbefeb670f24f3938e537",
-      "bytes": 1257
+      "sha256": "b6dfccebf76f5fd3e0301244b2befde41ebcf2da763f6851e6c6dc4232364e29",
+      "bytes": 1326
+    },
+    "robots.txt": {
+      "sha256": "1e85326129b6ff61f2454be5a70d6974f296863be2c058fe23e11c51eebde5af",
+      "bytes": 73
     },
     "agent-public-files.json": {
-      "sha256": "d1d6479df9e2b50aefbbb3e57fbbc82676102ff296976cd41c1b0d6494942121",
-      "bytes": 1922
-    },
-    "assets/agent-pages.css": {
-      "sha256": "fbce3634b0d053c145155dcdc5ace50deb5c5b0a9be292e891eadfde8bc5f4de",
-      "bytes": 2288
-    },
-    "content/site-information.mjs": {
-      "sha256": "0955bfec7346897bb784a231cccd6113f30ffb6f608607ed7c9d54236b400b8c",
-      "bytes": 4018
-    },
-    "scripts/build-agent-content.mjs": {
-      "sha256": "cefbc0636e69e02451cc14070448beb7ce6c3ec4c84549815b43810e694899a0",
-      "bytes": 15495
-    },
-    "scripts/agent-server.mjs": {
-      "sha256": "5a1362c41d7158d195b62655b0c0e5633fddb646079152b2a7e85dfeebd12698",
-      "bytes": 5164
-    },
-    "scripts/audit-endpoints.mjs": {
-      "sha256": "32cf224cb55dfad96c6d2cd564e31415041aeba53201cc4560784c8389bb1125",
-      "bytes": 1629
-    },
-    "tests/agent-readiness.test.mjs": {
-      "sha256": "8bbcffd5aa72a020002d897003c575076d69a63ea75e763866c2cf53be57ce84",
-      "bytes": 11360
-    },
-    "package.json": {
-      "sha256": "c905393770120acc320de72bb0e21524278ad32dbe2f4d4283db1c81f657d8c1",
-      "bytes": 467
-    },
-    "pnpm-lock.yaml": {
-      "sha256": "dd8fa8e2c2f1530d809e70b569775d35df2baa7e29f85b2e7397506ae7c73c1a",
-      "bytes": 418
+      "sha256": "a8d538fc00fb5131ea6c198492eb1cecb8a6c49f9baf45c3e1b3b3de00f16883",
+      "bytes": 3230
     }
   }
 }

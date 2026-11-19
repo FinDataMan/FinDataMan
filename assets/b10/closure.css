@@ -1,0 +1,15 @@
+/* B10 prepublication: access and resilience, no identity changes. */
+:focus-visible{outline:3px solid #185e6b;outline-offset:4px;box-shadow:0 0 0 6px #f7f5f1}
+.site-nav a,.site-nav button{min-height:44px}
+.navlinks{align-items:center}.navlinks a{display:inline-flex;align-items:center}
+.case-card{scroll-margin-top:100px}.case-card:hover{transform:none!important}
+.case-card .case-footer{border-top:0!important}
+.modal-panel{overscroll-behavior:contain}.modal-head{scroll-margin-top:0}
+.fallback a{display:inline-flex;min-height:44px;align-items:center;margin-right:20px}
+.fallback p{max-width:65ch}.fallback h1{font-size:clamp(32px,7vw,50px)}
+@media(max-width:360px){.nav-shell{padding:10px 14px!important;gap:10px;flex-wrap:wrap}.nav-identity{width:100%;justify-content:center}.nav-cluster{width:100%;justify-content:center}.hero-copy{padding-left:20px!important;padding-right:20px!important}.hero-copy h1{font-size:32px!important}.project-heading :is(h1,h3){font-size:30px!important}.project-heading{padding-inline:20px!important}.project-narrative{padding-inline:20px!important}.context-scene h2{font-size:32px}.sample-link{font-size:13px}.preview-nav{gap:8px;padding:0 12px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.motion-reveal{opacity:1!important;transform:none!important}}
+
+@media(prefers-reduced-motion:reduce){.brand-motion-mark svg *{stroke-dasharray:none!important;stroke-dashoffset:0!important;opacity:1!important}}
+
+html body h1,html body h2,html body h3,html body .case-title{overflow-wrap:anywhere!important;min-width:0}

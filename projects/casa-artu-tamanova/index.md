@@ -1,5 +1,7 @@
 # Casa Artú / Tamanova
 
+> Archivo de proyectos · muestra histórica conservada. Los estados y las aplicaciones de esta ficha corresponden a su publicación anterior; no describen la versión actual del sistema de marca.
+
 > Una nueva forma de hospedar: te mostramos los números y te recibimos con gusto.
 
 Tamanova conecta marca, operación y hospitalidad; Casa Artú es su primera prueba aplicada entre Mérida y Progreso.

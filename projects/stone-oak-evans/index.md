@@ -1,35 +1,29 @@
 # Stone Oak & Evans
 
-> La confianza se diseña cuando la visión, la evidencia y los límites hablan el mismo idioma.
+> Información para evaluar una oportunidad
 
-Sistema de marca y estudio preliminar para comunicar una oportunidad inmobiliaria con lenguaje heritage y trazabilidad explícita.
+Identidad y experiencia digital al servicio de una consulta informada
 
-Estado: Estudio preliminar · validación pendiente
+Identidad · Experiencia digital · SEO técnico
 
-## Galería
+Las muestras ilustran la comunicación y la experiencia digital. No contienen condiciones comerciales ni información financiera privada.
 
-1. [Tesis — territorio y plan maestro preliminar, preservados completos](https://arturovillagomez.com/assets/casos/stone-oak/stone-oak-editorial-01-tesis.png)
-2. [Experiencia — render autorizado dentro de una lectura espacial editorial](https://arturovillagomez.com/assets/casos/stone-oak/stone-oak-editorial-02-experiencia.png)
-3. [Evidencia — dossier derivado de los dos renders autorizados; validación pendiente](https://arturovillagomez.com/assets/casos/stone-oak/stone-oak-editorial-03-evidencia.png)
+## El problema
 
-## Narrativa
+Para evaluar una oportunidad inmobiliaria, la persona necesita entender su ubicación, características y contexto, y saber cómo profundizar. El reto era organizar esa información en una experiencia coherente en español e inglés.
 
-Un proyecto de desarrollo se hace legible mediante una secuencia de visión, contexto, propuesta y evidencia, con estados operativos claros.
+## Mi aportación
 
-## Sistema de marca
+Dirigí la identidad y la experiencia digital: diseño editorial, fichas, mapas, fotografía contextual y recorridos de consulta. El alcance incluyó SEO técnico, datos estructurados, optimización de imágenes, fuentes y estilos, y controles de consentimiento para analítica.
 
-Expresión heritage propia: Ledger Mark, paleta sobria, tipografía editorial y patrones que remiten a parcela, fachada y registro.
+## Resultado y alcance
 
-## Enfoque de construcción
+La solución reúne información territorial, visual y comercial en una estructura consultable. Mi aportación consistió en conectar las necesidades del interesado con decisiones de contenido, diseño y desarrollo, cuidando la fidelidad de las fuentes y la claridad de sus límites.
 
-Separar con rigor concepto, evidencia disponible y aprobación pendiente; el diseño organiza la conversación sin simular certeza.
+## Límites
 
-## Mi rol
+Las muestras ilustran la comunicación y la experiencia digital. No contienen condiciones comerciales ni información financiera privada.
 
-Dirección del sistema de marca, arquitectura del estudio preliminar y gobernanza de sus entregables y estados.
+[Leer documento aprobado](https://arturovillagomez.com/documents/stone-oak-evans-es.pdf)
 
-## Evidencia y estado
-
-Estudio preliminar v0.2 vigente para revisión. Recepción y validación pendientes; distribución a socios y publicación no autorizadas.
-
-[Volver a todos los proyectos](https://arturovillagomez.com/projects/)
+[Visitar sitio](https://www.stoneoakevans.com/es)
