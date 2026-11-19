@@ -1,46 +1,48 @@
 # Arturo Villagomez
 
-> Trabajo por proyectos en la intersección de finanzas, operaciones e IA aplicada: diagnostico, construyo y dejo capacidad instalada.
+> Te ayudo a entender los números de tu negocio y decidir qué hacer después
 
-## La tesis
+Construyo modelos financieros, mejoro procesos y desarrollo herramientas con IA para que tu equipo pueda planear, decidir y trabajar mejor.
 
-Los problemas más difíciles rara vez viven en un solo silo. Cruzan finanzas, operación, producto y datos. Trabajo por proyectos para convertir esa complejidad en decisiones, herramientas y procesos que el equipo puede continuar usando cuando mi intervención termina.
+La información está. Falta conectar las decisiones
 
-## Formas de trabajar
+Un presupuesto que no conversa con la operación. Un reporte que no explica qué cambió. Una herramienta que el equipo no logra continuar. Conecto finanzas, procesos y producto para ordenar el problema, construir con el equipo y dejar una forma de trabajar.
+
+## Cuatro maneras de construir juntos
 
 ### Proyectos con equipos
 
-Me integro temporalmente a un reto complejo y dejo el sistema listo para que el equipo lo continúe.
+Trabajo con tu equipo para resolver un problema concreto y dejarle herramientas que pueda seguir usando.
 
-Conecto finanzas, operación e IA aplicada para diagnosticar, construir con el equipo y transferir decisiones, herramientas y procesos utilizables.
+Primero entendemos qué está pasando. Después construimos la solución, la probamos y documentamos cómo usarla.
 
 - Diagnóstico y definición del foco
 - Construcción junto al equipo
-- Documentación y handoff
+- Documentación y entrega al equipo
 
-### Acompañamiento fraccional
+### Apoyo continuo a tu equipo
 
-Una cadencia de criterio y ejecución sin incorporar una posición permanente.
+Apoyo financiero y operativo de forma periódica, sin contratar un puesto de tiempo completo.
 
-Acompaño ciclos de decisión recurrentes, fortalezco el control financiero y operativo y automatizo donde la IA realmente aporta.
+Revisamos resultados, actualizamos presupuestos y damos seguimiento a las decisiones. También identificamos tareas que conviene automatizar.
 
 - Control, modelación y escenarios
-- Cadencia operativa y seguimiento
+- Revisión periódica y seguimiento
 - Automatización aplicada con IA
 
-### Venture building
+### Desarrollo de nuevos negocios
 
-Construir una oportunidad desde la hipótesis hasta un sistema operable.
+Poner a prueba una idea y construir lo necesario para empezar a operar.
 
-Colaboro selectivamente en discovery, arquitectura financiera, producto y operación para convertir una idea en evidencia y capacidad de ejecución.
+Ayudo a entender la necesidad, estimar ingresos y costos, definir una primera versión del producto y organizar cómo funcionaría el negocio.
 
-- Discovery y validación
-- Pro forma, producto y MVP
-- Gobernanza y handoff
+- Entender la necesidad y probar la idea
+- Proyecciones y primera versión del producto
+- Responsables, acuerdos y documentación
 
 ### Ideas e investigación
 
-Pensar en público para hacer visible el criterio detrás del trabajo.
+Compartir cómo abordo los problemas y qué aprendo al resolverlos.
 
 Desarrollo ideas sobre finanzas, operación, producto e IA aplicada y las convierto en marcos que otros pueden cuestionar, adaptar y usar.
 
@@ -48,210 +50,164 @@ Desarrollo ideas sobre finanzas, operación, producto e IA aplicada y las convie
 - Sistemas y procesos que la gente usa
 - IA aplicada sin perder el criterio
 
-## Proyectos y evidencia
-
-Ocho proyectos con evidencia visual del sistema y su aplicación. Cada uno conserva una narrativa, una identidad y un enfoque propios; donde no existe un resultado cuantitativo documentado, se declara literalmente.
-
-### Arturo Villagomez · Sistema de marca y portafolio
-
-Hacer legible una trayectoria no lineal sin volverla genérica.
-
-Una experiencia bilingüe que convierte posicionamiento, evidencia y formas de colaboración en un sistema profesional vivo.
-
-Publicado · sistema vigente
-
-**Narrativa:** La amplitud deja de presentarse como una lista de funciones y se convierte en una tesis: conectar finanzas, operaciones, producto e IA aplicada para construir sistemas que otros puedan continuar usando.
-
-**Sistema de marca:** Lenguaje editorial propio: papel, tinta y petróleo; contraste serif–sans–mono; monograma AV y una gramática gobernada por 18 bloques que conecta identidad, fotografía, presentación, movimiento y aplicaciones físicas.
-
-**Enfoque de construcción:** El portafolio funciona como interfaz operativa: tesis → formas de colaborar → evidencia → conversación. No como un CV ampliado ni como una galería decorativa.
-
-**Mi rol:** Concebí y dirigí la arquitectura bilingüe, el sistema de marca, los recorridos, la selección de evidencia y sus plantillas reutilizables.
-
-**Evidencia y estado:** Sitio público activo; aplicaciones B13–B17 cerradas y B18 Quick Reference en revisión final local. Esta actualización del portafolio aún no está publicada y no atribuye métricas de tráfico o conversión sin analítica.
-
-[Ver página completa del proyecto](https://arturovillagomez.com/projects/arturo-villagomez/)
-
-[Explorar el portafolio](https://arturovillagomez.com/)
-
-### Casa Artú / Tamanova
-
-Una nueva forma de hospedar: te mostramos los números y te recibimos con gusto.
-
-Tamanova conecta marca, operación y hospitalidad; Casa Artú es su primera prueba aplicada entre Mérida y Progreso.
-
-Publicado · aplicación real
-
-**Narrativa:** La hospitalidad se plantea como una relación de confianza entre propietarios, operación y huéspedes: claridad en los números hacia un lado y calidez en la experiencia hacia el otro.
-
-**Sistema de marca:** Un sistema independiente de 18 bloques, con voz, identidad y aplicaciones propias para hospitalidad. Su expresión es territorial, cálida y útil; no hereda recursos distintivos de la marca Arturo.
-
-**Enfoque de construcción:** Unir promesa y operación: identidad, anuncio, experiencia del huésped, guía local y señalética se diseñan como partes de un mismo recorrido, no como piezas aisladas.
-
-**Mi rol:** Diseñé el sistema de identidad y experiencia, y llevé la dirección de marca a entregables concretos para Casa Artú.
-
-**Evidencia y estado:** Anuncio publicado con una primera evaluación. El paquete editorial permanece en revisión privada; guía impresa pendiente y sin afirmaciones de ocupación, ingresos o satisfacción sin evidencia.
-
-[Ver página completa del proyecto](https://arturovillagomez.com/projects/casa-artu-tamanova/)
-
-[Conocer Casa Artú](https://www.airbnb.com/h/casa-artu-merida-progreso)
-
-### Don Ventas · Sistema de marca y sitio comercial
-
-Tu marca es tu ventaja.
-
-Una identidad comercial convertida en oferta, diagnóstico, capas de servicio y acceso a un producto digital.
-
-Publicado · sitio activo
-
-**Narrativa:** La marca no se trata como decoración: se presenta como una ventaja comercial que ayuda a ordenar la oferta, vender con mayor claridad y operar con consistencia.
-
-**Sistema de marca:** Sistema propio de 18 bloques con base oscura, azul eléctrico, Schibsted Grotesk y Space Mono. Su gramática es digital, directa y comercial; permanece separada de Arturo y Tamanova.
-
-**Enfoque de construcción:** Convertir identidad en una interfaz de negocio: arquitectura de servicios, diagnóstico, capas de oferta, trabajo aplicado y conexión con el portal digital.
-
-**Mi rol:** Diseñé el sistema de marca y dirigí el lanzamiento del sitio, desde la arquitectura comercial hasta sus materiales y puntos de conversión.
-
-**Evidencia y estado:** Sitio público con tres capas de servicio, seis sistemas aplicados, 18 referencias visuales y un diagnóstico enlazado. Son métricas estructurales; no se afirman resultados comerciales sin evidencia.
-
-[Ver página completa del proyecto](https://arturovillagomez.com/projects/don-ventas/)
-
-[Conocer Don Ventas](https://www.donventas.mx/)
+## Proyectos y mi aportación
 
 ### AMEZ CFO
 
-La claridad financiera se vuelve valiosa cuando cambia la siguiente decisión.
+> Hacer comprensible el análisis financiero
 
-Una práctica de CFO fraccional articulada como metodología, operación y sistema de entrega para acompañar decisiones empresariales.
+Identidad, lenguaje y recursos para dar continuidad al análisis
 
-Sistema institucional · datos sintéticos
+Dirección · Comunicación financiera · Sistema de marca
 
-**Narrativa:** La función financiera se presenta como una disciplina de decisión y ejecución, no solo como reporte retrospectivo.
+Se muestran piezas de comunicación de la firma. No se incluyen expedientes ni resultados de clientes.
 
-**Sistema de marca:** Identidad corporativa independiente, con azul profundo, acentos de desempeño y una expresión sobria orientada a confianza.
+#### El problema
 
-**Enfoque de construcción:** Conectar metodología financiera, expedientes, entregables y seguimiento en un sistema operativo trazable.
+El análisis necesita una audiencia que comprenda sus implicaciones y un equipo que pueda continuarlo. El reto era trasladar la metodología de la firma a materiales claros para presentar servicios, incorporar clientes y revisar resultados.
 
-**Mi rol:** Como COO y socio, dirijo análisis financiero, metodología operativa y sistemas de entrega de la firma.
+#### Mi aportación
 
-**Evidencia y estado:** Identidad institucional autorizada y paquete G1 aprobado por el owner. La vista permanece privada: no consume expedientes, datos de clientes, cifras financieras reales ni resultados no verificables.
+Dirigí un sistema de marca y comunicación que conecta identidad, lenguaje, visualización de datos y aplicaciones de trabajo. Incluye presentaciones comerciales y de revisión financiera, documentos reutilizables, contenido educativo y propuestas para medios digitales.
 
-[Ver página completa del proyecto](https://arturovillagomez.com/projects/amez-cfo/)
+#### Resultado y alcance
 
-### QuickFinance
+Construimos un repertorio de recursos y plantillas con criterios compartidos de uso. Mi aportación fue vincular el diseño con la lectura financiera: ordenar la información, hacer visibles los supuestos y facilitar que el análisis conduzca a una conversación sobre decisiones.
 
-Un reporte financiero debe terminar en lectura y acción.
+#### Límites
 
-Producto operativo que convierte información financiera en reportes, lectura ejecutiva y un ecosistema reutilizable de generadores.
+Se muestran piezas de comunicación de la firma. No se incluyen expedientes ni resultados de clientes.
 
-Producto en desarrollo · datos de ejemplo
+[Leer documento aprobado](https://arturovillagomez.com/amez-cfo.html)
 
-**Narrativa:** Reducir la distancia entre el dato y la decisión mediante reportes que explican qué pasó, qué significa y qué conviene hacer.
+[Visitar sitio](https://amezcfo.com/)
 
-**Sistema de marca:** Lenguaje financiero digital en navy y naranja, diseñado para jerarquía, lectura rápida y continuidad entre producto y output.
+### Sistema financiero de uso propio
 
-**Enfoque de construcción:** Diseñar primero el flujo de decisión y después convertirlo en generadores, plantillas y reportes repetibles.
+> De los datos a decisiones que puedes explicar
 
-**Mi rol:** Arquitectura de producto, sistema financiero, experiencia de reporte y dirección de la integración con el portafolio comercial.
+Diseño y desarrollo propio con IA para profundizar en el análisis financiero
 
-**Evidencia y estado:** Activos auténticos del producto con datos de ejemplo. Candidato de preview, no publicado y sin claims de impacto comercial.
+Criterio financiero · Producto · IA aplicada
 
-[Ver página completa del proyecto](https://arturovillagomez.com/projects/quickfinance/)
+Herramienta para mi propio trabajo, con funciones que continúo desarrollando y probando. No se publican datos de las empresas ni se presenta como un producto comercial disponible.
+
+#### El problema
+
+Conciliar, consolidar y planear exige conservar el contexto de cada análisis. Necesito responder a dirección, equipos y otros interlocutores de las empresas donde colaboro o ejerzo funciones de CFO, sin reconstruir el trabajo desde cero.
+
+#### Mi aportación
+
+Diseñé y desarrollé con IA un sistema de uso propio para conciliación, consolidación, planeación, modelación y escenarios. Convertí metodología financiera en módulos con reglas de cálculo, versiones, permisos y pruebas. Un asistente contextual ayuda a profundizar en el análisis y conserva la relación entre fuentes, supuestos y resultados.
+
+#### Resultado y alcance
+
+El sistema reúne herramientas para preparar análisis y atender preguntas de dirección, equipos internos y otros interlocutores. Mi aportación integra criterio financiero, diseño y desarrollo con IA. Continúo desarrollando y probando sus funciones en mi entorno de trabajo; documento qué está comprobado y qué falta probar.
+
+#### Límites
+
+Herramienta para mi propio trabajo, con funciones que continúo desarrollando y probando. No se publican datos de las empresas ni se presenta como un producto comercial disponible.
+
+[Leer documento aprobado](https://arturovillagomez.com/documents/sistema-financiero-es.pdf)
+
+### Butter
+
+> ¿Qué pasa si cambia el negocio?
+
+Lógica financiera y experiencia de producto para explorar decisiones
+
+Cofundador · Lógica financiera · Experiencia de producto
+
+Trabajo realizado con colaboradores. Distingo las funciones entregadas de las mejoras que todavía estamos probando.
+
+#### El problema
+
+Quien dirige un negocio necesita explorar qué ocurriría si cambian sus ventas, costes o metas, conservar alternativas y compararlas con lo real. El reto era convertir esas preguntas en una experiencia financiera comprensible.
+
+#### Mi aportación
+
+Como cofundador, definí reglas, lógica y diseño de experiencia para presupuestos, escenarios y comparación real frente al plan. Trabajé en ordenar acciones, presentar diferencias y vincular las preguntas del usuario con el contexto financiero disponible para el asistente de IA.
+
+#### Resultado y alcance
+
+Mi aportación se concentró en convertir criterio financiero en comportamiento de producto y requisitos para el equipo de desarrollo. La implementación se realizó con colaboradores; distingo las funciones entregadas de las mejoras que todavía estamos probando.
+
+#### Límites
+
+Trabajo realizado con colaboradores. Distingo las funciones entregadas de las mejoras que todavía estamos probando.
+
+[Leer documento aprobado](https://arturovillagomez.com/documents/butter-es.pdf)
+
+[Visitar sitio](https://buttercfo.ai/)
 
 ### Stone Oak & Evans
 
-La confianza se diseña cuando la visión, la evidencia y los límites hablan el mismo idioma.
+> Información para evaluar una oportunidad
 
-Sistema de marca y estudio preliminar para comunicar una oportunidad inmobiliaria con lenguaje heritage y trazabilidad explícita.
+Identidad y experiencia digital al servicio de una consulta informada
 
-Estudio preliminar · validación pendiente
+Identidad · Experiencia digital · SEO técnico
 
-**Narrativa:** Un proyecto de desarrollo se hace legible mediante una secuencia de visión, contexto, propuesta y evidencia, con estados operativos claros.
+Las muestras ilustran la comunicación y la experiencia digital. No contienen condiciones comerciales ni información financiera privada.
 
-**Sistema de marca:** Expresión heritage propia: Ledger Mark, paleta sobria, tipografía editorial y patrones que remiten a parcela, fachada y registro.
+#### El problema
 
-**Enfoque de construcción:** Separar con rigor concepto, evidencia disponible y aprobación pendiente; el diseño organiza la conversación sin simular certeza.
+Para evaluar una oportunidad inmobiliaria, la persona necesita entender su ubicación, características y contexto, y saber cómo profundizar. El reto era organizar esa información en una experiencia coherente en español e inglés.
 
-**Mi rol:** Dirección del sistema de marca, arquitectura del estudio preliminar y gobernanza de sus entregables y estados.
+#### Mi aportación
 
-**Evidencia y estado:** Estudio preliminar v0.2 vigente para revisión. Recepción y validación pendientes; distribución a socios y publicación no autorizadas.
+Dirigí la identidad y la experiencia digital: diseño editorial, fichas, mapas, fotografía contextual y recorridos de consulta. El alcance incluyó SEO técnico, datos estructurados, optimización de imágenes, fuentes y estilos, y controles de consentimiento para analítica.
 
-[Ver página completa del proyecto](https://arturovillagomez.com/projects/stone-oak-evans/)
+#### Resultado y alcance
 
-### Sicarú
+La solución reúne información territorial, visual y comercial en una estructura consultable. Mi aportación consistió en conectar las necesidades del interesado con decisiones de contenido, diseño y desarrollo, cuidando la fidelidad de las fuentes y la claridad de sus límites.
 
-Convertir memoria y materia en un sistema de objetos con significado.
+#### Límites
 
-Sistema de marca y prototipo conceptual para una propuesta de joyería; el estado conceptual se mantiene visible y separado de cualquier producto fabricado.
+Las muestras ilustran la comunicación y la experiencia digital. No contienen condiciones comerciales ni información financiera privada.
 
-Prototipo conceptual · no fabricado
+[Leer documento aprobado](https://arturovillagomez.com/documents/stone-oak-evans-es.pdf)
 
-**Narrativa:** La propuesta construye significado alrededor de origen, memoria y materialidad, antes de convertirlo en una línea física.
+[Visitar sitio](https://www.stoneoakevans.com/es)
 
-**Sistema de marca:** Identidad propia con códigos artesanales, sello, materialidad cálida y una dirección visual enfocada en detalle y tactilidad.
+### Don Ventas
 
-**Enfoque de construcción:** Explorar primero narrativa, códigos y prototipos visuales, manteniendo una frontera explícita entre concepto y producción.
+> Comprender la oferta y medir el recorrido
 
-**Mi rol:** Dirección estratégica del sistema, selección de aplicaciones y gobernanza del portafolio conceptual.
+Estrategia, contenido y diseño web para orientar el siguiente paso
 
-**Evidencia y estado:** Todas las imágenes son visualizaciones conceptuales vigentes. No representan joyería fabricada, inventario ni ventas.
+Estrategia · Contenido · Diseño web · Analítica
 
-[Ver página completa del proyecto](https://arturovillagomez.com/projects/sicaru/)
+Configuración y pruebas de medición; prueba de informes. No se atribuyen aumentos de ventas o conversión sin evidencia.
 
-### Pafi Above and Beyond
+#### El problema
 
-Viajar se vuelve más humano cuando la guía tiene una voz, un contexto y más de una lengua.
+Quien busca apoyo para su marca necesita reconocer si la oferta responde a su situación, entender cómo se trabajará y saber qué hacer después. El reto era construir ese recorrido y definir cómo observar sus fricciones.
 
-Sistema completo para un producto editorial de viajes: voz, fotografía, arquitectura multilingüe, portal de autoría y herramientas de publicación.
+#### Mi aportación
 
-Sistema cerrado · producto en desarrollo
+Desarrollé la estrategia de oferta, el sistema de marca, la arquitectura del sitio y contenidos basados en preguntas de la audiencia. Trabajé en la presencia del sitio en buscadores y dirigí las pruebas para medir visitas y pasos previos a una consulta, usando Google Analytics y Google Tag Manager.
 
-**Narrativa:** Una voz personal y plural convierte el viaje en relato útil, sensible al contexto y abierto a distintas comunidades lingüísticas.
+#### Resultado y alcance
 
-**Sistema de marca:** Sistema de 18 bloques con identidad editorial cálida, cinco idiomas, fotografía propia y recursos diseñados para lectura y descubrimiento.
+También diseñé un prueba de informes y reglas para distinguir visitas, contactos, oportunidades y resultados comerciales. El trabajo dejó una base de comunicación y medición con controles de calidad y pendientes documentados. Mi aportación conecta diseño, contenido y analítica con las decisiones que necesita tomar el negocio.
 
-**Enfoque de construcción:** Unir marca, modelo de negocio y producto: desde voz y taxonomía hasta PRD, datos, portal y auditoría de copy.
+#### Límites
 
-**Mi rol:** Arquitectura del sistema de marca y producto, dirección editorial y diseño de sus herramientas operativas.
+Configuración y pruebas de medición; prueba de informes. No se atribuyen aumentos de ventas o conversión sin evidencia.
 
-**Evidencia y estado:** Sistema 18/18 cerrado; HTML y muestras 01–07, 01–13 y 01–17 aprobadas. El portal sigue en desarrollo y el PDF nativo de imprenta continúa pendiente; no se afirma audiencia, monetización ni publicación multilingüe activa.
+[Leer documento aprobado](https://arturovillagomez.com/documents/don-ventas-es.pdf)
 
-[Ver página completa del proyecto](https://arturovillagomez.com/projects/pafi-above-and-beyond/)
-
-## Método
-
-Diagnosticar: Entender el contexto, leer los números y delimitar el problema que realmente importa.
-
-Decidir: Convertir evidencia en prioridades, trade-offs y una siguiente decisión explícita.
-
-Construir: Diseñar con el equipo la herramienta, el proceso o el producto que vuelve ejecutable la decisión.
-
-Transferir: Probar, documentar y entregar el sistema para que el equipo pueda continuarlo sin dependencia.
+[Visitar sitio](https://www.donventas.mx/)
 
 ## Sobre Arturo
 
-COO y socio en AMEZ CFO, donde dirijo el análisis financiero, la metodología operativa y los sistemas de entrega de la firma. Antes, analista financiero para empresas de varios sectores.
+Director de Operaciones y socio en AMEZ CFO. Dirijo el análisis financiero y la forma en que el equipo organiza y entrega su trabajo. Antes, fui analista financiero para empresas de varios sectores.
 
-También cofundé ButterBuck, donde construí la arquitectura financiera y de producto y dirigí Product Operations. Mi ventaja está en combinar finanzas, operación, producto e IA aplicada en una sola cabeza.
-
-Base: Ciudad de México.
-
-Este es el sitio personal de Arturo Villagomez. Arturo es su propietario y responsable editorial. AMEZ CFO es una afiliación profesional: Arturo trabaja ahí y es socio; la firma no es propietaria ni editora de este sitio.
+Como cofundador de Butter, traduzco criterio financiero en reglas y experiencia de producto junto al equipo técnico. También diseño y desarrollo con IA herramientas para mi práctica financiera, con sus cálculos y alcances en validación.
 
 ## Contacto
 
 Cuéntame el problema, el contexto y el resultado que necesitas. Respondo con una primera lectura y el siguiente paso que tenga sentido.
 
-01 · El reto
-
-02 · El contexto
-
-03 · El resultado y horizonte
-
-No necesitas compartir información confidencial. Si hay encaje, acordamos una conversación breve para precisar alcance y siguiente decisión.
-
-Correo: hola@arturovillagomez.com.
-
-[Contactar a Arturo](https://arturovillagomez.com/contact/)
-
-[Sobre Arturo](https://arturovillagomez.com/about/) · [Privacidad](https://arturovillagomez.com/privacy/)
+[hola@arturovillagomez.com](mailto:hola@arturovillagomez.com)

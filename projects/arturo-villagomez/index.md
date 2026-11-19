@@ -1,5 +1,7 @@
 # Arturo Villagomez · Sistema de marca y portafolio
 
+> Archivo de proyectos · muestra histórica conservada. Los estados y las aplicaciones de esta ficha corresponden a su publicación anterior; no describen la versión actual del sistema de marca.
+
 > Hacer legible una trayectoria no lineal sin volverla genérica.
 
 Una experiencia bilingüe que convierte posicionamiento, evidencia y formas de colaboración en un sistema profesional vivo.

@@ -1,51 +1,42 @@
 # Proyectos de Arturo Villagomez
 
-Ocho proyectos con su problema, sistema, rol, evidencia y estado declarados.
+## Proyectos actuales
 
-## [Arturo Villagomez · Sistema de marca y portafolio](https://arturovillagomez.com/projects/arturo-villagomez/)
+### [AMEZ CFO](https://arturovillagomez.com/projects/amez-cfo/)
 
-Hacer legible una trayectoria no lineal sin volverla genérica.
+Hacer comprensible el análisis financiero
 
-Publicado · sistema vigente
+Se muestran piezas de comunicación de la firma. No se incluyen expedientes ni resultados de clientes.
 
-## [Casa Artú / Tamanova](https://arturovillagomez.com/projects/casa-artu-tamanova/)
+### [Sistema financiero de uso propio](https://arturovillagomez.com/projects/sistema-financiero/)
 
-Una nueva forma de hospedar: te mostramos los números y te recibimos con gusto.
+De los datos a decisiones que puedes explicar
 
-Publicado · aplicación real
+Herramienta para mi propio trabajo, con funciones que continúo desarrollando y probando. No se publican datos de las empresas ni se presenta como un producto comercial disponible.
 
-## [Don Ventas · Sistema de marca y sitio comercial](https://arturovillagomez.com/projects/don-ventas/)
+### [Butter](https://arturovillagomez.com/projects/butter/)
 
-Tu marca es tu ventaja.
+¿Qué pasa si cambia el negocio?
 
-Publicado · sitio activo
+Trabajo realizado con colaboradores. Distingo las funciones entregadas de las mejoras que todavía estamos probando.
 
-## [AMEZ CFO](https://arturovillagomez.com/projects/amez-cfo/)
+### [Stone Oak & Evans](https://arturovillagomez.com/projects/stone-oak-evans/)
 
-La claridad financiera se vuelve valiosa cuando cambia la siguiente decisión.
+Información para evaluar una oportunidad
 
-Sistema institucional · datos sintéticos
+Las muestras ilustran la comunicación y la experiencia digital. No contienen condiciones comerciales ni información financiera privada.
 
-## [QuickFinance](https://arturovillagomez.com/projects/quickfinance/)
+### [Don Ventas](https://arturovillagomez.com/projects/don-ventas/)
 
-Un reporte financiero debe terminar en lectura y acción.
+Comprender la oferta y medir el recorrido
 
-Producto en desarrollo · datos de ejemplo
+Configuración y pruebas de medición; prueba de informes. No se atribuyen aumentos de ventas o conversión sin evidencia.
 
-## [Stone Oak & Evans](https://arturovillagomez.com/projects/stone-oak-evans/)
+## Archivo de proyectos
 
-La confianza se diseña cuando la visión, la evidencia y los límites hablan el mismo idioma.
+Archivo de proyectos · muestra histórica conservada. Los estados y las aplicaciones de esta ficha corresponden a su publicación anterior; no describen la versión actual del sistema de marca.
 
-Estudio preliminar · validación pendiente
-
-## [Sicarú](https://arturovillagomez.com/projects/sicaru/)
-
-Convertir memoria y materia en un sistema de objetos con significado.
-
-Prototipo conceptual · no fabricado
-
-## [Pafi Above and Beyond](https://arturovillagomez.com/projects/pafi-above-and-beyond/)
-
-Viajar se vuelve más humano cuando la guía tiene una voz, un contexto y más de una lengua.
-
-Sistema cerrado · producto en desarrollo
+- [Arturo Villagomez · Sistema de marca y portafolio](https://arturovillagomez.com/projects/arturo-villagomez/): archivo histórico.
+- [Casa Artú / Tamanova](https://arturovillagomez.com/projects/casa-artu-tamanova/): archivo histórico.
+- [Sicarú](https://arturovillagomez.com/projects/sicaru/): archivo histórico.
+- [Pafi Above and Beyond](https://arturovillagomez.com/projects/pafi-above-and-beyond/): archivo histórico.

@@ -1,5 +1,7 @@
 # Sicarú
 
+> Archivo de proyectos · muestra histórica conservada. Los estados y las aplicaciones de esta ficha corresponden a su publicación anterior; no describen la versión actual del sistema de marca.
+
 > Convertir memoria y materia en un sistema de objetos con significado.
 
 Sistema de marca y prototipo conceptual para una propuesta de joyería; el estado conceptual se mantiene visible y separado de cualquier producto fabricado.

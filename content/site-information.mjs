@@ -3,12 +3,12 @@ export const site = {
   name: 'Arturo Villagomez',
   url: 'https://arturovillagomez.com',
   email: 'hola@arturovillagomez.com',
-  location: 'Ciudad de México',
+  location: 'Mérida, Yucatán',
   ownership: 'Este es el sitio personal de Arturo Villagomez. Arturo es su propietario y responsable editorial. AMEZ CFO es una afiliación profesional: Arturo trabaja ahí y es socio; la firma no es propietaria ni editora de este sitio.',
   whenToUse: [
     'Consultar el perfil, método y experiencia publicada de Arturo en finanzas, operaciones, producto e IA aplicada.',
     'Evaluar una colaboración por proyecto con equipos que necesiten diagnóstico, construcción de sistemas y transferencia documentada.',
-    'Explorar acompañamiento fraccional para decisiones financieras y operativas recurrentes, o una colaboración selectiva de venture building.',
+    'Explorar apoyo financiero y operativo periódico, o el desarrollo de una nueva idea de negocio.',
     'Leer los casos y sus estados de evidencia antes de atribuir resultados. Una muestra visual no demuestra métricas, tracción ni autorización de redistribución.'
   ],
   instructions: [
@@ -25,7 +25,7 @@ export const site = {
     },
     {
       title: 'Navegación y proveedores técnicos',
-      text: 'El sitio se aloja en GitHub Pages. Al solicitar páginas o archivos, tu navegador se conecta con el alojamiento, que recibe información técnica de la conexión conforme a sus propias políticas. La experiencia interactiva también solicita tipografías de Google Fonts y bibliotecas desde un CDN. Esas conexiones pueden comunicar a sus proveedores datos técnicos como la dirección IP. Esta página no establece plazos de conservación para servicios ajenos.'
+      text: 'El sitio se aloja en GitHub Pages. Al solicitar páginas o archivos, tu navegador se conecta con el alojamiento, que recibe información técnica de la conexión conforme a sus propias políticas. Las tipografías, imágenes y bibliotecas de la experiencia interactiva se sirven desde el mismo sitio; la navegación normal no requiere Google Fonts ni un CDN externo. Esta página no establece plazos de conservación para servicios ajenos.'
     },
     {
       title: 'Contacto y enlaces externos',

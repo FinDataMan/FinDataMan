@@ -1,37 +1,29 @@
-# Don Ventas · Sistema de marca y sitio comercial
+# Don Ventas
 
-> Tu marca es tu ventaja.
+> Comprender la oferta y medir el recorrido
 
-Una identidad comercial convertida en oferta, diagnóstico, capas de servicio y acceso a un producto digital.
+Estrategia, contenido y diseño web para orientar el siguiente paso
 
-Estado: Publicado · sitio activo
+Estrategia · Contenido · Diseño web · Analítica
 
-## Galería
+Configuración y pruebas de medición; prueba de informes. No se atribuyen aumentos de ventas o conversión sin evidencia.
 
-1. [Tesis — sitio público y pase Diagnóstico → Sistema → Operación](https://arturovillagomez.com/assets/casos/don-ventas-01-tesis.png)
-2. [Sistema — tres capas de oferta y ruta Don Ventas F0–F4, sin precios](https://arturovillagomez.com/assets/casos/don-ventas-02-sistema.png)
-3. [Ecosistema — sitio, manual de marca y deck de clientes](https://arturovillagomez.com/assets/casos/don-ventas-03-ecosistema.png)
+## El problema
 
-## Narrativa
+Quien busca apoyo para su marca necesita reconocer si la oferta responde a su situación, entender cómo se trabajará y saber qué hacer después. El reto era construir ese recorrido y definir cómo observar sus fricciones.
 
-La marca no se trata como decoración: se presenta como una ventaja comercial que ayuda a ordenar la oferta, vender con mayor claridad y operar con consistencia.
+## Mi aportación
 
-## Sistema de marca
+Desarrollé la estrategia de oferta, el sistema de marca, la arquitectura del sitio y contenidos basados en preguntas de la audiencia. Trabajé en la presencia del sitio en buscadores y dirigí las pruebas para medir visitas y pasos previos a una consulta, usando Google Analytics y Google Tag Manager.
 
-Sistema propio de 18 bloques con base oscura, azul eléctrico, Schibsted Grotesk y Space Mono. Su gramática es digital, directa y comercial; permanece separada de Arturo y Tamanova.
+## Resultado y alcance
 
-## Enfoque de construcción
+También diseñé un prueba de informes y reglas para distinguir visitas, contactos, oportunidades y resultados comerciales. El trabajo dejó una base de comunicación y medición con controles de calidad y pendientes documentados. Mi aportación conecta diseño, contenido y analítica con las decisiones que necesita tomar el negocio.
 
-Convertir identidad en una interfaz de negocio: arquitectura de servicios, diagnóstico, capas de oferta, trabajo aplicado y conexión con el portal digital.
+## Límites
 
-## Mi rol
+Configuración y pruebas de medición; prueba de informes. No se atribuyen aumentos de ventas o conversión sin evidencia.
 
-Diseñé el sistema de marca y dirigí el lanzamiento del sitio, desde la arquitectura comercial hasta sus materiales y puntos de conversión.
+[Leer documento aprobado](https://arturovillagomez.com/documents/don-ventas-es.pdf)
 
-## Evidencia y estado
-
-Sitio público con tres capas de servicio, seis sistemas aplicados, 18 referencias visuales y un diagnóstico enlazado. Son métricas estructurales; no se afirman resultados comerciales sin evidencia.
-
-[Conocer Don Ventas](https://www.donventas.mx/)
-
-[Volver a todos los proyectos](https://arturovillagomez.com/projects/)
+[Visitar sitio](https://www.donventas.mx/)

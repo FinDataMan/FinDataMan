@@ -6,7 +6,7 @@ Arturo Villagomez es responsable de este sitio personal. Esta página explica el
 
 ## Navegación y proveedores técnicos
 
-El sitio se aloja en GitHub Pages. Al solicitar páginas o archivos, tu navegador se conecta con el alojamiento, que recibe información técnica de la conexión conforme a sus propias políticas. La experiencia interactiva también solicita tipografías de Google Fonts y bibliotecas desde un CDN. Esas conexiones pueden comunicar a sus proveedores datos técnicos como la dirección IP. Esta página no establece plazos de conservación para servicios ajenos.
+El sitio se aloja en GitHub Pages. Al solicitar páginas o archivos, tu navegador se conecta con el alojamiento, que recibe información técnica de la conexión conforme a sus propias políticas. Las tipografías, imágenes y bibliotecas de la experiencia interactiva se sirven desde el mismo sitio; la navegación normal no requiere Google Fonts ni un CDN externo. Esta página no establece plazos de conservación para servicios ajenos.
 
 ## Contacto y enlaces externos
 
@@ -15,5 +15,3 @@ El enlace de correo abre tu aplicación de email; este sitio no recibe el mensaj
 ## Alcance de esta información
 
 La versión revisada no incorpora un formulario de registro, pasarela de pago ni herramientas de analítica de marketing en su código. Esto no significa que el alojamiento o los servicios externos carezcan de registros técnicos. Si se añaden formularios, analítica u otros tratamientos, esta información deberá revisarse antes de activarlos. Las condiciones concretas de tratamiento y conservación del correo requieren confirmación del propietario antes de ampliar la recopilación de datos.
-
-[Privacidad de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
